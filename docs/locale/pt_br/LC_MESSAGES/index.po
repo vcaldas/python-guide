@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../index.rst:9
 msgid "Greetings, Earthling! Welcome to The Hitchhiker's Guide to Python."
-msgstr ""
+msgstr "Saudações, Terráqueos! Bem-vindos ao Guia do Mochileiro para Python. Ou Guia do Mochileiro Pythônico."
 
 #: ../../index.rst:11
 msgid ""
