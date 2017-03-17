@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016. A <a
+# href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a>
+# Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC
+# BY-NC-SA 3.0</a>
+# This file is distributed under the same license as the pythonguide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pythonguide 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-17 15:45+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../intro/duction.rst:2
+msgid "Introduction"
+msgstr ""
+
+#: ../../intro/duction.rst:4
+msgid "From the `official Python website <http://python.org/about/>`_:"
+msgstr ""
+
+#: ../../intro/duction.rst:6
+msgid ""
+"Python is a general-purpose, high-level programming language similar to "
+"Tcl, Perl, Ruby, Scheme, or Java. Some of its main key features include:"
+msgstr ""
+
+#: ../../intro/duction.rst:10
+msgid "**very clear, readable syntax**"
+msgstr ""
+
+#: ../../intro/duction.rst:12
+msgid ""
+"Python's philosophy focuses on readability, from code blocks delineated "
+"with significant whitespace to intuitive keywords in place of inscrutable"
+" punctuation."
+msgstr ""
+
+#: ../../intro/duction.rst:16
+msgid ""
+"**extensive standard libraries and third party modules for virtually any "
+"task**"
+msgstr ""
+
+#: ../../intro/duction.rst:19
+msgid ""
+"Python is sometimes described with the words \"batteries included\" "
+"because of its extensive `standard library "
+"<http://docs.python.org/library/>`_, which includes modules for regular "
+"expressions, file IO, fraction handling, object serialization, and much "
+"more."
+msgstr ""
+
+#: ../../intro/duction.rst:25
+msgid ""
+"Additionally, the `Python Package Index <http://pypi.python.org/pypi/>`_ "
+"is available for users to submit their packages for widespread use, "
+"similar to Perl's `CPAN <http://www.cpan.org>`_. There is a thriving "
+"community of very powerful Python frameworks and tools like the `Django "
+"<http://www.djangoproject.com>`_ web framework and the `NumPy "
+"<http://numpy.scipy.org>`_ set of math routines."
+msgstr ""
+
+#: ../../intro/duction.rst:33
+msgid "**integration with other systems**"
+msgstr ""
+
+#: ../../intro/duction.rst:35
+msgid ""
+"Python can integrate with `Java libraries <http://www.jython.org>`_, "
+"enabling it to be used with the rich Java environment that corporate "
+"programmers are used to. It can also be `extended by C or C++ modules "
+"<http://docs.python.org/extending/>`_ when speed is of the essence."
+msgstr ""
+
+#: ../../intro/duction.rst:41
+msgid "**ubiquity on computers**"
+msgstr ""
+
+#: ../../intro/duction.rst:43
+msgid ""
+"Python is available on Windows, \\*nix, and Mac. It runs wherever the "
+"Java virtual machine runs, and the reference implementation CPython can "
+"help bring Python to wherever there is a working C compiler."
+msgstr ""
+
+#: ../../intro/duction.rst:47
+msgid "**friendly community**"
+msgstr ""
+
+#: ../../intro/duction.rst:49
+msgid ""
+"Python has a vibrant and large :ref:`community <the-community>` which "
+"maintains wikis, conferences, countless repositories, mailing lists, IRC "
+"channels, and so much more. Heck, the Python community is even helping to"
+" write this guide!"
+msgstr ""
+
+#: ../../intro/duction.rst:58
+msgid "About This Guide"
+msgstr ""
+
+#: ../../intro/duction.rst:61
+msgid "Purpose"
+msgstr ""
+
+#: ../../intro/duction.rst:63
+msgid ""
+"The Hitchhiker's Guide to Python exists to provide both novice and expert"
+" Python developers a best practice handbook for the installation, "
+"configuration, and usage of Python on a daily basis."
+msgstr ""
+
+#: ../../intro/duction.rst:69
+msgid "By the Community"
+msgstr ""
+
+#: ../../intro/duction.rst:71
+msgid ""
+"This guide is architected and maintained by `Kenneth Reitz "
+"<https://github.com/kennethreitz>`_ in an open fashion. This is a "
+"community-driven effort that serves one purpose: to serve the community."
+msgstr ""
+
+#: ../../intro/duction.rst:76
+msgid "For the Community"
+msgstr ""
+
+#: ../../intro/duction.rst:78
+msgid ""
+"All contributions to the Guide are welcome, from Pythonistas of all "
+"levels. If you think there's a gap in what the Guide covers, fork the "
+"Guide on GitHub and submit a pull request."
+msgstr ""
+
+#: ../../intro/duction.rst:82
+msgid ""
+"Contributions are welcome from everyone, whether they're an old hand or a"
+" first-time Pythonista, and the authors to the Guide will gladly help if "
+"you have any questions about the appropriateness, completeness, or "
+"accuracy of a contribution."
+msgstr ""
+
+#: ../../intro/duction.rst:87
+msgid ""
+"To get started working on The Hitchhiker's Guide, see the "
+":doc:`/notes/contribute` page."
+msgstr ""
+

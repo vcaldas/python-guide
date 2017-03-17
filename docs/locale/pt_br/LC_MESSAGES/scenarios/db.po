@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016. A <a
+# href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a>
+# Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC
+# BY-NC-SA 3.0</a>
+# This file is distributed under the same license as the pythonguide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pythonguide 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-17 15:45+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../scenarios/db.rst:2
+msgid "Databases"
+msgstr ""
+
+#: ../../scenarios/db.rst:5
+msgid "DB-API"
+msgstr ""
+
+#: ../../scenarios/db.rst:7
+msgid ""
+"The Python Database API (DB-API) defines a standard interface for Python "
+"database access modules. It's documented in :pep:`249`. Nearly all Python"
+" database modules such as `sqlite3`, `psycopg` and `mysql-python` conform"
+" to this interface."
+msgstr ""
+
+#: ../../scenarios/db.rst:12
+msgid ""
+"Tutorials that explain how to work with modules that conform to this "
+"interface can be found `here "
+"<http://halfcooked.com/presentations/osdc2006/python_databases.html>`__ "
+"and `here "
+"<http://web.archive.org/web/20120815130844/http://www.amk.ca/python/writing"
+"/DB-API.html>`__."
+msgstr ""
+
+#: ../../scenarios/db.rst:17
+msgid "SQLAlchemy"
+msgstr ""
+
+#: ../../scenarios/db.rst:19
+msgid ""
+"`SQLAlchemy <http://www.sqlalchemy.org/>`_ is a commonly used database "
+"toolkit. Unlike many database libraries it not only provides an ORM layer"
+" but also a generalized API for writing database-agnostic code without "
+"SQL."
+msgstr ""
+
+#: ../../scenarios/db.rst:28
+msgid "Records"
+msgstr ""
+
+#: ../../scenarios/db.rst:30
+msgid ""
+"`Records <https://github.com/kennethreitz/records>`_ is minimalist SQL "
+"library, designed for sending raw SQL queries to various databases. Data "
+"can be used programmatically, or exported to a number of useful data "
+"formats."
+msgstr ""
+
+#: ../../scenarios/db.rst:38
+msgid "Also included is a command-line tool for exporting SQL data."
+msgstr ""
+
+#: ../../scenarios/db.rst:41
+msgid "Django ORM"
+msgstr ""
+
+#: ../../scenarios/db.rst:43
+msgid ""
+"The Django ORM is the interface used by `Django "
+"<http://www.djangoproject.com>`_ to provide database access."
+msgstr ""
+
+#: ../../scenarios/db.rst:46
+msgid ""
+"It's based on the idea of `models <https://docs.djangoproject.com/en/dev"
+"/#the-model-layer>`_, an abstraction that makes it easier to manipulate "
+"data in Python."
+msgstr ""
+
+#: ../../scenarios/db.rst:50
+msgid "The basics:"
+msgstr ""
+
+#: ../../scenarios/db.rst:52
+msgid "Each model is a Python class that subclasses django.db.models.Model."
+msgstr ""
+
+#: ../../scenarios/db.rst:53
+msgid "Each attribute of the model represents a database field."
+msgstr ""
+
+#: ../../scenarios/db.rst:54
+msgid ""
+"Django gives you an automatically-generated database-access API; see "
+"`Making queries "
+"<https://docs.djangoproject.com/en/dev/topics/db/queries/>`__."
+msgstr ""
+
+#: ../../scenarios/db.rst:58
+msgid "peewee"
+msgstr ""
+
+#: ../../scenarios/db.rst:60
+msgid ""
+"`peewee <http://docs.peewee-orm.com/en/latest/>`_ is another ORM with a "
+"focus on being lightweight with support for Python 2.6+ and 3.2+ which "
+"supports SQLite, MySQL and Postgres by default. The `model layer "
+"<https://peewee.readthedocs.io/en/latest/peewee/quickstart.html#model-"
+"definition>`_ is similar to that of the Django ORM and it has `SQL-like "
+"methods <https://peewee.readthedocs.io/en/latest/peewee/quickstart.html"
+"#retrieving-data>`_ to query data. While SQLite, MySQL and Postgres are "
+"supported out-of-the-box, there is a `collection of add-ons "
+"<https://peewee.readthedocs.io/en/latest/peewee/playhouse.html#playhouse>`_"
+" available."
+msgstr ""
+
+#: ../../scenarios/db.rst:71
+msgid "PonyORM"
+msgstr ""
+
+#: ../../scenarios/db.rst:73
+msgid ""
+"`PonyORM <http://ponyorm.com/>`_ is an ORM that takes a different "
+"approach to querying the database. Instead of writing an SQL-like "
+"language or boolean expressions, Python's generator syntax is used. "
+"There's also an graphical schema editor that can generate PonyORM "
+"entities for you. It supports Python 2.6+ and Python 3.3+ and can connect"
+" to SQLite, MySQL, Postgres & Oracle"
+msgstr ""
+
+#: ../../scenarios/db.rst:82
+msgid "SQLObject"
+msgstr ""
+
+#: ../../scenarios/db.rst:84
+msgid ""
+"`SQLObject <http://www.sqlobject.org/>`_ is yet another ORM. It supports "
+"a wide variety of databases: Common database systems MySQL, Postgres and "
+"SQLite and more exotic systems like SAP DB, SyBase and MSSQL. It only "
+"supports Python 2 from Python 2.6 upwards."
+msgstr ""
+

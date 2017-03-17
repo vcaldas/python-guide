@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016. A <a
+# href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a>
+# Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC
+# BY-NC-SA 3.0</a>
+# This file is distributed under the same license as the pythonguide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pythonguide 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-17 15:45+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../scenarios/xml.rst:2
+msgid "XML parsing"
+msgstr ""
+
+#: ../../scenarios/xml.rst:5
+msgid "untangle"
+msgstr ""
+
+#: ../../scenarios/xml.rst:7
+msgid ""
+"`untangle <https://github.com/stchris/untangle>`_ is a simple library "
+"which takes an XML document and returns a Python object which mirrors the"
+" nodes and attributes in its structure."
+msgstr ""
+
+#: ../../scenarios/xml.rst:11
+msgid "For example, an XML file like this:"
+msgstr ""
+
+#: ../../scenarios/xml.rst:20
+msgid "can be loaded like this:"
+msgstr ""
+
+#: ../../scenarios/xml.rst:27
+msgid "and then you can get the child elements name like this:"
+msgstr ""
+
+#: ../../scenarios/xml.rst:33
+msgid "untangle also supports loading XML from a string or an URL."
+msgstr ""
+
+#: ../../scenarios/xml.rst:36
+msgid "xmltodict"
+msgstr ""
+
+#: ../../scenarios/xml.rst:38
+msgid ""
+"`xmltodict <http://github.com/martinblech/xmltodict>`_ is another simple "
+"library that aims at making XML feel like working with JSON."
+msgstr ""
+
+#: ../../scenarios/xml.rst:41
+msgid "An XML file like this:"
+msgstr ""
+
+#: ../../scenarios/xml.rst:55
+msgid "can be loaded into a Python dict like this:"
+msgstr ""
+
+#: ../../scenarios/xml.rst:64
+msgid "and then you can access elements, attributes and values like this:"
+msgstr ""
+
+#: ../../scenarios/xml.rst:73
+msgid ""
+"xmltodict also lets you roundtrip back to XML with the unparse function, "
+"has a streaming mode suitable for handling files that don't fit in memory"
+" and supports namespaces."
+msgstr ""
+

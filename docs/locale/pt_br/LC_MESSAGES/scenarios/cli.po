@@ -1,0 +1,148 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016. A <a
+# href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a>
+# Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC
+# BY-NC-SA 3.0</a>
+# This file is distributed under the same license as the pythonguide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pythonguide 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-17 15:45+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../scenarios/cli.rst:2
+msgid "Command-line Applications"
+msgstr ""
+
+#: ../../scenarios/cli.rst:4
+msgid ""
+"Command-line applications, also referred to as `Console Applications "
+"<http://en.wikipedia.org/wiki/Console_application>`_, are computer "
+"programs designed to be used from a text interface, such as a `shell "
+"<http://en.wikipedia.org/wiki/Shell_(computing)>`_. Command-line "
+"applications usually accept various inputs as arguments, often referred "
+"to as parameters or sub-commands, as well as options, often referred to "
+"as flags or switches."
+msgstr ""
+
+#: ../../scenarios/cli.rst:12
+msgid "Some popular command-line applications include:"
+msgstr ""
+
+#: ../../scenarios/cli.rst:14
+msgid ""
+"`Grep <http://en.wikipedia.org/wiki/Grep>`_ - A plain-text data search "
+"utility"
+msgstr ""
+
+#: ../../scenarios/cli.rst:15
+msgid "`curl <http://curl.haxx.se/>`_ - A tool for data transfer with URL syntax"
+msgstr ""
+
+#: ../../scenarios/cli.rst:16
+msgid ""
+"`httpie <https://github.com/jakubroztocil/httpie>`_ - A command line HTTP"
+" client, a user-friendly cURL replacement"
+msgstr ""
+
+#: ../../scenarios/cli.rst:18
+msgid "`git <http://git-scm.com/>`_ - A distributed version control system"
+msgstr ""
+
+#: ../../scenarios/cli.rst:19
+msgid ""
+"`mercurial <https://www.mercurial-scm.org/>`_ - A distributed version "
+"control system primarily written in Python"
+msgstr ""
+
+#: ../../scenarios/cli.rst:23
+msgid "Clint"
+msgstr ""
+
+#: ../../scenarios/cli.rst:25
+msgid ""
+"`clint <https://pypi.python.org/pypi/clint/>`_ is a Python module which "
+"is filled with very useful tools for developing command-line "
+"applications. It supports features such as; CLI colors and indents, "
+"simple and powerful column printer, iterator based progress bars and "
+"implicit argument handling."
+msgstr ""
+
+#: ../../scenarios/cli.rst:31
+msgid "Click"
+msgstr ""
+
+#: ../../scenarios/cli.rst:33
+msgid ""
+"`click <http://click.pocoo.org/>`_ is a Python package for creating "
+"command-line interfaces in a composable way with as little code as "
+"possible. This “Command-line Interface Creation Kit” is highly "
+"configurable but comes with good defaults out of the box."
+msgstr ""
+
+#: ../../scenarios/cli.rst:39
+msgid "docopt"
+msgstr ""
+
+#: ../../scenarios/cli.rst:41
+msgid ""
+"`docopt <http://docopt.org/>`_ is a lightweight, highly Pythonic package "
+"that allows creating command-line interfaces easily and intuitively, by "
+"parsing POSIX-style usage instructions."
+msgstr ""
+
+#: ../../scenarios/cli.rst:46
+msgid "Plac"
+msgstr ""
+
+#: ../../scenarios/cli.rst:48
+msgid ""
+"`Plac <https://pypi.python.org/pypi/plac>`_ is a simple wrapper over the "
+"Python standard library `argparse "
+"<http://docs.python.org/2/library/argparse.html>`_, which hides most of "
+"its complexity by using a declarative interface: the argument parser is "
+"inferred rather than written down by imperatively. This module targets "
+"especially unsophisticated users, programmers, sys-admins, scientists and"
+" in general people writing throw-away scripts for themselves, who choose "
+"to create a command-line interface because it is quick and simple."
+msgstr ""
+
+#: ../../scenarios/cli.rst:57
+msgid "Cliff"
+msgstr ""
+
+#: ../../scenarios/cli.rst:59
+msgid ""
+"`Cliff <http://docs.openstack.org/developer/cliff/>`_  is a framework for"
+" building command-line programs. It uses setuptools entry points to "
+"provide subcommands, output formatters, and other extensions. The "
+"framework is meant to be used to create multi-level commands such as "
+"subversion and git, where the main program handles some basic argument "
+"parsing and then invokes a sub-command to do the work."
+msgstr ""
+
+#: ../../scenarios/cli.rst:67
+msgid "Cement"
+msgstr ""
+
+#: ../../scenarios/cli.rst:69
+msgid ""
+"`Cement <http://builtoncement.com/>`_ is an advanced CLI Application "
+"Framework. Its goal is to introduce a standard, and feature-full platform"
+" for both simple and complex command line applications as well as support"
+" rapid development needs without sacrificing quality. Cement is flexible,"
+" and it's use cases span from the simplicity of a micro-framework to the "
+"complexity of a meg-framework."
+msgstr ""
+

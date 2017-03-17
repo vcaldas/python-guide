@@ -280,3 +280,10 @@ todo_include_todos = True
 intersphinx_mapping = {
     'python': ('http://docs.python.org/', None),
 }
+
+
+# Add translation directory
+locale_dirs = ['locale/']   # path is example but recommended.
+gettext_compact = False     # optional.
+
+
