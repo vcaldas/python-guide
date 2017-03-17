@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016. A <a
+# href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a>
+# Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC
+# BY-NC-SA 3.0</a>
+# This file is distributed under the same license as the pythonguide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pythonguide 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-17 17:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../scenarios/crypto.rst:2 ../../scenarios/crypto.rst:5
+msgid "Cryptography"
+msgstr ""
+
+#: ../../scenarios/crypto.rst:7
+msgid ""
+"`Cryptography <https://cryptography.io/en/latest/>`_ is an actively "
+"developed library that provides cryptographic recipes and primitives. It "
+"supports Python 2.6-2.7, Python 3.3+ and PyPy."
+msgstr ""
+
+#: ../../scenarios/crypto.rst:12
+msgid ""
+"Cryptography is divided into two layers of recipes and hazardous "
+"materials (hazmat).  The recipes layer provides simple API for proper "
+"symmetric encryption and the hazmat layer provides low-level "
+"cryptographic primitives."
+msgstr ""
+
+#: ../../scenarios/crypto.rst:19 ../../scenarios/crypto.rst:49
+msgid "Installation"
+msgstr ""
+
+#: ../../scenarios/crypto.rst:26 ../../scenarios/crypto.rst:56
+msgid "Example"
+msgstr ""
+
+#: ../../scenarios/crypto.rst:28
+msgid "Example code using high level symmetric encryption recipe:"
+msgstr ""
+
+#: ../../scenarios/crypto.rst:42
+msgid "PyCrypto"
+msgstr ""
+
+#: ../../scenarios/crypto.rst:44
+msgid ""
+"`PyCrypto <https://www.dlitz.net/software/pycrypto/>`_ is another "
+"library, which provides secure hash functions and various encryption "
+"algorithms. It supports Python version 2.1 through 3.3."
+msgstr ""
+

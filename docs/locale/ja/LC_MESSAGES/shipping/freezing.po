@@ -355,6 +355,3 @@ msgid ""
 "use the :code:`icon=\\path\\to\\icon.icns` option."
 msgstr ""
 
-#~ msgid "Todo"
-#~ msgstr ""
-

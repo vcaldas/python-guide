@@ -112,6 +112,3 @@ msgid ""
 "determine what the code is doing."
 msgstr ""
 
-#~ msgid "Todo"
-#~ msgstr ""
-

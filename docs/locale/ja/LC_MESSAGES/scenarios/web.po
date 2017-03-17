@@ -1,0 +1,588 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016. A <a
+# href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a>
+# Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC
+# BY-NC-SA 3.0</a>
+# This file is distributed under the same license as the pythonguide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pythonguide 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-17 17:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../scenarios/web.rst:3
+msgid "Web Applications & Frameworks"
+msgstr ""
+
+#: ../../scenarios/web.rst:5
+msgid ""
+"As a powerful scripting language adapted to both fast prototyping and "
+"bigger projects, Python is widely used in web application development."
+msgstr ""
+
+#: ../../scenarios/web.rst:10
+msgid "Context"
+msgstr ""
+
+#: ../../scenarios/web.rst:15
+msgid "WSGI"
+msgstr ""
+
+#: ../../scenarios/web.rst:17
+msgid ""
+"The Web Server Gateway Interface (or \"WSGI\" for short) is a standard "
+"interface between web servers and Python web application frameworks. By "
+"standardizing behavior and communication between web servers and Python "
+"web frameworks, WSGI makes it possible to write portable Python web code "
+"that can be deployed in any :ref:`WSGI-compliant web server <wsgi-"
+"servers-ref>`. WSGI is documented in :pep:`3333`."
+msgstr ""
+
+#: ../../scenarios/web.rst:26
+msgid "Frameworks"
+msgstr ""
+
+#: ../../scenarios/web.rst:28
+msgid ""
+"Broadly speaking, a web framework consists of a set of libraries and a "
+"main handler within which you can build custom code to implement a web "
+"application (i.e. an interactive web site). Most web frameworks include "
+"patterns and utilities to accomplish at least the following:"
+msgstr ""
+
+#: ../../scenarios/web.rst:35
+msgid "URL Routing"
+msgstr ""
+
+#: ../../scenarios/web.rst:34
+msgid ""
+"Matches an incoming HTTP request to a particular piece of Python code to "
+"be invoked"
+msgstr ""
+
+#: ../../scenarios/web.rst:38
+msgid "Request and Response Objects"
+msgstr ""
+
+#: ../../scenarios/web.rst:38
+msgid "Encapsulate the information received from or sent to a user's browser"
+msgstr ""
+
+#: ../../scenarios/web.rst:42
+msgid "Template Engine"
+msgstr ""
+
+#: ../../scenarios/web.rst:41
+msgid ""
+"Allows for separating Python code implementing an application's logic "
+"from the HTML (or other) output that it produces"
+msgstr ""
+
+#: ../../scenarios/web.rst:47
+msgid "Development Web Server"
+msgstr ""
+
+#: ../../scenarios/web.rst:45
+msgid ""
+"Runs an HTTP server on development machines to enable rapid development; "
+"often automatically reloads server-side code when files are updated"
+msgstr ""
+
+#: ../../scenarios/web.rst:50
+msgid "Django"
+msgstr ""
+
+#: ../../scenarios/web.rst:52
+msgid ""
+"`Django <http://www.djangoproject.com>`_ is a \"batteries included\" web "
+"application framework, and is an excellent choice for creating content-"
+"oriented websites. By providing many utilities and patterns out of the "
+"box, Django aims to make it possible to build complex, database-backed "
+"web applications quickly, while encouraging best practices in code "
+"written using it."
+msgstr ""
+
+#: ../../scenarios/web.rst:58
+msgid ""
+"Django has a large and active community, and many pre-built `re-usable "
+"modules <http://djangopackages.com/>`_ that can be incorporated into a "
+"new project as-is, or customized to fit your needs."
+msgstr ""
+
+#: ../../scenarios/web.rst:62
+msgid ""
+"There are annual Django conferences `in the United States "
+"<http://djangocon.us>`_ and `in Europe <http://djangocon.eu>`_."
+msgstr ""
+
+#: ../../scenarios/web.rst:65
+msgid "The majority of new Python web applications today are built with Django."
+msgstr ""
+
+#: ../../scenarios/web.rst:68
+msgid "Flask"
+msgstr ""
+
+#: ../../scenarios/web.rst:70
+msgid ""
+"`Flask <http://flask.pocoo.org/>`_ is a \"microframework\" for Python, "
+"and is an excellent choice for building smaller applications, APIs, and "
+"web services."
+msgstr ""
+
+#: ../../scenarios/web.rst:73
+msgid ""
+"Building an app with Flask is a lot like writing standard Python modules,"
+" except some functions have routes attached to them. It's really "
+"beautiful."
+msgstr ""
+
+#: ../../scenarios/web.rst:76
+msgid ""
+"Rather than aiming to provide everything you could possibly need, Flask "
+"implements the most commonly-used core components of a web application "
+"framework, like URL routing, request and response objects, and templates."
+msgstr ""
+
+#: ../../scenarios/web.rst:80
+msgid ""
+"If you use Flask, it is up to you to choose other components for your "
+"application, if any. For example, database access or form generation and "
+"validation are not built-in functions of Flask."
+msgstr ""
+
+#: ../../scenarios/web.rst:84
+msgid ""
+"This is great, because many web applications don't need those features. "
+"For those that do, there are many `Extensions "
+"<http://flask.pocoo.org/extensions/>`_ available that may suit your "
+"needs. Or, you can easily use any library you want yourself!"
+msgstr ""
+
+#: ../../scenarios/web.rst:89
+msgid ""
+"Flask is default choice for any Python web application that isn't a good "
+"fit for Django."
+msgstr ""
+
+#: ../../scenarios/web.rst:94
+msgid "Tornado"
+msgstr ""
+
+#: ../../scenarios/web.rst:96
+msgid ""
+"`Tornado <http://www.tornadoweb.org/>`_ is an asyncronous web framework "
+"for Python that has its own event loop. This allows it to natively "
+"support WebSockets, for example. Well-written Tornado applications are "
+"known to have excellent performance characteristics."
+msgstr ""
+
+#: ../../scenarios/web.rst:101
+msgid "I do not recommend using Tornado unless you think you need it."
+msgstr ""
+
+#: ../../scenarios/web.rst:104
+msgid "Pyramid"
+msgstr ""
+
+#: ../../scenarios/web.rst:106
+msgid ""
+"`Pyramid <https://trypyramid.com/>`_ is a very flexible framework with a "
+"heavy focus on modularity. It comes with a small number of libraries "
+"(\"batteries\") built-in, and encourages users to extend its base "
+"functionality."
+msgstr ""
+
+#: ../../scenarios/web.rst:110
+msgid ""
+"Pyramid does not have a large user base, unlike Django and Flask. It's a "
+"capable framework, but not a very popular choice for new Python web "
+"applications today."
+msgstr ""
+
+#: ../../scenarios/web.rst:115
+msgid "Web Servers"
+msgstr ""
+
+#: ../../scenarios/web.rst:120
+msgid "Nginx"
+msgstr ""
+
+#: ../../scenarios/web.rst:122
+msgid ""
+"`Nginx <http://nginx.org/>`_ (pronounced \"engine-x\") is a web server "
+"and reverse-proxy for HTTP, SMTP and other protocols. It is known for its"
+" high performance, relative simplicity, and compatibility with many "
+"application servers (like WSGI servers). It also includes handy features "
+"like load-balancing, basic authentication, streaming, and others. "
+"Designed to serve high-load websites, Nginx is gradually becoming quite "
+"popular."
+msgstr ""
+
+#: ../../scenarios/web.rst:133
+msgid "WSGI Servers"
+msgstr ""
+
+#: ../../scenarios/web.rst:135
+msgid ""
+"Stand-alone WSGI servers typically use less resources than traditional "
+"web servers and provide top performance [3]_."
+msgstr ""
+
+#: ../../scenarios/web.rst:141
+msgid "Gunicorn"
+msgstr ""
+
+#: ../../scenarios/web.rst:143
+msgid ""
+"`Gunicorn <http://gunicorn.org/>`_ (Green Unicorn) is a pure-python WSGI "
+"server used to serve Python applications. Unlike other Python web "
+"servers, it has a thoughtful user-interface, and is extremely easy to use"
+" and configure."
+msgstr ""
+
+#: ../../scenarios/web.rst:148
+msgid ""
+"Gunicorn has sane and reasonable defaults for configurations. However, "
+"some other servers, like uWSGI, are tremendously more customizable, and "
+"therefore, are much more difficult to effectively use."
+msgstr ""
+
+#: ../../scenarios/web.rst:152
+msgid "Gunicorn is the recommended choice for new Python web applications today."
+msgstr ""
+
+#: ../../scenarios/web.rst:156
+msgid "Waitress"
+msgstr ""
+
+#: ../../scenarios/web.rst:158
+msgid ""
+"`Waitress <https://waitress.readthedocs.io>`_ is a pure-python WSGI "
+"server that claims \"very acceptable performance\". Its documentation is "
+"not very detailed, but it does offer some nice functionality that "
+"Gunicorn doesn't have (e.g. HTTP request buffering)."
+msgstr ""
+
+#: ../../scenarios/web.rst:163
+msgid ""
+"Waitress is gaining popularity within the Python web development "
+"community."
+msgstr ""
+
+#: ../../scenarios/web.rst:168
+msgid "uWSGI"
+msgstr ""
+
+#: ../../scenarios/web.rst:170
+msgid ""
+"`uWSGI <https://uwsgi-docs.readthedocs.io>`_ is a full stack for building"
+" hosting services.  In addition to process management, process "
+"monitoring, and other functionality, uWSGI acts as an application server "
+"for various programming languages and protocols - including Python and "
+"WSGI. uWSGI can either be run as a stand-alone web router, or be run "
+"behind a full web server (such as Nginx or Apache).  In the latter case, "
+"a web server can configure uWSGI and an application's operation over the "
+"`uwsgi protocol <https://uwsgi-"
+"docs.readthedocs.io/en/latest/Protocol.html>`_. uWSGI's web server "
+"support allows for dynamically configuring Python, passing environment "
+"variables and further tuning.  For full details, see `uWSGI magic "
+"variables <https://uwsgi-docs.readthedocs.io/en/latest/Vars.html>`_."
+msgstr ""
+
+#: ../../scenarios/web.rst:183
+msgid "I do not recommend using uWSGI unless you know why you need it."
+msgstr ""
+
+#: ../../scenarios/web.rst:189
+msgid "Server Best Practices"
+msgstr ""
+
+#: ../../scenarios/web.rst:191
+msgid ""
+"The majority of self-hosted Python applications today are hosted with a "
+"WSGI server such as :ref:`Gunicorn <gunicorn-ref>`, either directly or "
+"behind a lightweight web server such as :ref:`nginx <nginx-ref>`."
+msgstr ""
+
+#: ../../scenarios/web.rst:195
+msgid ""
+"The WSGI servers serve the Python applications while the web server "
+"handles tasks better suited for it such as static file serving, request "
+"routing, DDoS protection, and basic authentication."
+msgstr ""
+
+#: ../../scenarios/web.rst:200
+msgid "Hosting"
+msgstr ""
+
+#: ../../scenarios/web.rst:202
+msgid ""
+"Platform-as-a-Service (PaaS) is a type of cloud computing infrastructure "
+"which abstracts and manages infrastructure, routing, and scaling of web "
+"applications. When using a PaaS, application developers can focus on "
+"writing application code rather than needing to be concerned with "
+"deployment details."
+msgstr ""
+
+#: ../../scenarios/web.rst:209
+msgid "Heroku"
+msgstr ""
+
+#: ../../scenarios/web.rst:211
+msgid ""
+"`Heroku <http://www.heroku.com/python>`_ offers first-class support for "
+"Python 2.7–3.5 applications."
+msgstr ""
+
+#: ../../scenarios/web.rst:214
+msgid ""
+"Heroku supports all types of Python web applications, servers, and "
+"frameworks. Applications can be developed on Heroku for free. Once your "
+"application is ready for production, you can upgrade to a Hobby or "
+"Professional application."
+msgstr ""
+
+#: ../../scenarios/web.rst:218
+msgid ""
+"Heroku maintains `detailed articles "
+"<https://devcenter.heroku.com/categories/python>`_ on using Python with "
+"Heroku, as well as `step-by-step instructions "
+"<https://devcenter.heroku.com/articles/getting-started-with-python>`_ on "
+"how to set up your first application."
+msgstr ""
+
+#: ../../scenarios/web.rst:223
+msgid ""
+"Heroku is the recommended PaaS for deploying Python web applications "
+"today."
+msgstr ""
+
+#: ../../scenarios/web.rst:226
+msgid "Eldarion"
+msgstr ""
+
+#: ../../scenarios/web.rst:228
+msgid ""
+"`Eldarion <http://eldarion.cloud/>`_ (formely known as Gondor) is a PaaS "
+"powered by Kubernetes, CoreOS, and Docker. They support any WSGI "
+"application and have a guide on deploying `Django projects <https"
+"://eldarion-gondor.github.io/docs/how-to/setup-deploy-first-django-"
+"project/>`_."
+msgstr ""
+
+#: ../../scenarios/web.rst:233
+msgid "Templating"
+msgstr ""
+
+#: ../../scenarios/web.rst:235
+msgid ""
+"Most WSGI applications are responding to HTTP requests to serve content "
+"in HTML or other markup languages. Instead of generating directly textual"
+" content from Python, the concept of separation of concerns advises us to"
+" use templates. A template engine manages a suite of template files, with"
+" a system of hierarchy and inclusion to avoid unnecessary repetition, and"
+" is in charge of rendering (generating) the actual content, filling the "
+"static content of the templates with the dynamic content generated by the"
+" application."
+msgstr ""
+
+#: ../../scenarios/web.rst:243
+msgid ""
+"As template files are sometimes written by designers or front-end "
+"developers, it can be difficult to handle increasing complexity."
+msgstr ""
+
+#: ../../scenarios/web.rst:247
+msgid ""
+"Some general good practices apply to the part of the application passing "
+"dynamic content to the template engine, and to the templates themselves."
+msgstr ""
+
+#: ../../scenarios/web.rst:250
+msgid ""
+"Template files should be passed only the dynamic content that is needed "
+"for rendering the template. Avoid the temptation to pass additional "
+"content \"just in case\": it is easier to add some missing variable when "
+"needed than to remove a likely unused variable later."
+msgstr ""
+
+#: ../../scenarios/web.rst:256
+msgid ""
+"Many template engines allow for complex statements or assignments in the "
+"template itself, and many allow some Python code to be evaluated in the "
+"templates. This convenience can lead to uncontrolled increase in "
+"complexity, and often make it harder to find bugs."
+msgstr ""
+
+#: ../../scenarios/web.rst:262
+msgid ""
+"It is often necessary to mix JavaScript templates with HTML templates. A "
+"sane approach to this design is to isolate the parts where the HTML "
+"template passes some variable content to the JavaScript code."
+msgstr ""
+
+#: ../../scenarios/web.rst:270
+msgid "Jinja2"
+msgstr ""
+
+#: ../../scenarios/web.rst:271
+msgid ""
+"`Jinja2 <http://jinja.pocoo.org/>`_ is a very well-regarded template "
+"engine."
+msgstr ""
+
+#: ../../scenarios/web.rst:273
+msgid ""
+"It uses a text-based template language and can thus be used to generate "
+"any type markup, not just HTML. It allows customization of filters, tags,"
+" tests and globals. It features many improvements over Django's "
+"templating system."
+msgstr ""
+
+#: ../../scenarios/web.rst:277
+msgid "Here some important html tags in Jinja2:"
+msgstr ""
+
+#: ../../scenarios/web.rst:297
+msgid ""
+"The next listings is an example of a web site in combination with the "
+"Tornado web server. Tornado is not very complicated to use."
+msgstr ""
+
+#: ../../scenarios/web.rst:338
+msgid ""
+"The :file:`base.html` file can be used as base for all site pages which "
+"are for example implemented in the content block."
+msgstr ""
+
+#: ../../scenarios/web.rst:363
+msgid ""
+"The next listing is our site page (:file:`site.html`) loaded in the "
+"Python app which extends :file:`base.html`. The content block is "
+"automatically set into the corresponding block in the :file:`base.html` "
+"page."
+msgstr ""
+
+#: ../../scenarios/web.rst:385
+msgid ""
+"Jinja2 is the recommended templating library for new Python web "
+"applications."
+msgstr ""
+
+#: ../../scenarios/web.rst:388
+msgid "Chameleon"
+msgstr ""
+
+#: ../../scenarios/web.rst:390
+msgid ""
+"`Chameleon <https://chameleon.readthedocs.io/>`_ Page Templates are an "
+"HTML/XML template engine implementation of the `Template Attribute "
+"Language (TAL) "
+"<http://en.wikipedia.org/wiki/Template_Attribute_Language>`_, `TAL "
+"Expression Syntax (TALES) "
+"<https://chameleon.readthedocs.io/en/latest/reference.html#expressions-"
+"tales>`_, and `Macro Expansion TAL (Metal) "
+"<https://chameleon.readthedocs.io/en/latest/reference.html#macros-"
+"metal>`_ syntaxes."
+msgstr ""
+
+#: ../../scenarios/web.rst:395
+msgid ""
+"Chameleon is available for Python 2.5 and up (including 3.x and pypy), "
+"and is commonly used by the `Pyramid Framework <http://trypyramid.com>`_."
+msgstr ""
+
+#: ../../scenarios/web.rst:398
+msgid ""
+"Page Templates add within your document structure special element "
+"attributes and text markup. Using a set of simple language constructs, "
+"you control the document flow, element repetition, text replacement and "
+"translation. Because of the attribute-based syntax, unrendered page "
+"templates are valid HTML and can be viewed in a browser and even edited "
+"in WYSIWYG editors. This can make round-trip collaboration with designers"
+" and prototyping with static files in a browser easier."
+msgstr ""
+
+#: ../../scenarios/web.rst:406
+msgid "The basic TAL language is simple enough to grasp from an example:"
+msgstr ""
+
+#: ../../scenarios/web.rst:424
+msgid ""
+"The `<span tal:replace=\"expression\" />` pattern for text insertion is "
+"common enough that if you do not require strict validity in your "
+"unrendered templates, you can replace it with a more terse and readable "
+"syntax that uses the pattern `${expression}`, as follows:"
+msgstr ""
+
+#: ../../scenarios/web.rst:445
+msgid ""
+"But keep in mind that the full `<span tal:replace=\"expression\">Default "
+"Text</span>` syntax also allows for default content in the unrendered "
+"template."
+msgstr ""
+
+#: ../../scenarios/web.rst:448
+msgid "Being from the Pyramid world, Chameleon is not widely used."
+msgstr ""
+
+#: ../../scenarios/web.rst:451
+msgid "Mako"
+msgstr ""
+
+#: ../../scenarios/web.rst:453
+msgid ""
+"`Mako <http://www.makotemplates.org/>`_ is a template language that "
+"compiles to Python for maximum performance. Its syntax and api is "
+"borrowed from the best parts of other templating languages like Django "
+"and Jinja2 templates. It is the default template language included with "
+"the `Pylons and Pyramid <http://www.pylonsproject.org/>`_ web frameworks."
+msgstr ""
+
+#: ../../scenarios/web.rst:459
+msgid "An example template in Mako looks like:"
+msgstr ""
+
+#: ../../scenarios/web.rst:481
+msgid "To render a very basic template, you can do the following:"
+msgstr ""
+
+#: ../../scenarios/web.rst:488
+msgid "Mako is well respected within the Python web community."
+msgstr ""
+
+#: ../../scenarios/web.rst:491
+msgid "References"
+msgstr ""
+
+#: ../../scenarios/web.rst:492
+msgid ""
+"`The mod_python project is now officially dead "
+"<http://blog.dscpl.com.au/2010/06/modpython-project-is-now-"
+"officially.html>`_"
+msgstr ""
+
+#: ../../scenarios/web.rst:493
+msgid ""
+"`mod_wsgi vs mod_python "
+"<http://www.modpython.org/pipermail/mod_python/2007-July/024080.html>`_"
+msgstr ""
+
+#: ../../scenarios/web.rst:494
+msgid ""
+"`Benchmark of Python WSGI Servers <http://nichol.as/benchmark-of-python-"
+"web-servers>`_"
+msgstr ""
+

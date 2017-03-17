@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016. A <a
+# href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a>
+# Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC
+# BY-NC-SA 3.0</a>
+# This file is distributed under the same license as the pythonguide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pythonguide 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-17 17:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../scenarios/serialization.rst:3
+msgid "Data Serialization"
+msgstr ""
+
+#: ../../scenarios/serialization.rst:6
+msgid "What is data serialization?"
+msgstr ""
+
+#: ../../scenarios/serialization.rst:8
+msgid ""
+"Data serialization is the concept of converting structured data into a "
+"format that allows it to be shared or stored in such a way that its "
+"original structure to be recovered. In some cases, the secondary "
+"intention of data serialization is to minimize the size of the serialized"
+" data which then minimizes disk space or bandwidth requirements."
+msgstr ""
+
+#: ../../scenarios/serialization.rst:15
+msgid "Pickle"
+msgstr ""
+
+#: ../../scenarios/serialization.rst:17
+msgid ""
+"The native data serialization module for Python is called `Pickle "
+"<https://docs.python.org/2/library/pickle.html>`_."
+msgstr ""
+
+#: ../../scenarios/serialization.rst:20
+msgid "Here's an example:"
+msgstr ""
+
+#: ../../scenarios/serialization.rst:36
+msgid "Protobuf"
+msgstr ""
+
+#: ../../scenarios/serialization.rst:38
+msgid ""
+"If you're looking for a serialization module that has support in multiple"
+" languages, Google's `Protobuf <https://developers.google.com/protocol-"
+"buffers>`_ library is an option."
+msgstr ""
+

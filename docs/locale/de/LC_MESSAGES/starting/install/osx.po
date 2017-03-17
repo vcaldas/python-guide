@@ -1,0 +1,178 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016. A <a
+# href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a>
+# Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC
+# BY-NC-SA 3.0</a>
+# This file is distributed under the same license as the pythonguide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pythonguide 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-17 17:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../starting/install/osx.rst:4
+msgid "Installing Python on Mac OS X"
+msgstr ""
+
+#: ../../starting/install/osx.rst:7
+msgid "Check out our :ref:`guide for installing Python 3 on OS X<install3-osx>`."
+msgstr ""
+
+#: ../../starting/install/osx.rst:9
+msgid ""
+"The latest version of Mac OS X, Sierra, **comes with Python 2.7 out of "
+"the box**."
+msgstr ""
+
+#: ../../starting/install/osx.rst:11
+msgid ""
+"You do not need to install or configure anything else to use Python. "
+"Having said that, I would strongly recommend that you install the tools "
+"and libraries described in the next section before you start building "
+"Python applications for real-world use. In particular, you should always "
+"install Setuptools, as it makes it much easier for you to install and "
+"manage other third-party Python libraries."
+msgstr ""
+
+#: ../../starting/install/osx.rst:17
+msgid ""
+"The version of Python that ships with OS X is great for learning but it's"
+" not good for development. The version shipped with OS X may be out of "
+"date from the `official current Python release "
+"<https://www.python.org/downloads/mac-osx/>`_, which is considered the "
+"stable production version."
+msgstr ""
+
+#: ../../starting/install/osx.rst:23
+msgid "Doing it Right"
+msgstr ""
+
+#: ../../starting/install/osx.rst:25
+msgid "Let's install a real version of Python."
+msgstr ""
+
+#: ../../starting/install/osx.rst:27
+msgid ""
+"Before installing Python, you'll need to install a C compiler. The "
+"fastest way is to install the Xcode Command Line Tools by running "
+"``xcode-select --install``. You can also download the full version of "
+"`Xcode <http://developer.apple.com/xcode/>`_ from the Mac App Store, or "
+"the minimal but unofficial `OSX-GCC-Installer "
+"<https://github.com/kennethreitz/osx-gcc-installer#readme>`_ package."
+msgstr ""
+
+#: ../../starting/install/osx.rst:36
+msgid ""
+"If you already have XCode installed, do not install OSX-GCC-Installer. In"
+" combination, the software can cause issues that are difficult to "
+"diagnose."
+msgstr ""
+
+#: ../../starting/install/osx.rst:41
+msgid ""
+"If you perform a fresh install of XCode, you will also need to add the "
+"commandline tools by running ``xcode-select --install`` on the terminal."
+msgstr ""
+
+#: ../../starting/install/osx.rst:45
+msgid ""
+"While OS X comes with a large number of UNIX utilities, those familiar "
+"with Linux systems will notice one key component missing: a decent "
+"package manager. `Homebrew <http://brew.sh>`_ fills this void."
+msgstr ""
+
+#: ../../starting/install/osx.rst:49
+msgid ""
+"To `install Homebrew <http://brew.sh/#install>`_, open :file:`Terminal` "
+"or your favorite OSX terminal emulator and run"
+msgstr ""
+
+#: ../../starting/install/osx.rst:56
+msgid ""
+"The script will explain what changes it will make and prompt you before "
+"the installation begins. Once you've installed Homebrew, insert the "
+"Homebrew directory at the top of your :envvar:`PATH` environment "
+"variable. You can do this by adding the following line at the bottom of "
+"your :file:`~/.profile` file"
+msgstr ""
+
+#: ../../starting/install/osx.rst:66
+msgid "Now, we can install Python 2.7:"
+msgstr ""
+
+#: ../../starting/install/osx.rst:72
+msgid "or Python 3:"
+msgstr ""
+
+#: ../../starting/install/osx.rst:78
+msgid "This will take a minute or two."
+msgstr ""
+
+#: ../../starting/install/osx.rst:82
+msgid "Setuptools & Pip"
+msgstr ""
+
+#: ../../starting/install/osx.rst:84
+msgid "Homebrew installs Setuptools and ``pip`` for you."
+msgstr ""
+
+#: ../../starting/install/osx.rst:86
+msgid ""
+"Setuptools enables you to download and install any compliant Python "
+"software over a network (usually the Internet) with a single command "
+"(``easy_install``). It also enables you to add this network installation "
+"capability to your own Python software with very little work."
+msgstr ""
+
+#: ../../starting/install/osx.rst:91
+msgid ""
+"``pip`` is a tool for easily installing and managing Python packages, "
+"that is recommended over ``easy_install``. It is superior to "
+"``easy_install`` in `several ways <https://python-packaging-user-"
+"guide.readthedocs.io/pip_easy_install/#pip-vs-easy-install>`_, and is "
+"actively maintained."
+msgstr ""
+
+#: ../../starting/install/osx.rst:98
+msgid "Virtual Environments"
+msgstr ""
+
+#: ../../starting/install/osx.rst:100
+msgid ""
+"A Virtual Environment (commonly referred to as a 'virtualenv') is a tool "
+"to keep the dependencies required by different projects in separate "
+"places, by creating virtual Python environments for them. It solves the "
+"\"Project X depends on version 1.x but, Project Y needs 4.x\" dilemma, "
+"and keeps your global site-packages directory clean and manageable."
+msgstr ""
+
+#: ../../starting/install/osx.rst:105
+msgid ""
+"For example, you can work on a project which requires Django 1.10 while "
+"also maintaining a project which requires Django 1.8."
+msgstr ""
+
+#: ../../starting/install/osx.rst:108
+msgid ""
+"To start using this and see more information: :ref:`Virtual Environments "
+"<virtualenvironments-ref>` docs."
+msgstr ""
+
+#: ../../starting/install/osx.rst:112
+msgid ""
+"This page is a remixed version of `another guide "
+"<http://www.stuartellis.eu/articles/python-development-windows/>`_, which"
+" is available under the same license."
+msgstr ""
+

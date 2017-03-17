@@ -384,6 +384,3 @@ msgid ""
 "supports Python which includes Windows, GNU/Linux, and FreeBSD."
 msgstr ""
 
-#~ msgid "Todo"
-#~ msgstr ""
-
