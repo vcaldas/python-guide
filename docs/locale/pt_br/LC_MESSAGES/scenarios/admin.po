@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-17 17:46+0100\n"
+"POT-Creation-Date: 2017-03-17 19:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -343,7 +343,7 @@ msgid "Blueprint"
 msgstr ""
 
 #: ../../scenarios/admin.rst
-msgid "Por fazer"
+msgid "Todo"
 msgstr ""
 
 #: ../../scenarios/admin.rst:369
@@ -383,7 +383,4 @@ msgid ""
 "and plugins.It works on any operating system, and architecture that "
 "supports Python which includes Windows, GNU/Linux, and FreeBSD."
 msgstr ""
-
-#~ msgid "Todo"
-#~ msgstr ""
 

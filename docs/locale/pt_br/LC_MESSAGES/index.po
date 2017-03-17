@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-17 15:45+0100\n"
+"POT-Creation-Date: 2017-03-17 19:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,11 +23,11 @@ msgstr ""
 
 #: ../../index.rst:7
 msgid "The Hitchhiker's Guide to Python!"
-msgstr "O Guia do Mochileiro para Python!"
+msgstr ""
 
 #: ../../index.rst:9
 msgid "Greetings, Earthling! Welcome to The Hitchhiker's Guide to Python."
-msgstr "Saudações, Terráqueos! Bem-vindos ao Guia do Mochileiro para Python. Ou Guia do Mochileiro Pythônico."
+msgstr "Falae galere"
 
 #: ../../index.rst:11
 msgid ""

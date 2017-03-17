@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-17 17:46+0100\n"
+"POT-Creation-Date: 2017-03-17 19:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,7 +80,7 @@ msgid ""
 msgstr ""
 
 #: ../../shipping/freezing.rst
-msgid "Por fazer"
+msgid "Todo"
 msgstr ""
 
 #: ../../shipping/freezing.rst:37
@@ -354,7 +354,4 @@ msgid ""
 "for-a-mac-os-x-bundle>`_. For example, to specify an icon for the app, "
 "use the :code:`icon=\\path\\to\\icon.icns` option."
 msgstr ""
-
-#~ msgid "Todo"
-#~ msgstr ""
 

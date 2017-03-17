@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-17 17:46+0100\n"
+"POT-Creation-Date: 2017-03-17 19:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -97,7 +97,7 @@ msgid ""
 msgstr ""
 
 #: ../../writing/reading.rst
-msgid "Por fazer"
+msgid "Todo"
 msgstr ""
 
 #: ../../writing/reading.rst:57
@@ -111,7 +111,4 @@ msgid ""
 "Explain techniques to rapidly identify data structures, algorithms and "
 "determine what the code is doing."
 msgstr ""
-
-#~ msgid "Todo"
-#~ msgstr ""
 

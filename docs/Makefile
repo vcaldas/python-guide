@@ -2,7 +2,8 @@
 #
 
 # You can set these variables from the command line.
-SPHINXOPTS    = -D language='pt_br'
+#SPHINXOPTS    = -D language='pt_br'
+SPHINXOPTS    = 
 SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = _build
