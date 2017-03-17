@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../index.rst:7
 msgid "The Hitchhiker's Guide to Python!"
-msgstr ""
+msgstr "O Guia do Mochileiro para Python!"
 
 #: ../../index.rst:9
 msgid "Greetings, Earthling! Welcome to The Hitchhiker's Guide to Python."
