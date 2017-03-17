@@ -10,3 +10,6 @@ docs/_build
 
 # Ignore files generated during build
 build/
+
+# Ignore gettext intermediate mo files
+*.mo
