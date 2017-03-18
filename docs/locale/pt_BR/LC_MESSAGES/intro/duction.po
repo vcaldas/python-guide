@@ -24,7 +24,7 @@ msgstr "Introdução"
 
 #: ../../intro/duction.rst:4
 msgid "From the `official Python website <http://python.org/about/>`_:"
-msgstr "A partir do `site oficial do Python <http://python.org/about/>`_:"
+msgstr "A partir do site oficial do Python <http://python.org/about/>`_:"
 
 #: ../../intro/duction.rst:6
 msgid ""
