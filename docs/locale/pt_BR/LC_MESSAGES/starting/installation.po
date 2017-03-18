@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
+# This file is distributed under the same license as the pythonguide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pythonguide 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-17 19:37+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../starting/installation.rst:2
+msgid "Properly Installing Python"
+msgstr ""
+
+#: ../../starting/installation.rst:4
+msgid ""
+"There's a good chance that you already have Python on your operating system."
+msgstr ""
+
+#: ../../starting/installation.rst:6
+msgid ""
+"If so, you do not need to install or configure anything else to use Python. "
+"Having said that, I would strongly recommend that you install the tools and "
+"libraries described in the guides below before you start building Python "
+"applications for real-world use. In particular, you should always install "
+"Setuptools, Pip, and Virtualenv — they make it much easier for you to use "
+"other third-party Python libraries."
+msgstr ""
+
+#: ../../starting/installation.rst:14
+msgid "Installation Guides"
+msgstr ""
+
+#: ../../starting/installation.rst:16
+msgid ""
+"These guides go over the proper installation of :ref:`Python <which-python>`"
+" for development purposes, as well as setuptools, pip and virtualenv."
+msgstr ""
+
+#: ../../starting/installation.rst:19
+msgid ":ref:`Python 3 on MacOS <install3-osx>`."
+msgstr ""
+
+#: ../../starting/installation.rst:20
+msgid ":ref:`Python 2 on MacOS <install-osx>`."
+msgstr ""
+
+#: ../../starting/installation.rst:21
+msgid ":ref:`Python 2 on Microsoft Windows <install-windows>`."
+msgstr ""
+
+#: ../../starting/installation.rst:22
+msgid ":ref:`Python 2 on Ubuntu Linux <install-linux>`."
+msgstr ""
