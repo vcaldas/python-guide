@@ -10,6 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-17 19:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Edson Mendes de Oliveira Filho <filho30face@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +20,11 @@ msgstr ""
 
 #: ../../dev/pip-virtualenv.rst:4
 msgid "Further Configuration of Pip and Virtualenv"
-msgstr ""
+msgstr "Configuração avançada do Pip e Virtualenv"
 
 #: ../../dev/pip-virtualenv.rst:7
 msgid "Requiring an active virtual environment for ``pip``"
-msgstr ""
+msgstr "Necessitando de um ambiente virtual ativo para \"pip\""
 
 #: ../../dev/pip-virtualenv.rst:9
 msgid ""
@@ -31,6 +32,9 @@ msgid ""
 "keep your development environment clean and keeping different projects' "
 "requirements separate."
 msgstr ""
+"Agora deve estar claro que usar ambientes virtuais é um ótimo meio para "
+"deixar seu ambiente de desenvolvimento limpo e manter os requerimentos de "
+"diferentes projetos separados."
 
 #: ../../dev/pip-virtualenv.rst:13
 msgid ""
@@ -41,6 +45,12 @@ msgid ""
 "the virtual environment of the project. Over time this can result in a messy"
 " global package list."
 msgstr ""
+"Quando você começa a trabalhar em muitos projetos diferentes, pode ser "
+"difícil lembrar-se de ativar o ambiente virtual certo quando você volta para"
+" um projeto específico. Como resultado disso, é muito fácil instalar pacotes"
+" globalmente enquanto acha que está instalando apenas o pacote do ambiente "
+"virtual do projeto. Com o tempo isso pode ocasionar uma bagunça na sua lista"
+" de pacotes globais."
 
 #: ../../dev/pip-virtualenv.rst:20
 msgid ""
@@ -48,6 +58,9 @@ msgid ""
 "environment when you use ``pip install``, consider adding the following line"
 " to your :file:`~/.bashrc` file:"
 msgstr ""
+"Para ter certeza que você está instalando pacotes em seu ambiente virtual ao"
+" usar \"pip install\", adicione a seguinte linha ao seu :file:`~/.bashrc` "
+"file:"
 
 #: ../../dev/pip-virtualenv.rst:28
 msgid ""
@@ -64,6 +77,9 @@ msgid ""
 ":file:`pip.ini` file. :file:`pip.conf` is used by Unix and Mac OS X "
 "operating systems and it can be found at:"
 msgstr ""
+"Você também pode fazer essa modificação ao editar o seu :file:`pip.conf` ou "
+":file:`pip.ini` file. :file:`pip.conf` é usado pelos sistemas operacionais "
+"Unix e MAC OS X e pode ser achado em:"
 
 #: ../../dev/pip-virtualenv.rst:47
 msgid ""
@@ -82,13 +98,15 @@ msgstr ""
 msgid ""
 "If you already have a configuration file, just add the following line under "
 "the ``[global]`` settings to require an active virtual environment:"
-msgstr ""
+msgstr " "
 
 #: ../../dev/pip-virtualenv.rst:64
 msgid ""
 "If you did not have a configuration file, you will need to create a new one "
 "and add the following lines to this new file:"
 msgstr ""
+"Se você não tinha um arquivo de configuração, você terá que criar um novo e "
+"adicionar as seguintes linhas ao mesmo:"
 
 #: ../../dev/pip-virtualenv.rst:73
 msgid ""
@@ -96,6 +114,9 @@ msgid ""
 " you use across different projects consistently) and this can be "
 "accomplished by adding the following to your :file:`~/.bashrc` file:"
 msgstr ""
+"Você obviamente precisará instalar alguns pacotes globalmente (geralmente os"
+" que você usa em pacotes diferentes com frequência), e isso pode ser feito "
+"ao adicionar a seguinte linha ao seu :file:`~/.bashrc` file:"
 
 #: ../../dev/pip-virtualenv.rst:83
 msgid ""
@@ -131,6 +152,8 @@ msgid ""
 "On UNIX systems, you can add the following line to your :file:`.bashrc` or "
 ":file:`.bash_profile` file."
 msgstr ""
+"Em sistemas UNIX, você pode adicionar a seguinte linha ao seu "
+":file:`.bashrc` ou :file:`.bash_profile` file."
 
 #: ../../dev/pip-virtualenv.rst:108
 msgid ""
