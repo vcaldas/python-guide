@@ -1,12 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016. A <a
-# href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a>
-# Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC
-# BY-NC-SA 3.0</a>
-# This file is distributed under the same license as the pythonguide
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# Copyright (C) 2016. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
+# This file is distributed under the same license as the pythonguide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -14,12 +10,12 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-17 19:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../intro/news.rst:2
 msgid "News"
@@ -30,7 +26,8 @@ msgid "Planet Python"
 msgstr ""
 
 #: ../../intro/news.rst:7
-msgid "This is an aggregate of Python news from a growing number of developers."
+msgid ""
+"This is an aggregate of Python news from a growing number of developers."
 msgstr ""
 
 #: ../../intro/news.rst:9
@@ -43,8 +40,8 @@ msgstr ""
 
 #: ../../intro/news.rst:14
 msgid ""
-"/r/python is the Reddit Python community where users contribute and vote "
-"on Python-related news."
+"/r/python is the Reddit Python community where users contribute and vote on "
+"Python-related news."
 msgstr ""
 
 #: ../../intro/news.rst:17
@@ -57,8 +54,8 @@ msgstr ""
 
 #: ../../intro/news.rst:22
 msgid ""
-"Pycoder's Weekly is a free weekly Python newsletter for Python developers"
-" by Python developers (Projects, Articles, News, and Jobs)."
+"Pycoder's Weekly is a free weekly Python newsletter for Python developers by"
+" Python developers (Projects, Articles, News, and Jobs)."
 msgstr ""
 
 #: ../../intro/news.rst:25
@@ -71,8 +68,8 @@ msgstr ""
 
 #: ../../intro/news.rst:30
 msgid ""
-"Python Weekly is a free weekly newsletter featuring curated news, "
-"articles, new releases, jobs, etc. related to Python."
+"Python Weekly is a free weekly newsletter featuring curated news, articles, "
+"new releases, jobs, etc. related to Python."
 msgstr ""
 
 #: ../../intro/news.rst:33
@@ -86,8 +83,7 @@ msgstr ""
 #: ../../intro/news.rst:38
 msgid ""
 "Python News is the news section in the official Python web site "
-"(www.python.org). It briefly highlights the news from the Python "
-"community."
+"(www.python.org). It briefly highlights the news from the Python community."
 msgstr ""
 
 #: ../../intro/news.rst:41
@@ -107,8 +103,7 @@ msgstr ""
 
 #: ../../intro/news.rst:49
 msgid ""
-"`Import Python Weekly Newsletter "
-"<http://www.importpython.com/newsletter/>`_"
+"`Import Python Weekly Newsletter <http://www.importpython.com/newsletter/>`_"
 msgstr ""
 
 #: ../../intro/news.rst:52
@@ -116,10 +111,10 @@ msgid "Awesome Python Newsletter"
 msgstr ""
 
 #: ../../intro/news.rst:54
-msgid "A weekly overview of the most popular Python news, articles and packages."
+msgid ""
+"A weekly overview of the most popular Python news, articles and packages."
 msgstr ""
 
 #: ../../intro/news.rst:56
 msgid "`Awesome Python Newsletter <https://python.libhunt.com/newsletter>`_"
 msgstr ""
-

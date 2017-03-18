@@ -1,12 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016. A <a
-# href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a>
-# Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC
-# BY-NC-SA 3.0</a>
-# This file is distributed under the same license as the pythonguide
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# Copyright (C) 2016. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
+# This file is distributed under the same license as the pythonguide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -14,12 +10,12 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-17 19:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../scenarios/imaging.rst:3
 msgid "Image Manipulation"
@@ -42,17 +38,17 @@ msgstr ""
 
 #: ../../scenarios/imaging.rst:14
 msgid ""
-"The `Python Imaging Library <http://www.pythonware.com/products/pil/>`_, "
-"or PIL for short, is one of the core libraries for image manipulation in "
-"Python. Unfortunately, its development has stagnated, with its last "
-"release in 2009."
+"The `Python Imaging Library <http://www.pythonware.com/products/pil/>`_, or "
+"PIL for short, is one of the core libraries for image manipulation in "
+"Python. Unfortunately, its development has stagnated, with its last release "
+"in 2009."
 msgstr ""
 
 #: ../../scenarios/imaging.rst:18
 msgid ""
-"Luckily for you, there's an actively-developed fork of PIL called `Pillow"
-" <http://python-pillow.github.io/>`_ - it's easier to install, runs on "
-"all operating systems, and supports Python 3."
+"Luckily for you, there's an actively-developed fork of PIL called `Pillow "
+"<http://python-pillow.github.io/>`_ - it's easier to install, runs on all "
+"operating systems, and supports Python 3."
 msgstr ""
 
 #: ../../scenarios/imaging.rst:23 ../../scenarios/imaging.rst:71
@@ -63,8 +59,7 @@ msgstr ""
 msgid ""
 "Before installing Pillow, you'll have to install Pillow's prerequisites. "
 "Find the instructions for your platform in the `Pillow installation "
-"instructions "
-"<https://pillow.readthedocs.io/en/3.0.0/installation.html>`_."
+"instructions <https://pillow.readthedocs.io/en/3.0.0/installation.html>`_."
 msgstr ""
 
 #: ../../scenarios/imaging.rst:29
@@ -88,17 +83,17 @@ msgstr ""
 #: ../../scenarios/imaging.rst:66
 msgid ""
 "OpenSource Computer Vision, more commonly known as OpenCV, is a more "
-"advanced image manipulation and processing software than PIL. It has been"
-" implemented in several languages and is widely used."
+"advanced image manipulation and processing software than PIL. It has been "
+"implemented in several languages and is widely used."
 msgstr ""
 
 #: ../../scenarios/imaging.rst:73
 msgid ""
-"In Python, image processing using OpenCV is implemented using the ``cv2``"
-" and ``NumPy`` modules.  The `installation instructions for OpenCV "
+"In Python, image processing using OpenCV is implemented using the ``cv2`` "
+"and ``NumPy`` modules.  The `installation instructions for OpenCV "
 "<http://docs.opencv.org/2.4/doc/tutorials/introduction/table_of_content_introduction/table_of_content_introduction.html"
-"#table-of-content-introduction>`_ should guide you through configuring "
-"the project for yourself."
+"#table-of-content-introduction>`_ should guide you through configuring the "
+"project for yourself."
 msgstr ""
 
 #: ../../scenarios/imaging.rst:78
@@ -107,8 +102,7 @@ msgstr ""
 
 #: ../../scenarios/imaging.rst:105
 msgid ""
-"There are more Python-implemented examples of OpenCV in this `collection "
-"of tutorials <https://opencv-python-"
+"There are more Python-implemented examples of OpenCV in this `collection of "
+"tutorials <https://opencv-python-"
 "tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html>`_."
 msgstr ""
-

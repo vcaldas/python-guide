@@ -1,12 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016. A <a
-# href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a>
-# Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC
-# BY-NC-SA 3.0</a>
-# This file is distributed under the same license as the pythonguide
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# Copyright (C) 2016. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
+# This file is distributed under the same license as the pythonguide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -14,26 +10,29 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-17 19:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Victor Caldas <caldas.victor@gmail.com>, 2017\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../intro/duction.rst:2
 msgid "Introduction"
-msgstr ""
+msgstr "Introdução"
 
 #: ../../intro/duction.rst:4
 msgid "From the `official Python website <http://python.org/about/>`_:"
-msgstr ""
+msgstr "A partir do 'site oficial do Python <http://python.org/about/>'_:"
 
 #: ../../intro/duction.rst:6
 msgid ""
-"Python is a general-purpose, high-level programming language similar to "
-"Tcl, Perl, Ruby, Scheme, or Java. Some of its main key features include:"
+"Python is a general-purpose, high-level programming language similar to Tcl,"
+" Perl, Ruby, Scheme, or Java. Some of its main key features include:"
 msgstr ""
+"Python é uma língua generalista e de alto-nível, similar ao Perl, Tcl, "
+"Scheme ou Java. Algunas de umas funções principais incluem:"
 
 #: ../../intro/duction.rst:10
 msgid "**very clear, readable syntax**"
@@ -41,9 +40,9 @@ msgstr ""
 
 #: ../../intro/duction.rst:12
 msgid ""
-"Python's philosophy focuses on readability, from code blocks delineated "
-"with significant whitespace to intuitive keywords in place of inscrutable"
-" punctuation."
+"Python's philosophy focuses on readability, from code blocks delineated with"
+" significant whitespace to intuitive keywords in place of inscrutable "
+"punctuation."
 msgstr ""
 
 #: ../../intro/duction.rst:16
@@ -54,19 +53,18 @@ msgstr ""
 
 #: ../../intro/duction.rst:19
 msgid ""
-"Python is sometimes described with the words \"batteries included\" "
-"because of its extensive `standard library "
-"<http://docs.python.org/library/>`_, which includes modules for regular "
-"expressions, file IO, fraction handling, object serialization, and much "
-"more."
+"Python is sometimes described with the words \"batteries included\" because "
+"of its extensive `standard library <http://docs.python.org/library/>`_, "
+"which includes modules for regular expressions, file IO, fraction handling, "
+"object serialization, and much more."
 msgstr ""
 
 #: ../../intro/duction.rst:25
 msgid ""
-"Additionally, the `Python Package Index <http://pypi.python.org/pypi/>`_ "
-"is available for users to submit their packages for widespread use, "
-"similar to Perl's `CPAN <http://www.cpan.org>`_. There is a thriving "
-"community of very powerful Python frameworks and tools like the `Django "
+"Additionally, the `Python Package Index <http://pypi.python.org/pypi/>`_ is "
+"available for users to submit their packages for widespread use, similar to "
+"Perl's `CPAN <http://www.cpan.org>`_. There is a thriving community of very "
+"powerful Python frameworks and tools like the `Django "
 "<http://www.djangoproject.com>`_ web framework and the `NumPy "
 "<http://numpy.scipy.org>`_ set of math routines."
 msgstr ""
@@ -89,9 +87,9 @@ msgstr ""
 
 #: ../../intro/duction.rst:43
 msgid ""
-"Python is available on Windows, \\*nix, and Mac. It runs wherever the "
-"Java virtual machine runs, and the reference implementation CPython can "
-"help bring Python to wherever there is a working C compiler."
+"Python is available on Windows, \\*nix, and Mac. It runs wherever the Java "
+"virtual machine runs, and the reference implementation CPython can help "
+"bring Python to wherever there is a working C compiler."
 msgstr ""
 
 #: ../../intro/duction.rst:47
@@ -102,8 +100,8 @@ msgstr ""
 msgid ""
 "Python has a vibrant and large :ref:`community <the-community>` which "
 "maintains wikis, conferences, countless repositories, mailing lists, IRC "
-"channels, and so much more. Heck, the Python community is even helping to"
-" write this guide!"
+"channels, and so much more. Heck, the Python community is even helping to "
+"write this guide!"
 msgstr ""
 
 #: ../../intro/duction.rst:58
@@ -116,8 +114,8 @@ msgstr ""
 
 #: ../../intro/duction.rst:63
 msgid ""
-"The Hitchhiker's Guide to Python exists to provide both novice and expert"
-" Python developers a best practice handbook for the installation, "
+"The Hitchhiker's Guide to Python exists to provide both novice and expert "
+"Python developers a best practice handbook for the installation, "
 "configuration, and usage of Python on a daily basis."
 msgstr ""
 
@@ -128,8 +126,8 @@ msgstr ""
 #: ../../intro/duction.rst:71
 msgid ""
 "This guide is architected and maintained by `Kenneth Reitz "
-"<https://github.com/kennethreitz>`_ in an open fashion. This is a "
-"community-driven effort that serves one purpose: to serve the community."
+"<https://github.com/kennethreitz>`_ in an open fashion. This is a community-"
+"driven effort that serves one purpose: to serve the community."
 msgstr ""
 
 #: ../../intro/duction.rst:76
@@ -138,17 +136,17 @@ msgstr ""
 
 #: ../../intro/duction.rst:78
 msgid ""
-"All contributions to the Guide are welcome, from Pythonistas of all "
-"levels. If you think there's a gap in what the Guide covers, fork the "
-"Guide on GitHub and submit a pull request."
+"All contributions to the Guide are welcome, from Pythonistas of all levels. "
+"If you think there's a gap in what the Guide covers, fork the Guide on "
+"GitHub and submit a pull request."
 msgstr ""
 
 #: ../../intro/duction.rst:82
 msgid ""
-"Contributions are welcome from everyone, whether they're an old hand or a"
-" first-time Pythonista, and the authors to the Guide will gladly help if "
-"you have any questions about the appropriateness, completeness, or "
-"accuracy of a contribution."
+"Contributions are welcome from everyone, whether they're an old hand or a "
+"first-time Pythonista, and the authors to the Guide will gladly help if you "
+"have any questions about the appropriateness, completeness, or accuracy of a"
+" contribution."
 msgstr ""
 
 #: ../../intro/duction.rst:87
@@ -156,4 +154,3 @@ msgid ""
 "To get started working on The Hitchhiker's Guide, see the "
 ":doc:`/notes/contribute` page."
 msgstr ""
-

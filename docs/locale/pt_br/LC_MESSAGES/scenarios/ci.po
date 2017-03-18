@@ -1,12 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016. A <a
-# href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a>
-# Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC
-# BY-NC-SA 3.0</a>
-# This file is distributed under the same license as the pythonguide
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# Copyright (C) 2016. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
+# This file is distributed under the same license as the pythonguide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -14,12 +10,12 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-17 19:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../scenarios/ci.rst:2
 msgid "Continuous Integration"
@@ -32,19 +28,19 @@ msgstr ""
 #: ../../scenarios/ci.rst:8
 msgid ""
 "Martin Fowler, who first wrote about `Continuous Integration "
-"<http://martinfowler.com/articles/continuousIntegration.html>`_ (short: "
-"CI) together with Kent Beck, describes the CI as follows:"
+"<http://martinfowler.com/articles/continuousIntegration.html>`_ (short: CI) "
+"together with Kent Beck, describes the CI as follows:"
 msgstr ""
 
 #: ../../scenarios/ci.rst:11
 msgid ""
-"Continuous Integration is a software development practice where members "
-"of a team integrate their work frequently, usually each person integrates"
-" at least daily - leading to multiple integrations per day. Each "
-"integration is verified by an automated build (including test) to detect "
-"integration errors as quickly as possible. Many teams find that this "
-"approach leads to significantly reduced integration problems and allows a"
-" team to develop cohesive software more rapidly."
+"Continuous Integration is a software development practice where members of a"
+" team integrate their work frequently, usually each person integrates at "
+"least daily - leading to multiple integrations per day. Each integration is "
+"verified by an automated build (including test) to detect integration errors"
+" as quickly as possible. Many teams find that this approach leads to "
+"significantly reduced integration problems and allows a team to develop "
+"cohesive software more rapidly."
 msgstr ""
 
 #: ../../scenarios/ci.rst:20
@@ -74,15 +70,15 @@ msgstr ""
 #: ../../scenarios/ci.rst:38
 msgid ""
 "`tox <https://tox.readthedocs.io/en/latest/>`_ is an automation tool "
-"providing packaging, testing and deployment of Python software right from"
-" the console or CI server. It is a generic virtualenv management and test"
-" command line tool which provides the following features:"
+"providing packaging, testing and deployment of Python software right from "
+"the console or CI server. It is a generic virtualenv management and test "
+"command line tool which provides the following features:"
 msgstr ""
 
 #: ../../scenarios/ci.rst:43
 msgid ""
-"Checking that packages install correctly with different Python versions "
-"and interpreters"
+"Checking that packages install correctly with different Python versions and "
+"interpreters"
 msgstr ""
 
 #: ../../scenarios/ci.rst:45
@@ -104,35 +100,33 @@ msgstr ""
 #: ../../scenarios/ci.rst:54
 msgid ""
 "`Travis-CI <https://travis-ci.org/>`_ is a distributed CI server which "
-"builds tests for open source projects for free. It provides multiple "
-"workers to run Python tests on and seamlessly integrates with GitHub. You"
-" can even have it comment on your Pull Requests whether this particular "
-"changeset breaks the build or not. So if you are hosting your code on "
-"GitHub, travis-ci is a great and easy way to get started with Continuous "
-"Integration."
+"builds tests for open source projects for free. It provides multiple workers"
+" to run Python tests on and seamlessly integrates with GitHub. You can even "
+"have it comment on your Pull Requests whether this particular changeset "
+"breaks the build or not. So if you are hosting your code on GitHub, travis-"
+"ci is a great and easy way to get started with Continuous Integration."
 msgstr ""
 
 #: ../../scenarios/ci.rst:61
 msgid ""
-"In order to get started, add a :file:`.travis.yml` file to your "
-"repository with this example content::"
+"In order to get started, add a :file:`.travis.yml` file to your repository "
+"with this example content::"
 msgstr ""
 
 #: ../../scenarios/ci.rst:77
 msgid ""
 "This will get your project tested on all the listed Python versions by "
-"running the given script, and will only build the master branch. There "
-"are a lot more options you can enable, like notifications, before and "
-"after steps and much more. The `travis-ci docs <https://docs.travis-"
-"ci.com/user/languages/python/>`_ explain all of these options, and are "
-"very thorough."
+"running the given script, and will only build the master branch. There are a"
+" lot more options you can enable, like notifications, before and after steps"
+" and much more. The `travis-ci docs <https://docs.travis-"
+"ci.com/user/languages/python/>`_ explain all of these options, and are very "
+"thorough."
 msgstr ""
 
 #: ../../scenarios/ci.rst:83
 msgid ""
 "In order to activate testing for your project, go to `the travis-ci site "
-"<https://travis-ci.org/>`_ and login with your GitHub account. Then "
-"activate your project in your profile settings and you're ready to go. "
-"From now on, your project's tests will be run on every push to GitHub."
+"<https://travis-ci.org/>`_ and login with your GitHub account. Then activate"
+" your project in your profile settings and you're ready to go. From now on, "
+"your project's tests will be run on every push to GitHub."
 msgstr ""
-

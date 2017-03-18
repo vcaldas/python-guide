@@ -1,12 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016. A <a
-# href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a>
-# Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC
-# BY-NC-SA 3.0</a>
-# This file is distributed under the same license as the pythonguide
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# Copyright (C) 2016. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
+# This file is distributed under the same license as the pythonguide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -14,12 +10,12 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-17 19:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../shipping/packaging.rst:5
 msgid "Packaging Your Code"
@@ -27,9 +23,9 @@ msgstr ""
 
 #: ../../shipping/packaging.rst:7
 msgid ""
-"Package your code to share it with other developers. For example to share"
-" a library for other developers to use in their application, or for "
-"development tools like 'py.test'."
+"Package your code to share it with other developers. For example to share a "
+"library for other developers to use in their application, or for development"
+" tools like 'py.test'."
 msgstr ""
 
 #: ../../shipping/packaging.rst:11
@@ -42,21 +38,20 @@ msgstr ""
 
 #: ../../shipping/packaging.rst:16
 msgid ""
-"It is a well-established convention for Python code to be shared this "
-"way. If your code isn't packaged on PyPI, then it will be harder for "
-"other developers to find it, and to use it as part of their existing "
-"process. They will regard such projects with substantial suspicion of "
-"being either badly managed or abandoned."
+"It is a well-established convention for Python code to be shared this way. "
+"If your code isn't packaged on PyPI, then it will be harder for other "
+"developers to find it, and to use it as part of their existing process. They"
+" will regard such projects with substantial suspicion of being either badly "
+"managed or abandoned."
 msgstr ""
 
 #: ../../shipping/packaging.rst:22
 msgid ""
 "The downside of distributing code like this is that it relies on the "
-"recipient understanding how to install the required version of Python, "
-"and being able and willing to use tools such as pip to install your "
-"code's other dependencies. This is fine when distributing to other "
-"developers, but makes this method unsuitable for distributing "
-"applications to end-users."
+"recipient understanding how to install the required version of Python, and "
+"being able and willing to use tools such as pip to install your code's other"
+" dependencies. This is fine when distributing to other developers, but makes"
+" this method unsuitable for distributing applications to end-users."
 msgstr ""
 
 #: ../../shipping/packaging.rst:28
@@ -90,8 +85,8 @@ msgstr ""
 #: ../../shipping/packaging.rst:44
 msgid ""
 "If you're writing an open source Python module, `PyPI "
-"<http://pypi.python.org>`_ , more properly known as *The Cheeseshop*, is "
-"the place to host it."
+"<http://pypi.python.org>`_ , more properly known as *The Cheeseshop*, is the"
+" place to host it."
 msgstr ""
 
 #: ../../shipping/packaging.rst:50
@@ -101,8 +96,7 @@ msgstr ""
 #: ../../shipping/packaging.rst:52
 msgid ""
 "Use `pip <http://pypi.python.org/pypi/pip>`_.  More details `here "
-"<http://stackoverflow.com/questions/3220404/why-use-pip-over-easy-"
-"install>`_"
+"<http://stackoverflow.com/questions/3220404/why-use-pip-over-easy-install>`_"
 msgstr ""
 
 #: ../../shipping/packaging.rst:57
@@ -111,10 +105,10 @@ msgstr ""
 
 #: ../../shipping/packaging.rst:59
 msgid ""
-"If you want to install packages from a source other than PyPI, (say, if "
-"your packages are *proprietary*), you can do it by hosting a simple http "
-"server, running from the directory which holds those packages which need "
-"to be installed."
+"If you want to install packages from a source other than PyPI, (say, if your"
+" packages are *proprietary*), you can do it by hosting a simple http server,"
+" running from the directory which holds those packages which need to be "
+"installed."
 msgstr ""
 
 #: ../../shipping/packaging.rst:64
@@ -146,16 +140,16 @@ msgstr ""
 #: ../../shipping/packaging.rst:81
 msgid ""
 "This runs a simple http server running on port 9000 and will list all "
-"packages (like **MyPackage**). Now you can install **MyPackage** using "
-"any Python package installer. Using Pip, you would do it like:"
+"packages (like **MyPackage**). Now you can install **MyPackage** using any "
+"Python package installer. Using Pip, you would do it like:"
 msgstr ""
 
 #: ../../shipping/packaging.rst:89
 msgid ""
-"Having a folder with the same name as the package name is **crucial** "
-"here. I got fooled by that, one time. But if you feel that creating a "
-"folder called :file:`MyPackage` and keeping :file:`MyPackage.tar.gz` "
-"inside that, is *redundant*, you can still install MyPackage using:"
+"Having a folder with the same name as the package name is **crucial** here. "
+"I got fooled by that, one time. But if you feel that creating a folder "
+"called :file:`MyPackage` and keeping :file:`MyPackage.tar.gz` inside that, "
+"is *redundant*, you can still install MyPackage using:"
 msgstr ""
 
 #: ../../shipping/packaging.rst:99
@@ -164,11 +158,11 @@ msgstr ""
 
 #: ../../shipping/packaging.rst:101
 msgid ""
-"`Pypiserver <https://pypi.python.org/pypi/pypiserver>`_ is a minimal PyPI"
-" compatible server.  It can be used to serve a set of packages to "
-"easy_install or pip.  It includes helpful features like an administrative"
-" command (``-U``) which will update all its packages to their latest "
-"versions found on PyPI."
+"`Pypiserver <https://pypi.python.org/pypi/pypiserver>`_ is a minimal PyPI "
+"compatible server.  It can be used to serve a set of packages to "
+"easy_install or pip.  It includes helpful features like an administrative "
+"command (``-U``) which will update all its packages to their latest versions"
+" found on PyPI."
 msgstr ""
 
 #: ../../shipping/packaging.rst:109
@@ -214,14 +208,14 @@ msgstr ""
 
 #: ../../shipping/packaging.rst:126
 msgid ""
-"Use a client like Cyberduck to sync the entire :file:`packages` folder to"
-" your s3 bucket"
+"Use a client like Cyberduck to sync the entire :file:`packages` folder to "
+"your s3 bucket"
 msgstr ""
 
 #: ../../shipping/packaging.rst:127
 msgid ""
-"Make sure you upload :code:`packages/simple/index.html` as well as all "
-"new files and directories"
+"Make sure you upload :code:`packages/simple/index.html` as well as all new "
+"files and directories"
 msgstr ""
 
 #: ../../shipping/packaging.rst:129
@@ -230,8 +224,8 @@ msgstr ""
 
 #: ../../shipping/packaging.rst:131
 msgid ""
-"By default, when you upload new files to the S3 bucket, they will have "
-"the wrong permissions set."
+"By default, when you upload new files to the S3 bucket, they will have the "
+"wrong permissions set."
 msgstr ""
 
 #: ../../shipping/packaging.rst:132
@@ -242,8 +236,8 @@ msgstr ""
 
 #: ../../shipping/packaging.rst:133
 msgid ""
-"If you get HTTP 403 when trying to install a package, make sure you've "
-"set the permissions correctly."
+"If you get HTTP 403 when trying to install a package, make sure you've set "
+"the permissions correctly."
 msgstr ""
 
 #: ../../shipping/packaging.rst:135
@@ -262,58 +256,54 @@ msgstr ""
 
 #: ../../shipping/packaging.rst:144
 msgid ""
-"Creating a Linux distro package is arguably the \"right way\" to "
-"distribute code on Linux."
+"Creating a Linux distro package is arguably the \"right way\" to distribute "
+"code on Linux."
 msgstr ""
 
 #: ../../shipping/packaging.rst:147
 msgid ""
-"Because a distribution package doesn't include the Python interpreter, it"
-" makes the download and install about 2MB smaller than :ref:`freezing "
-"your application <freezing-your-code-ref>`."
+"Because a distribution package doesn't include the Python interpreter, it "
+"makes the download and install about 2MB smaller than :ref:`freezing your "
+"application <freezing-your-code-ref>`."
 msgstr ""
 
 #: ../../shipping/packaging.rst:151
 msgid ""
-"Also, if a distribution releases a new security update for Python, then "
-"your application will automatically start using that new version of "
-"Python."
+"Also, if a distribution releases a new security update for Python, then your"
+" application will automatically start using that new version of Python."
 msgstr ""
 
 #: ../../shipping/packaging.rst:154
 msgid ""
 "The bdist_rpm command makes `producing an RPM file "
-"<https://docs.python.org/3/distutils/builtdist.html#creating-rpm-"
-"packages>`_ for use by distributions like Red Hat or SuSE is trivially "
-"easy."
+"<https://docs.python.org/3/distutils/builtdist.html#creating-rpm-packages>`_"
+" for use by distributions like Red Hat or SuSE is trivially easy."
 msgstr ""
 
 #: ../../shipping/packaging.rst:157
 msgid ""
-"However, creating and maintaining the different configurations required "
-"for each distribution's format (e.g. .deb for Debian/Ubuntu, .rpm for Red"
-" Hat/Fedora, etc) is a fair amount of work. If your code is an "
-"application that you plan to distribute on other platforms, then you'll "
-"also have to create and maintain the separate config required to freeze "
-"your application for Windows and OSX. It would be much less work to "
-"simply create and maintain a single config for one of the cross platform "
-":ref:`freezing tools <freezing-your-code-ref>`, which will produce stand-"
-"alone executables for all distributions of Linux, as well as Windows and "
-"OSX."
+"However, creating and maintaining the different configurations required for "
+"each distribution's format (e.g. .deb for Debian/Ubuntu, .rpm for Red "
+"Hat/Fedora, etc) is a fair amount of work. If your code is an application "
+"that you plan to distribute on other platforms, then you'll also have to "
+"create and maintain the separate config required to freeze your application "
+"for Windows and OSX. It would be much less work to simply create and "
+"maintain a single config for one of the cross platform :ref:`freezing tools "
+"<freezing-your-code-ref>`, which will produce stand-alone executables for "
+"all distributions of Linux, as well as Windows and OSX."
 msgstr ""
 
 #: ../../shipping/packaging.rst:167
 msgid ""
-"Creating a distribution package is also problematic if your code is for a"
-" version of Python that isn't currently supported by a distribution. "
-"Having to tell *some versions* of Ubuntu end-users that they need to add "
-"`the 'dead-snakes' PPA "
+"Creating a distribution package is also problematic if your code is for a "
+"version of Python that isn't currently supported by a distribution. Having "
+"to tell *some versions* of Ubuntu end-users that they need to add `the "
+"'dead-snakes' PPA "
 "<https://launchpad.net/~fkrull/+archive/ubuntu/deadsnakes>`_ using `sudo "
-"apt-repository` commands before they can install your .deb file makes for"
-" an extremely hostile user experience. Not only that, but you'd have to "
-"maintain a custom equivalent of these instructions for every "
-"distribution, and worse, have your users read, understand, and act on "
-"them."
+"apt-repository` commands before they can install your .deb file makes for an"
+" extremely hostile user experience. Not only that, but you'd have to "
+"maintain a custom equivalent of these instructions for every distribution, "
+"and worse, have your users read, understand, and act on them."
 msgstr ""
 
 #: ../../shipping/packaging.rst:176
@@ -331,7 +321,8 @@ msgid ""
 msgstr ""
 
 #: ../../shipping/packaging.rst:180
-msgid "`Arch <https://wiki.archlinux.org/index.php/Python_Package_Guidelines>`_"
+msgid ""
+"`Arch <https://wiki.archlinux.org/index.php/Python_Package_Guidelines>`_"
 msgstr ""
 
 #: ../../shipping/packaging.rst:183
@@ -348,8 +339,6 @@ msgstr ""
 
 #: ../../shipping/packaging.rst:187
 msgid ""
-"`dh-virtualenv <https://dh-"
-"virtualenv.readthedocs.io/en/latest/info.html>`_ (for APT/DEB omnibus "
-"packaging)"
+"`dh-virtualenv <https://dh-virtualenv.readthedocs.io/en/latest/info.html>`_ "
+"(for APT/DEB omnibus packaging)"
 msgstr ""
-

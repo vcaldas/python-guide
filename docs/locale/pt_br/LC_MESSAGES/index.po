@@ -1,12 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016. A <a
-# href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a>
-# Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC
-# BY-NC-SA 3.0</a>
-# This file is distributed under the same license as the pythonguide
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# Copyright (C) 2016. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
+# This file is distributed under the same license as the pythonguide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -14,12 +10,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-17 19:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Victor Caldas <caldas.victor@gmail.com>, 2017\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../index.rst:7
 msgid "The Hitchhiker's Guide to Python!"
@@ -27,33 +24,32 @@ msgstr "O Guia do Mochileiro para Python!"
 
 #: ../../index.rst:9
 msgid "Greetings, Earthling! Welcome to The Hitchhiker's Guide to Python."
-msgstr "Falae galere"
+msgstr "Saudações, Terráqueos! Bem-vindos ao Guia do Mochileiro para Python!"
 
 #: ../../index.rst:11
 msgid ""
-"**This is a living, breathing guide.**  If you'd like to contribute, "
-"`fork us on GitHub <https://github.com/kennethreitz/python-guide>`_!"
+"**This is a living, breathing guide.**  If you'd like to contribute, `fork "
+"us on GitHub <https://github.com/kennethreitz/python-guide>`_!"
 msgstr ""
 
 #: ../../index.rst:14
 msgid ""
 "This handcrafted guide exists to provide both novice and expert Python "
-"developers a best practice handbook to the installation, configuration, "
-"and usage of Python on a daily basis."
+"developers a best practice handbook to the installation, configuration, and "
+"usage of Python on a daily basis."
 msgstr ""
 
 #: ../../index.rst:18
 msgid ""
 "This guide is **opinionated** in a way that is almost, but not quite, "
-"entirely *unlike* Python's official documentation. You won't find a list "
-"of every Python web framework available here. Rather, you'll find a nice "
+"entirely *unlike* Python's official documentation. You won't find a list of "
+"every Python web framework available here. Rather, you'll find a nice "
 "concise list of highly recommended options."
 msgstr ""
 
 #: ../../index.rst:24
 msgid ""
-"Let's get started! But first, let's make sure you know where your towel "
-"is."
+"Let's get started! But first, let's make sure you know where your towel is."
 msgstr ""
 
 #: ../../contents.rst.inc:2
@@ -84,8 +80,8 @@ msgstr ""
 
 #: ../../contents.rst.inc:45
 msgid ""
-"This part of the guide focuses on tool and module advice based on "
-"different scenarios."
+"This part of the guide focuses on tool and module advice based on different "
+"scenarios."
 msgstr ""
 
 #: ../../contents.rst.inc:72
@@ -102,8 +98,8 @@ msgstr ""
 
 #: ../../contents.rst.inc:86
 msgid ""
-"This part of the guide focus on the Python development environment, and "
-"the best-practice tools that are available for writing Python code."
+"This part of the guide focus on the Python development environment, and the "
+"best-practice tools that are available for writing Python code."
 msgstr ""
 
 #: ../../contents.rst.inc:100
@@ -112,8 +108,8 @@ msgstr ""
 
 #: ../../contents.rst.inc:102
 msgid ""
-"This part of the guide, which is mostly prose, begins with some "
-"background information about Python, then focuses on next steps."
+"This part of the guide, which is mostly prose, begins with some background "
+"information about Python, then focuses on next steps."
 msgstr ""
 
 #: ../../contents.rst.inc:115
@@ -126,4 +122,3 @@ msgstr ""
 #: ../../contents.rst.inc:122
 msgid "Contribution notes and legal information (for those interested)."
 msgstr ""
-

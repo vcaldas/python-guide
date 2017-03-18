@@ -1,12 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016. A <a
-# href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a>
-# Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC
-# BY-NC-SA 3.0</a>
-# This file is distributed under the same license as the pythonguide
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# Copyright (C) 2016. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
+# This file is distributed under the same license as the pythonguide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -14,12 +10,12 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-17 19:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../intro/community.rst:4
 msgid "The Community"
@@ -31,8 +27,8 @@ msgstr ""
 
 #: ../../intro/community.rst:9
 msgid ""
-"Guido van Rossum, the creator of Python, is often referred to as the BDFL"
-" — the Benevolent Dictator For Life."
+"Guido van Rossum, the creator of Python, is often referred to as the BDFL — "
+"the Benevolent Dictator For Life."
 msgstr ""
 
 #: ../../intro/community.rst:15
@@ -41,10 +37,9 @@ msgstr ""
 
 #: ../../intro/community.rst:17
 msgid ""
-"The mission of the Python Software Foundation is to promote, protect, and"
-" advance the Python programming language, and to support and facilitate "
-"the growth of a diverse and international community of Python "
-"programmers."
+"The mission of the Python Software Foundation is to promote, protect, and "
+"advance the Python programming language, and to support and facilitate the "
+"growth of a diverse and international community of Python programmers."
 msgstr ""
 
 #: ../../intro/community.rst:21
@@ -112,7 +107,8 @@ msgid ":pep:`20`: The Zen of Python."
 msgstr ""
 
 #: ../../intro/community.rst:52
-msgid "A list of 19 statements that briefly explain the philosophy behind Python."
+msgid ""
+"A list of 19 statements that briefly explain the philosophy behind Python."
 msgstr ""
 
 #: ../../intro/community.rst:56
@@ -126,7 +122,8 @@ msgid ""
 msgstr ""
 
 #: ../../intro/community.rst:58
-msgid "You can read more at `The PEP Index <http://www.python.org/dev/peps/>`_."
+msgid ""
+"You can read more at `The PEP Index <http://www.python.org/dev/peps/>`_."
 msgstr ""
 
 #: ../../intro/community.rst:61
@@ -135,8 +132,8 @@ msgstr ""
 
 #: ../../intro/community.rst:63
 msgid ""
-"PEPs are peer-reviewed and accepted/rejected after much discussion. "
-"Anyone can write and submit a PEP for review."
+"PEPs are peer-reviewed and accepted/rejected after much discussion. Anyone "
+"can write and submit a PEP for review."
 msgstr ""
 
 #: ../../intro/community.rst:66
@@ -149,8 +146,8 @@ msgstr ""
 
 #: ../../intro/community.rst:74
 msgid ""
-"The major events for the Python community are developer conferences. The "
-"two most notable conferences are PyCon, which is held in the US, and its "
+"The major events for the Python community are developer conferences. The two"
+" most notable conferences are PyCon, which is held in the US, and its "
 "European sibling, EuroPython."
 msgstr ""
 
@@ -166,9 +163,8 @@ msgstr ""
 
 #: ../../intro/community.rst:84
 msgid ""
-"User Groups are where a bunch of Python developers meet to present or "
-"talk about Python topics of interest. A list of local user groups is "
-"maintained at the `Python Software Foundation Wiki "
+"User Groups are where a bunch of Python developers meet to present or talk "
+"about Python topics of interest. A list of local user groups is maintained "
+"at the `Python Software Foundation Wiki "
 "<http://wiki.python.org/moin/LocalUserGroups>`_."
 msgstr ""
-

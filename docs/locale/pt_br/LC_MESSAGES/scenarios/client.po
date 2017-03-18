@@ -1,12 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016. A <a
-# href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a>
-# Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC
-# BY-NC-SA 3.0</a>
-# This file is distributed under the same license as the pythonguide
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# Copyright (C) 2016. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
+# This file is distributed under the same license as the pythonguide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -14,12 +10,12 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-17 19:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../scenarios/client.rst:2
 msgid "Network Applications"
@@ -42,23 +38,24 @@ msgstr ""
 
 #: ../../scenarios/client.rst:16
 msgid ""
-"Python’s standard urllib2 module provides most of the HTTP capabilities "
-"you need, but the API is thoroughly broken. It was built for a different "
-"time — and a different web. It requires an enormous amount of work (even "
-"method overrides) to perform the simplest of tasks."
+"Python’s standard urllib2 module provides most of the HTTP capabilities you "
+"need, but the API is thoroughly broken. It was built for a different time — "
+"and a different web. It requires an enormous amount of work (even method "
+"overrides) to perform the simplest of tasks."
 msgstr ""
 
 #: ../../scenarios/client.rst:21
 msgid ""
-"Requests takes all of the work out of Python HTTP — making your "
-"integration with web services seamless. There’s no need to manually add "
-"query strings to your URLs, or to form-encode your POST data. Keep-alive "
-"and HTTP connection pooling are 100% automatic, powered by urllib3, which"
-" is embedded within Requests."
+"Requests takes all of the work out of Python HTTP — making your integration "
+"with web services seamless. There’s no need to manually add query strings to"
+" your URLs, or to form-encode your POST data. Keep-alive and HTTP connection"
+" pooling are 100% automatic, powered by urllib3, which is embedded within "
+"Requests."
 msgstr ""
 
 #: ../../scenarios/client.rst:27
-msgid "`Documentation <http://docs.python-requests.org/en/latest/index.html>`_"
+msgid ""
+"`Documentation <http://docs.python-requests.org/en/latest/index.html>`_"
 msgstr ""
 
 #: ../../scenarios/client.rst:28
@@ -93,11 +90,10 @@ msgstr ""
 #: ../../scenarios/client.rst:48
 msgid ""
 "RabbitMQ is an open source message broker software that implements the "
-"Advanced Message Queuing Protocol (AMQP).  The RabbitMQ server is written"
-" in the Erlang programming language and is built on the Open Telecom "
-"Platform framework for clustering and failover. Client libraries to "
-"interface with the broker are available for all major programming "
-"languages."
+"Advanced Message Queuing Protocol (AMQP).  The RabbitMQ server is written in"
+" the Erlang programming language and is built on the Open Telecom Platform "
+"framework for clustering and failover. Client libraries to interface with "
+"the broker are available for all major programming languages."
 msgstr ""
 
 #: ../../scenarios/client.rst:54
@@ -107,4 +103,3 @@ msgstr ""
 #: ../../scenarios/client.rst:55
 msgid "`GitHub Organization <https://github.com/rabbitmq?page=1>`_"
 msgstr ""
-
