@@ -3,232 +3,232 @@ host = https://www.transifex.com
 type = PO
 
 [python-guide-pt_br.index]
-file_filter = locale/<lang>/LC_MESSAGES/index.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/index.po
 source_file = docs/_build/locale/index.pot
 source_lang = en
 
 [python-guide-pt_br.dev--env]
-file_filter = locale/<lang>/LC_MESSAGES/dev/env.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/dev/env.po
 source_file = docs/_build/locale/dev/env.pot
 source_lang = en
 
 [python-guide-pt_br.dev--pip-virtualenv]
-file_filter = locale/<lang>/LC_MESSAGES/dev/pip-virtualenv.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/dev/pip-virtualenv.po
 source_file = docs/_build/locale/dev/pip-virtualenv.pot
 source_lang = en
 
 [python-guide-pt_br.dev--virtualenvs]
-file_filter = locale/<lang>/LC_MESSAGES/dev/virtualenvs.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/dev/virtualenvs.po
 source_file = docs/_build/locale/dev/virtualenvs.pot
 source_lang = en
 
 [python-guide-pt_br.intro--community]
-file_filter = locale/<lang>/LC_MESSAGES/intro/community.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/intro/community.po
 source_file = docs/_build/locale/intro/community.pot
 source_lang = en
 
 [python-guide-pt_br.intro--documentation]
-file_filter = locale/<lang>/LC_MESSAGES/intro/documentation.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/intro/documentation.po
 source_file = docs/_build/locale/intro/documentation.pot
 source_lang = en
 
 [python-guide-pt_br.intro--duction]
-file_filter = locale/<lang>/LC_MESSAGES/intro/duction.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/intro/duction.po
 source_file = docs/_build/locale/intro/duction.pot
 source_lang = en
 
 [python-guide-pt_br.intro--learning]
-file_filter = locale/<lang>/LC_MESSAGES/intro/learning.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/intro/learning.po
 source_file = docs/_build/locale/intro/learning.pot
 source_lang = en
 
 [python-guide-pt_br.intro--news]
-file_filter = locale/<lang>/LC_MESSAGES/intro/news.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/intro/news.po
 source_file = docs/_build/locale/intro/news.pot
 source_lang = en
 
 [python-guide-pt_br.notes--contribute]
-file_filter = locale/<lang>/LC_MESSAGES/notes/contribute.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/notes/contribute.po
 source_file = docs/_build/locale/notes/contribute.pot
 source_lang = en
 
 [python-guide-pt_br.notes--license]
-file_filter = locale/<lang>/LC_MESSAGES/notes/license.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/notes/license.po
 source_file = docs/_build/locale/notes/license.pot
 source_lang = en
 
 [python-guide-pt_br.notes--styleguide]
-file_filter = locale/<lang>/LC_MESSAGES/notes/styleguide.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/notes/styleguide.po
 source_file = docs/_build/locale/notes/styleguide.pot
 source_lang = en
 
 [python-guide-pt_br.scenarios--admin]
-file_filter = locale/<lang>/LC_MESSAGES/scenarios/admin.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/scenarios/admin.po
 source_file = docs/_build/locale/scenarios/admin.pot
 source_lang = en
 
 [python-guide-pt_br.scenarios--ci]
-file_filter = locale/<lang>/LC_MESSAGES/scenarios/ci.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/scenarios/ci.po
 source_file = docs/_build/locale/scenarios/ci.pot
 source_lang = en
 
 [python-guide-pt_br.scenarios--cli]
-file_filter = locale/<lang>/LC_MESSAGES/scenarios/cli.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/scenarios/cli.po
 source_file = docs/_build/locale/scenarios/cli.pot
 source_lang = en
 
 [python-guide-pt_br.scenarios--clibs]
-file_filter = locale/<lang>/LC_MESSAGES/scenarios/clibs.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/scenarios/clibs.po
 source_file = docs/_build/locale/scenarios/clibs.pot
 source_lang = en
 
 [python-guide-pt_br.scenarios--client]
-file_filter = locale/<lang>/LC_MESSAGES/scenarios/client.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/scenarios/client.po
 source_file = docs/_build/locale/scenarios/client.pot
 source_lang = en
 
 [python-guide-pt_br.scenarios--crypto]
-file_filter = locale/<lang>/LC_MESSAGES/scenarios/crypto.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/scenarios/crypto.po
 source_file = docs/_build/locale/scenarios/crypto.pot
 source_lang = en
 
 [python-guide-pt_br.scenarios--db]
-file_filter = locale/<lang>/LC_MESSAGES/scenarios/db.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/scenarios/db.po
 source_file = docs/_build/locale/scenarios/db.pot
 source_lang = en
 
 [python-guide-pt_br.scenarios--gui]
-file_filter = locale/<lang>/LC_MESSAGES/scenarios/gui.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/scenarios/gui.po
 source_file = docs/_build/locale/scenarios/gui.pot
 source_lang = en
 
 [python-guide-pt_br.scenarios--imaging]
-file_filter = locale/<lang>/LC_MESSAGES/scenarios/imaging.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/scenarios/imaging.po
 source_file = docs/_build/locale/scenarios/imaging.pot
 source_lang = en
 
 [python-guide-pt_br.scenarios--json]
-file_filter = locale/<lang>/LC_MESSAGES/scenarios/json.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/scenarios/json.po
 source_file = docs/_build/locale/scenarios/json.pot
 source_lang = en
 
 [python-guide-pt_br.scenarios--ml]
-file_filter = locale/<lang>/LC_MESSAGES/scenarios/ml.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/scenarios/ml.po
 source_file = docs/_build/locale/scenarios/ml.pot
 source_lang = en
 
 [python-guide-pt_br.scenarios--network]
-file_filter = locale/<lang>/LC_MESSAGES/scenarios/network.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/scenarios/network.po
 source_file = docs/_build/locale/scenarios/network.pot
 source_lang = en
 
 [python-guide-pt_br.scenarios--scientific]
-file_filter = locale/<lang>/LC_MESSAGES/scenarios/scientific.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/scenarios/scientific.po
 source_file = docs/_build/locale/scenarios/scientific.pot
 source_lang = en
 
 [python-guide-pt_br.scenarios--scrape]
-file_filter = locale/<lang>/LC_MESSAGES/scenarios/scrape.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/scenarios/scrape.po
 source_file = docs/_build/locale/scenarios/scrape.pot
 source_lang = en
 
 [python-guide-pt_br.scenarios--serialization]
-file_filter = locale/<lang>/LC_MESSAGES/scenarios/serialization.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/scenarios/serialization.po
 source_file = docs/_build/locale/scenarios/serialization.pot
 source_lang = en
 
 [python-guide-pt_br.scenarios--speed]
-file_filter = locale/<lang>/LC_MESSAGES/scenarios/speed.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/scenarios/speed.po
 source_file = docs/_build/locale/scenarios/speed.pot
 source_lang = en
 
 [python-guide-pt_br.scenarios--web]
-file_filter = locale/<lang>/LC_MESSAGES/scenarios/web.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/scenarios/web.po
 source_file = docs/_build/locale/scenarios/web.pot
 source_lang = en
 
 [python-guide-pt_br.scenarios--xml]
-file_filter = locale/<lang>/LC_MESSAGES/scenarios/xml.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/scenarios/xml.po
 source_file = docs/_build/locale/scenarios/xml.pot
 source_lang = en
 
 [python-guide-pt_br.shipping--freezing]
-file_filter = locale/<lang>/LC_MESSAGES/shipping/freezing.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/shipping/freezing.po
 source_file = docs/_build/locale/shipping/freezing.pot
 source_lang = en
 
 [python-guide-pt_br.shipping--packaging]
-file_filter = locale/<lang>/LC_MESSAGES/shipping/packaging.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/shipping/packaging.po
 source_file = docs/_build/locale/shipping/packaging.pot
 source_lang = en
 
 [python-guide-pt_br.starting--installation]
-file_filter = locale/<lang>/LC_MESSAGES/starting/installation.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/starting/installation.po
 source_file = docs/_build/locale/starting/installation.pot
 source_lang = en
 
 [python-guide-pt_br.starting--which-python]
-file_filter = locale/<lang>/LC_MESSAGES/starting/which-python.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/starting/which-python.po
 source_file = docs/_build/locale/starting/which-python.pot
 source_lang = en
 
 [python-guide-pt_br.starting--install--linux]
-file_filter = locale/<lang>/LC_MESSAGES/starting/install/linux.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/starting/install/linux.po
 source_file = docs/_build/locale/starting/install/linux.pot
 source_lang = en
 
 [python-guide-pt_br.starting--install--osx]
-file_filter = locale/<lang>/LC_MESSAGES/starting/install/osx.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/starting/install/osx.po
 source_file = docs/_build/locale/starting/install/osx.pot
 source_lang = en
 
 [python-guide-pt_br.starting--install--win]
-file_filter = locale/<lang>/LC_MESSAGES/starting/install/win.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/starting/install/win.po
 source_file = docs/_build/locale/starting/install/win.pot
 source_lang = en
 
 [python-guide-pt_br.starting--install3--osx]
-file_filter = locale/<lang>/LC_MESSAGES/starting/install3/osx.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/starting/install3/osx.po
 source_file = docs/_build/locale/starting/install3/osx.pot
 source_lang = en
 
 [python-guide-pt_br.writing--documentation]
-file_filter = locale/<lang>/LC_MESSAGES/writing/documentation.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/writing/documentation.po
 source_file = docs/_build/locale/writing/documentation.pot
 source_lang = en
 
 [python-guide-pt_br.writing--gotchas]
-file_filter = locale/<lang>/LC_MESSAGES/writing/gotchas.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/writing/gotchas.po
 source_file = docs/_build/locale/writing/gotchas.pot
 source_lang = en
 
 [python-guide-pt_br.writing--license]
-file_filter = locale/<lang>/LC_MESSAGES/writing/license.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/writing/license.po
 source_file = docs/_build/locale/writing/license.pot
 source_lang = en
 
 [python-guide-pt_br.writing--logging]
-file_filter = locale/<lang>/LC_MESSAGES/writing/logging.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/writing/logging.po
 source_file = docs/_build/locale/writing/logging.pot
 source_lang = en
 
 [python-guide-pt_br.writing--reading]
-file_filter = locale/<lang>/LC_MESSAGES/writing/reading.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/writing/reading.po
 source_file = docs/_build/locale/writing/reading.pot
 source_lang = en
 
 [python-guide-pt_br.writing--structure]
-file_filter = locale/<lang>/LC_MESSAGES/writing/structure.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/writing/structure.po
 source_file = docs/_build/locale/writing/structure.pot
 source_lang = en
 
 [python-guide-pt_br.writing--style]
-file_filter = locale/<lang>/LC_MESSAGES/writing/style.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/writing/style.po
 source_file = docs/_build/locale/writing/style.pot
 source_lang = en
 
 [python-guide-pt_br.writing--tests]
-file_filter = locale/<lang>/LC_MESSAGES/writing/tests.po
+file_filter = docs/locale/<lang>/LC_MESSAGES/writing/tests.po
 source_file = docs/_build/locale/writing/tests.pot
 source_lang = en
 
