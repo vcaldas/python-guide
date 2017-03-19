@@ -1,20 +1,19 @@
-Hitchhiker's Guide to Python
+Guia do Mochileiro para Python
 ============================
+Versão em Português - BR
 
-**Python Best Practices Guidebook**
+
+**Guia de Boas Práticas em Python**
 
 -----------
 
-**Work in progress. If you'd like to help, please do. There's a lot of work to
-be done.**
-
-This guide is currently under heavy development. This opinionated guide
-exists to provide both novice and expert Python developers a best practice
-handbook to the installation, configuration, and usage of Python on a daily
-basis.
+**Trabalho em andamento. Se você quiser ajudar, por favor, ajude! Ainda há muito a ser feito. **
 
 
-Topics include:
+Este guia está atualmente em intenso desenvolvimento - e tradução. Este guia enviesado existe para novatos e profissionais desenvolvedores e provê um guia de boas práticas para instalação, configuração e e boas práticas para o uso de Python no dia-a-dia.
+
+
+Tópicos incluem:
 
 - Platform- and version-specific installations
 - Py2app, Py2exe, bbfreeze, pyInstaller
@@ -32,3 +31,7 @@ Topics include:
 If you aren't fond of reading reStructuredText, there is an
 almost up-to-date `HTML version at docs.python-guide.org
 <http://docs.python-guide.org>`_.
+
+
+** Time de Tradutores:
+
