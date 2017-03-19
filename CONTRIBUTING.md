@@ -1,37 +1,50 @@
-How to contribute
+Como contribuir
 -----------------
 
-This guide is under heavy development. If you would like to contribute, please
-see:
+Este guia está em intenso desenvolvimento. Se você deseja contribuir, por favor veja: 
 
 http://docs.python-guide.org/en/latest/notes/contribute/
 
-How to test your changes
+
+Contribuir com traduções
 ------------------------
 
-The html version of this guide is built with [sphinx](http://www.sphinx-doc.org/en/stable/). You may test your revisions locally by having sphinx installed. You can do this easily with pip (as described in the link).
+Caso você queira contribuir com traduções e revisões, visite:
+https://www.transifex.com/own-16/python-guide-pt_br/dashboard/
+
+
+Como testar suas modificações
+-----------------------------
+
+A versão html deste guia é construída com [sphinx](http://www.sphinx-doc.org/en/stable/). Você pode testar suas revisões localmente se tiver sphinx instalado. Você consegue instalá-lo facilmente using pip (como descrito no link). 
 
 ``` bash
 pip install --user sphinx
 ```
 
-Then navigate to the directory of the makefile and ```make build``` or ```make html```. Sphinx will then generate the html in a folder called _build/html
+Navegue, então, para o diretório em que está a "makefile" e digite ```make build``` ou ```make html```. Sphinx então gerará a página em html na pasta chamada _build/html.
 
-After navigating to this folder, you can then use python's built in webserver to view your changes locally:
+*Nota para versão em pt_BR:* A versão traduzida contém a flag  ```-D language='pt_BR'```ativada. 
+
+Após navegar até a pasta, você pode então iniciar um servidor web para verificar suas modificações localmente: 
+
 
 ``` bash
 python3 -m http.server
 ```
 
-By default, http.server listens on every ip address bound on your host on port 8000. To bind to a specific one, say, localhost on port 8005:
+Por padrão, http.server monitora cada endereço de ip atrelado ao servidor na porta 8000. Para mudar a porta, digamos, para 8005: l
 
 ``` bash
 python3 -m http.server 8005 --bind 127.0.0.1
 ```
 
-Style Guide
------------
+No browser de sua preferência, digite:  http://localhost:8005
 
-For all contributions, please follow the `Guide Style Guide`:
+
+Guia de Estilo
+--------------
+
+Para todas as contribuições, por favor siga o "Guia de Estilo" para Python.
 
 http://docs.python-guide.org/en/latest/notes/styleguide/
