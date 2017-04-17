@@ -33,8 +33,8 @@ msgid ""
 msgstr ""
 "Esse é um guia vivo, que respira conforme a comunidade. Se você gostaria de "
 "contribuir, nos `ajude no Github <https://github.com/kennethreitz/python-"
-"guide>`_! Se você quiser ajudar na tradução, visite o 'repositório em "
-"Português<https://github.com/vcaldas/python-guide-pt_BR>`_!"
+"guide>`_! Se você quiser ajudar na tradução, visite o `repositório em "
+"Português <https://github.com/vcaldas/python-guide-pt_BR>`_!"
 
 #: ../../index.rst:14
 msgid ""
