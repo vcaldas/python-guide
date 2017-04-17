@@ -13,3 +13,4 @@ build/
 
 # Ignore gettext intermediate mo files
 *.mo
+notes.rst

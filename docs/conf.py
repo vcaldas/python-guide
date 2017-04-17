@@ -106,8 +106,8 @@ html_theme = 'alabaster'
 # documentation.
 html_theme_options = {
     'show_powered_by': False,
-    'github_user': 'kennethreitz',
-    'github_repo': 'python-guide',
+    'github_user': 'vcaldas',
+    'github_repo': 'python-guide-pt_BR',
     'github_banner': True,
     'show_related': False
 }
@@ -117,7 +117,7 @@ html_theme_path = ['_themes']
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = 'The Hitchhiker\'s Guide to Python'
+html_title = 'O Guia do Mochileiro para Python'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -283,7 +283,7 @@ intersphinx_mapping = {
 
 
 # Add translation directory
-language = 'en'
+#language = 'en'
 locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
 

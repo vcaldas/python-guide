@@ -10,6 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-17 19:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Victor Caldas <caldas.victor@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,21 +20,24 @@ msgstr ""
 
 #: ../../intro/community.rst:4
 msgid "The Community"
-msgstr ""
+msgstr "A comunidade"
 
 #: ../../intro/community.rst:7
 msgid "BDFL"
-msgstr ""
+msgstr "BDFL"
 
 #: ../../intro/community.rst:9
 msgid ""
 "Guido van Rossum, the creator of Python, is often referred to as the BDFL — "
 "the Benevolent Dictator For Life."
 msgstr ""
+"Guido van Rossum, o criador do Python, é apelidado de \"BDFL\" - \"the Benevolent Dictator for Life\"*\n"
+"\n"
+"*NT: \"O ditador benevolente vitalício\""
 
 #: ../../intro/community.rst:15
 msgid "Python Software Foundation"
-msgstr ""
+msgstr "Fundação de Software de Python"
 
 #: ../../intro/community.rst:17
 msgid ""
@@ -41,108 +45,124 @@ msgid ""
 "advance the Python programming language, and to support and facilitate the "
 "growth of a diverse and international community of Python programmers."
 msgstr ""
+"A missão da Fundação de Software de Python é promover, proteger e avançar a "
+"linguagem de programação Python, e ajudar e facilitar o crescimento de uma "
+"comunidade diversificada e internacional de programadores Python."
 
 #: ../../intro/community.rst:21
 msgid "`Learn More about the PSF <http://www.python.org/psf/>`_."
-msgstr ""
+msgstr "Aprenda mais sobre a PSF  <http://www.python.org/psf/>"
 
 #: ../../intro/community.rst:25
 msgid "PEPs"
-msgstr ""
+msgstr "PEPs"
 
 #: ../../intro/community.rst:27
 msgid ""
 "PEPs are *Python Enhancement Proposals*. They describe changes to Python "
 "itself, or the standards around it."
 msgstr ""
+"PEPs são \"Propostas de Enriquecimento do Python\". Elas descrevem mudanças "
+"ao próprio Python, ou às normas do mesmo."
 
 #: ../../intro/community.rst:30
 msgid "There are three different types of PEPs (as defined by :pep:`1`):"
-msgstr ""
+msgstr "Existem três diferentes tipos de PEPs (como definido pelo :pep:`1`):"
 
 #: ../../intro/community.rst:33
 msgid "**Standards**"
-msgstr ""
+msgstr "\"Normas\""
 
 #: ../../intro/community.rst:33
 msgid "Describes a new feature or implementation."
-msgstr ""
+msgstr "Descreve um novo recurso ou implementação."
 
 #: ../../intro/community.rst:37
 msgid "**Informational**"
-msgstr ""
+msgstr "\"informacional\""
 
 #: ../../intro/community.rst:36
 msgid ""
 "Describes a design issue, general guidelines, or information to the "
 "community."
 msgstr ""
+"Descreve um problema de design, diretrizes gerais ou informação à "
+"comunidade."
 
 #: ../../intro/community.rst:41
 msgid "**Process**"
-msgstr ""
+msgstr "\"Processo\""
 
 #: ../../intro/community.rst:40
 msgid "Describes a process related to Python."
-msgstr ""
+msgstr "Descreve um processo relacionado ao Python."
 
 #: ../../intro/community.rst:44
 msgid "Notable PEPs"
-msgstr ""
+msgstr "PEPs notáveis"
 
 #: ../../intro/community.rst:46
 msgid "There are a few PEPs that could be considered required reading:"
 msgstr ""
+"Existem algumas PEPs que podem ser consideradas como leitura obrigatória:"
 
 #: ../../intro/community.rst:49
 msgid ":pep:`8`: The Python Style Guide."
-msgstr ""
+msgstr ":pep:`8`: O Guia de Estilo do Python"
 
 #: ../../intro/community.rst:49
 msgid "Read this. All of it. Follow it."
-msgstr ""
+msgstr "Leia o guia. Todo ele. Siga ele. "
 
 #: ../../intro/community.rst:52
 msgid ":pep:`20`: The Zen of Python."
-msgstr ""
+msgstr ":pep:`20`: O Zen do Python"
 
 #: ../../intro/community.rst:52
 msgid ""
 "A list of 19 statements that briefly explain the philosophy behind Python."
 msgstr ""
+"Uma lista de 19 enunciados que explicam brevemente a filosofia por trás do "
+"Python."
 
 #: ../../intro/community.rst:56
 msgid ":pep:`257`: Docstring Conventions."
-msgstr ""
+msgstr ":pep:`257`: Convenções de **Docstring**"
 
 #: ../../intro/community.rst:55
 msgid ""
 "Gives guidelines for semantics and conventions associated with Python "
 "docstrings."
 msgstr ""
+"Dá diretrizes para semântica e convenções associadas com **docstrings** do "
+"Python."
 
 #: ../../intro/community.rst:58
 msgid ""
 "You can read more at `The PEP Index <http://www.python.org/dev/peps/>`_."
 msgstr ""
+"Você pode ler mais no `The PEP Index* <http://www.python.org/dev/peps/>`_.\n"
+"*NT: \"O índice de PEPs\""
 
 #: ../../intro/community.rst:61
 msgid "Submitting a PEP"
-msgstr ""
+msgstr "Enviando uma PEP"
 
 #: ../../intro/community.rst:63
 msgid ""
 "PEPs are peer-reviewed and accepted/rejected after much discussion. Anyone "
 "can write and submit a PEP for review."
 msgstr ""
+"PEPs são avaliadas pelo público e aceitas/rejeitas depois de muita "
+"discussão. Qualquer um pode escrever e enviar uma PEP para avaliação."
 
 #: ../../intro/community.rst:66
 msgid "Here's an overview of the PEP acceptance workflow:"
-msgstr ""
+msgstr "Aqui está uma visão geral do fluxo de aceitação de uma PEP:"
 
 #: ../../intro/community.rst:72
 msgid "Python Conferences"
-msgstr ""
+msgstr "Conferências de Python"
 
 #: ../../intro/community.rst:74
 msgid ""
@@ -150,16 +170,21 @@ msgid ""
 " most notable conferences are PyCon, which is held in the US, and its "
 "European sibling, EuroPython."
 msgstr ""
+"Os principais eventos para a comunidade Python são as conferências de "
+"desenvolvedores. As duas conferências mais notáveis são a PyCon, que "
+"acontece nos Estados Unidos, e sua parente européia, a EuroPython."
 
 #: ../../intro/community.rst:78
 msgid ""
 "A comprehensive list of conferences is maintained at `pycon.org "
 "<http://www.pycon.org/>`_."
 msgstr ""
+"Uma lista completa de conferências é mantida em `pycon.org "
+"<http://www.pycon.org/>`_."
 
 #: ../../intro/community.rst:82
 msgid "Python User Groups"
-msgstr ""
+msgstr "Grupos de Usuários de Python"
 
 #: ../../intro/community.rst:84
 msgid ""
@@ -168,3 +193,5 @@ msgid ""
 "at the `Python Software Foundation Wiki "
 "<http://wiki.python.org/moin/LocalUserGroups>`_."
 msgstr ""
+"Grupos de usuários são onde um monte de desenvolvedores Python se encontram para apresentar ou conversar sobre tópicos de interesses relacionados ao Python. Uma lista de grupos de usuários locais é mantida na `Python Software Foundation Wiki*<http://wiki.python.org/moin/LocalUserGroups>`_.\n"
+"*NT: \"Wikipédia da Fundação de Software de Python\""

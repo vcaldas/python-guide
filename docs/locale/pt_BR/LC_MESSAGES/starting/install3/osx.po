@@ -10,6 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-17 19:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Edson Mendes De Oliveira Filho <filho30face@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: ../../starting/install3/osx.rst:6
 msgid "Installing Python 3 on Mac OS X"
-msgstr ""
+msgstr "Instalando Pyhton 3 no Mac OS X"
 
 #: ../../starting/install3/osx.rst:8
 msgid ""
@@ -143,7 +144,7 @@ msgstr ""
 
 #: ../../starting/install3/osx.rst:102
 msgid "Virtual Environments"
-msgstr ""
+msgstr "Ambientes virtuais"
 
 #: ../../starting/install3/osx.rst:104
 msgid ""

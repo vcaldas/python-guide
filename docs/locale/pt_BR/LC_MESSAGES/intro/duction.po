@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-17 19:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Edson Mendes de Oliveira Filho <filho30face@gmail.com>, 2017\n"
+"Last-Translator: Edson Mendes De Oliveira Filho <filho30face@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,19 +24,19 @@ msgstr "Introdução"
 
 #: ../../intro/duction.rst:4
 msgid "From the `official Python website <http://python.org/about/>`_:"
-msgstr "A partir do 'site oficial do Python <http://python.org/about/>'_:"
+msgstr "Baseado no 'site oficial do Python <http://python.org/about/>'_:"
 
 #: ../../intro/duction.rst:6
 msgid ""
 "Python is a general-purpose, high-level programming language similar to Tcl,"
 " Perl, Ruby, Scheme, or Java. Some of its main key features include:"
 msgstr ""
-"Python é uma língua generalista e de alto-nível, similar ao Perl, Tcl, "
-"Scheme ou Java. Algunas de umas funções principais incluem:"
+"Python é uma linguagem de propósito geral e de alto nível, similar ao Perl, "
+"Tcl, Scheme ou Java. Algumas de umas funções principais incluem:"
 
 #: ../../intro/duction.rst:10
 msgid "**very clear, readable syntax**"
-msgstr ""
+msgstr "**sintaxe muito clara e legível**"
 
 #: ../../intro/duction.rst:12
 msgid ""
@@ -44,8 +44,8 @@ msgid ""
 " significant whitespace to intuitive keywords in place of inscrutable "
 "punctuation."
 msgstr ""
-"A filosofia do Python foca em facilidade de leitura, desde blocos de códigos"
-" delineados com espaços em branco significativos até palavras-chave "
+"A filosofia do Python foca na facilidade de leitura, desde blocos de códigos"
+" delineados com significativos espaços em branco até palavras-chave "
 "intuitivas no lugar de pontuação ilegível."
 
 #: ../../intro/duction.rst:16
@@ -53,6 +53,8 @@ msgid ""
 "**extensive standard libraries and third party modules for virtually any "
 "task**"
 msgstr ""
+"**Extensas bibliotecas padrão e módulos de terceiros para virtualizar "
+"qualquer tarefa**"
 
 #: ../../intro/duction.rst:19
 msgid ""
@@ -61,6 +63,10 @@ msgid ""
 "which includes modules for regular expressions, file IO, fraction handling, "
 "object serialization, and much more."
 msgstr ""
+"Python é, às vezes, descrito com as palavras ''baterias inclusas'' devido "
+"suas extensas `bibliotecas padrão <http://docs.python.org/library/>`_, as "
+"quais incluem módulos para expressões regulares, I/O de arquivos, "
+"manipulação de frações, serialização de objetos, e muito mais. "
 
 #: ../../intro/duction.rst:25
 msgid ""
@@ -71,10 +77,16 @@ msgid ""
 "<http://www.djangoproject.com>`_ web framework and the `NumPy "
 "<http://numpy.scipy.org>`_ set of math routines."
 msgstr ""
+"Adicionalmente, o `Índice de Pacotes Python <http://pypi.python.org/pypi/>`_"
+"  está disponível para que os usuários submetam seus pacotes para difundir "
+"seu uso, de forma similar ao `CPAN do Perl <http://www.cpan.org>`_. Existe "
+"uma próspera comunidade de frameworks em Python muito poderosos, como o "
+"framework web `Django <http://www.djangoproject.com>`_ e o conjunto de "
+"rotinas matemáticas `NumPy <http://numpy.scipy.org>`_. "
 
 #: ../../intro/duction.rst:33
 msgid "**integration with other systems**"
-msgstr "Integração com outros sistemas"
+msgstr "**Integração com outros sistemas**"
 
 #: ../../intro/duction.rst:35
 msgid ""
@@ -83,10 +95,15 @@ msgid ""
 "programmers are used to. It can also be `extended by C or C++ modules "
 "<http://docs.python.org/extending/>`_ when speed is of the essence."
 msgstr ""
+"Python pode ser integrado com `bibliotecas Java <http://www.jython.org>`_, "
+"ativando-o para ser utilizado com os ricos ambientes em Java que "
+"programadores corporativos estão acostumados. Pode também ser estendido por "
+"módulos C ou C++  <http://docs.python.org/extending/>`_ quando a velocidade "
+"é essencial. "
 
 #: ../../intro/duction.rst:41
 msgid "**ubiquity on computers**"
-msgstr ""
+msgstr "**Ubiquidade em computadores**"
 
 #: ../../intro/duction.rst:43
 msgid ""
@@ -109,10 +126,14 @@ msgid ""
 "channels, and so much more. Heck, the Python community is even helping to "
 "write this guide!"
 msgstr ""
+"Python possui uma vibrante e grande  :ref:`comunidade <the-community>` que "
+"mantém wikis, conferências, incontáveis repositórios, mailing lists, canais "
+"IRC, e muito mais. Caramba, a comunidade Python está ajudando até mesmo na "
+"escrita desse guia! "
 
 #: ../../intro/duction.rst:58
 msgid "About This Guide"
-msgstr "Sobre esse guia"
+msgstr "Sobre este guia"
 
 #: ../../intro/duction.rst:61
 msgid "Purpose"
@@ -124,6 +145,9 @@ msgid ""
 "Python developers a best practice handbook for the installation, "
 "configuration, and usage of Python on a daily basis."
 msgstr ""
+"O guia dos Mochileiros de Python existe para disponibilizar, para "
+"desenvolvedores novos e experientes em Python, um manual de boas práticas "
+"para a instalação, configuração e uso de Python em uma base diária. "
 
 #: ../../intro/duction.rst:69
 msgid "By the Community"
@@ -135,6 +159,9 @@ msgid ""
 "<https://github.com/kennethreitz>`_ in an open fashion. This is a community-"
 "driven effort that serves one purpose: to serve the community."
 msgstr ""
+"Esse guia é arquitetado e mantido por  `Kenneth Reitz "
+"<https://github.com/kennethreitz>`_ de uma forma aberta. Esse é um esforço "
+"dirigido à comunidade que serve a um propósito: servir a comunidade. "
 
 #: ../../intro/duction.rst:76
 msgid "For the Community"
@@ -146,6 +173,9 @@ msgid ""
 "If you think there's a gap in what the Guide covers, fork the Guide on "
 "GitHub and submit a pull request."
 msgstr ""
+"Todas as contribuições para o Guia são bem-vindas, de Pythonistas de todos "
+"os níveis. Se você acha que existe uma lacuna no que é coberto pelo Guia, "
+"faça um fork do Guia no GitHub e submeta um pull request. "
 
 #: ../../intro/duction.rst:82
 msgid ""
@@ -154,9 +184,15 @@ msgid ""
 "have any questions about the appropriateness, completeness, or accuracy of a"
 " contribution."
 msgstr ""
+"Contribuições são bem-vindas por todos, mesmo Pythonistas de longa data ou "
+"de primeira viagem, os autores do Guia irão ajudar, com prazer, caso você "
+"tenha qualquer questão sobre adequação, integridade, ou acurácia de uma "
+"contribuição. "
 
 #: ../../intro/duction.rst:87
 msgid ""
 "To get started working on The Hitchhiker's Guide, see the "
 ":doc:`/notes/contribute` page."
 msgstr ""
+"Para começar a trabalhar com o Guia dos Mochileiros de Python, veja a página"
+"  :doc:`/notes/contribute`."

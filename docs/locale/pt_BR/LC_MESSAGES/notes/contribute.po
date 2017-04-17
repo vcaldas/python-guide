@@ -10,6 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-17 19:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Victor Caldas <caldas.victor@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,12 +20,14 @@ msgstr ""
 
 #: ../../notes/contribute.rst:2
 msgid "Contribute"
-msgstr ""
+msgstr "Contribua"
 
 #: ../../notes/contribute.rst:4
 msgid ""
 "Python-guide is under active development, and contributors are welcome."
 msgstr ""
+"O Guia de Python está em ativo desenvolvimento, e contribuições são bem-"
+"vindas."
 
 #: ../../notes/contribute.rst:6
 msgid ""
@@ -34,25 +37,35 @@ msgid ""
 "`Contributors List <https://github.com/kennethreitz/python-"
 "guide/contributors>`_."
 msgstr ""
+"Se você tem alguma solicitação, sugestão, ou deseja reportar erros, por "
+"favor abra um novo 'issue' em nossa página no Github_. Para enviar "
+"correções, por favor, nos envie um 'pull request' no Github. Você também "
+"pode nos contactar diretamente via Github_. Uma vez que suas modificações "
+"forem incorporadas, você automaticamente será adicionado a `Lista de "
+"Contribuidores  <https://github.com/kennethreitz/python-"
+"guide/contributors>`_."
 
 #: ../../notes/contribute.rst:12
 msgid "Style Guide"
-msgstr ""
+msgstr "Guia de Estilo"
 
 #: ../../notes/contribute.rst:14
 msgid "For all contributions, please follow the :ref:`guide-style-guide`."
 msgstr ""
+"Para todas as contribuições, por favor siga o ref:`guide-style-guide`."
 
 #: ../../notes/contribute.rst:19
 msgid "Todo List"
-msgstr ""
+msgstr "Lista de tarefas"
 
 #: ../../notes/contribute.rst:21
 msgid ""
 "If you'd like to contribute, there's plenty to do. Here's a short todo_ "
 "list."
 msgstr ""
+"Se você deseja contribuir, tem muito o que ser feito. Aqui vai uma pequena "
+"todo_ list."
 
 #: ../../../TODO.rst:1
 msgid "Establish \"use this\" vs \"alternatives are....\" recommendations"
-msgstr ""
+msgstr "Estabelecer os casos para recomendar \"use isso\" vs \"alternativas são...\""

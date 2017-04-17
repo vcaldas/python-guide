@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-17 19:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Victor Caldas <caldas.victor@gmail.com>, 2017\n"
+"Last-Translator: Edson Mendes De Oliveira Filho <filho30face@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,6 +31,10 @@ msgid ""
 "**This is a living, breathing guide.**  If you'd like to contribute, `fork "
 "us on GitHub <https://github.com/kennethreitz/python-guide>`_!"
 msgstr ""
+"Esse é um guia vivo, que respira conforme a comunidade. Se você gostaria de "
+"contribuir, nos `ajude no Github <https://github.com/kennethreitz/python-"
+"guide>`_! Se você quiser ajudar na tradução, visite o 'repositório em "
+"Português<https://github.com/vcaldas/python-guide-pt_BR>`_!"
 
 #: ../../index.rst:14
 msgid ""
@@ -38,6 +42,9 @@ msgid ""
 "developers a best practice handbook to the installation, configuration, and "
 "usage of Python on a daily basis."
 msgstr ""
+"Esse guia feito à mão existe para prover um manual de boas maneiras sobre "
+"instalação, configuração e uso de Python no dia-a-dia para novos e "
+"experientes usuários."
 
 #: ../../index.rst:18
 msgid ""
@@ -46,11 +53,17 @@ msgid ""
 "every Python web framework available here. Rather, you'll find a nice "
 "concise list of highly recommended options."
 msgstr ""
+"Esse guia é realizado de uma forma que é quase, mas não 100%, totalmente "
+"diferente da documentação oficial do Python. Você não vai achar uma lista de"
+" todos os frameworks web disponíveis para Python aqui: você achará uma lista"
+" concisa de opções altamente recomendadas."
 
 #: ../../index.rst:24
 msgid ""
 "Let's get started! But first, let's make sure you know where your towel is."
 msgstr ""
+"Vamos começar! Mas primeiro vamos ter certeza de que você sabe onde está sua"
+" toalha."
 
 #: ../../contents.rst.inc:2
 msgid "Getting Started with Python"
@@ -73,46 +86,53 @@ msgid ""
 "This part of the guide focuses on the best-practices for writing Python "
 "code."
 msgstr ""
-"Essa para no guia foca-se nas melhores praticas para escrita de códigos em "
+"Essa parte do guia foca-se nas melhores praticas para escrita de códigos em "
 "Python."
 
 #: ../../contents.rst.inc:43
 msgid "Scenario Guide for Python Applications"
-msgstr ""
+msgstr "Guia de cenário para aplicações em Pyhton"
 
 #: ../../contents.rst.inc:45
 msgid ""
 "This part of the guide focuses on tool and module advice based on different "
 "scenarios."
 msgstr ""
+"Essa parte do guia foca-se em dicas de ferramentas e módulos baseados em "
+"diferentes cenários. "
 
 #: ../../contents.rst.inc:72
 msgid "Shipping Great Python Code"
-msgstr ""
+msgstr "Entregando um ótimo código em Python"
 
 #: ../../contents.rst.inc:74
 msgid "This part of the guide focuses on deploying your Python code."
-msgstr ""
+msgstr "Essa parte do guia foca-se em rodar o seu código em Python."
 
 #: ../../contents.rst.inc:84
 msgid "Python Development Environments"
-msgstr ""
+msgstr "Ambientes de desenvolvimento em Python"
 
 #: ../../contents.rst.inc:86
 msgid ""
 "This part of the guide focus on the Python development environment, and the "
 "best-practice tools that are available for writing Python code."
 msgstr ""
+"Esta parte do guia foca-se no ambiente de desenvolvimento em Python, e "
+"também  nas ferramentas mais práticas que estão disponíveis para escrever em"
+" Python."
 
 #: ../../contents.rst.inc:100
 msgid "Additional Notes"
-msgstr ""
+msgstr "Notas adicionais"
 
 #: ../../contents.rst.inc:102
 msgid ""
 "This part of the guide, which is mostly prose, begins with some background "
 "information about Python, then focuses on next steps."
 msgstr ""
+"Essa parte do guia, que é em sua maioria apenas prosa, começa com um pouco "
+"de informação básica sobre Python, e então foca nos próximos passos."
 
 #: ../../contents.rst.inc:115
 msgid ""
@@ -120,7 +140,9 @@ msgid ""
 "intentionally excluded from this list of additional notes. Additionally, "
 "this note."
 msgstr ""
+"Todas as notas definidas nas escalas musicais diatônicas e cromáticas foram "
+"intencionalmente excluidas dessa lista de notas adicionais."
 
 #: ../../contents.rst.inc:122
 msgid "Contribution notes and legal information (for those interested)."
-msgstr ""
+msgstr "Notas de contribuição e informações legais (aos interessados)"

@@ -34,4 +34,9 @@ almost up-to-date `HTML version at docs.python-guide.org
 
 
 ** Time de Tradutores:
+	- `Victor Caldas <http://www.github.com/vcaldas>`_.
+	- Renato Giovani
+	- Edson Mendes de Oliveira Filho
+	- Juan Funez
+	- você!
 

@@ -10,6 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-17 19:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Victor Caldas <caldas.victor@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,80 +20,93 @@ msgstr ""
 
 #: ../../intro/news.rst:2
 msgid "News"
-msgstr ""
+msgstr "Notícias "
 
 #: ../../intro/news.rst:5
 msgid "Planet Python"
-msgstr ""
+msgstr "Planeta Python"
 
 #: ../../intro/news.rst:7
 msgid ""
 "This is an aggregate of Python news from a growing number of developers."
 msgstr ""
+"Este é um compilado de novidades sobre Python vindo de um crescente número "
+"de desenvolvedores."
 
 #: ../../intro/news.rst:9
 msgid "`Planet Python <http://planet.python.org>`_"
-msgstr ""
+msgstr "`Planet Python <http://planet.python.org>`_"
 
 #: ../../intro/news.rst:12
 msgid "/r/python"
-msgstr ""
+msgstr "/r/python"
 
 #: ../../intro/news.rst:14
 msgid ""
 "/r/python is the Reddit Python community where users contribute and vote on "
 "Python-related news."
 msgstr ""
+"/r/python é a comunidade Python no Reddit, onde usuários contribuem e votam "
+"sobre as novidades acerca de Python."
 
 #: ../../intro/news.rst:17
 msgid "`/r/python <http://reddit.com/r/python>`_"
-msgstr ""
+msgstr "`/r/python <http://reddit.com/r/python>`_"
 
 #: ../../intro/news.rst:20
 msgid "Pycoder's Weekly"
-msgstr ""
+msgstr "*Pycoder's Weekly*"
 
 #: ../../intro/news.rst:22
 msgid ""
 "Pycoder's Weekly is a free weekly Python newsletter for Python developers by"
 " Python developers (Projects, Articles, News, and Jobs)."
 msgstr ""
+"Pycoder's Weekly é uma folhetim semanal gratuito sobre Python para "
+"desenvolvedores Python escrito por desenvolvedores em Python. (Projetos, "
+"Artigos, Notícias e ofertas de emprego)."
 
 #: ../../intro/news.rst:25
 msgid "`Pycoder's Weekly <http://www.pycoders.com/>`_"
-msgstr ""
+msgstr "`Pycoder's Weekly <http://www.pycoders.com/>`_"
 
 #: ../../intro/news.rst:28
 msgid "Python Weekly"
-msgstr ""
+msgstr "Python Weekly"
 
 #: ../../intro/news.rst:30
 msgid ""
 "Python Weekly is a free weekly newsletter featuring curated news, articles, "
 "new releases, jobs, etc. related to Python."
 msgstr ""
+"*Python Weekly* é um folhetim semanal gratuito e curado mostrando novidades,"
+" artigos, novos lançamentos, ofertas de emprego, etc, relacionados a "
+"Pythonis."
 
 #: ../../intro/news.rst:33
 msgid "`Python Weekly <http://www.pythonweekly.com/>`_"
-msgstr ""
+msgstr "`Python Weekly <http://www.pythonweekly.com/>`_"
 
 #: ../../intro/news.rst:36
 msgid "Python News"
-msgstr ""
+msgstr "*Python News*"
 
 #: ../../intro/news.rst:38
 msgid ""
 "Python News is the news section in the official Python web site "
 "(www.python.org). It briefly highlights the news from the Python community."
 msgstr ""
+"*Python News* é a seção de notócias to site oficial de Python "
+"(www.python.org). Ela brevemenente destaca as novidades da comunidade "
+"Python. "
 
 #: ../../intro/news.rst:41
 msgid "`Python News <http://www.python.org/news/>`_"
-msgstr ""
+msgstr "`Python News <http://www.python.org/news/>`_"
 
 #: ../../intro/news.rst:44
 msgid "Import Python Weekly"
-msgstr ""
+msgstr "Importe *Python Weekly*"
 
 #: ../../intro/news.rst:46
 msgid ""
@@ -100,21 +114,27 @@ msgid ""
 "Tweets delivered in your inbox.  Keep Your Python Programming Skills "
 "Updated."
 msgstr ""
+"Semanalmente, a  *Python Newsletter* contém artigos Python, projetos, vídeos"
+" e tweets entregues diretamente na sua caixa de emails. Mantém suas "
+"habilidades em Pytho atualizadas. "
 
 #: ../../intro/news.rst:49
 msgid ""
 "`Import Python Weekly Newsletter <http://www.importpython.com/newsletter/>`_"
 msgstr ""
+"`Importe Python Weekly Newsletter "
+"<http://www.importpython.com/newsletter/>`_"
 
 #: ../../intro/news.rst:52
 msgid "Awesome Python Newsletter"
-msgstr ""
+msgstr "*Awesome Python Newsletter*"
 
 #: ../../intro/news.rst:54
 msgid ""
 "A weekly overview of the most popular Python news, articles and packages."
 msgstr ""
+"Uma pincelada semanal nas novidades, artigos e pacotes mais populares."
 
 #: ../../intro/news.rst:56
 msgid "`Awesome Python Newsletter <https://python.libhunt.com/newsletter>`_"
-msgstr ""
+msgstr "`Awesome Python Newsletter <https://python.libhunt.com/newsletter>`_"

@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-17 19:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Edson Mendes de Oliveira Filho <filho30face@gmail.com>, 2017\n"
+"Last-Translator: rgiovanini <renato.feis@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +24,7 @@ msgstr "Configuração avançada do Pip e Virtualenv"
 
 #: ../../dev/pip-virtualenv.rst:7
 msgid "Requiring an active virtual environment for ``pip``"
-msgstr "Necessitando de um ambiente virtual ativo para \"pip\""
+msgstr "Requisitando um ambiente virtual ativo para o \"pip\""
 
 #: ../../dev/pip-virtualenv.rst:9
 msgid ""
@@ -33,8 +33,8 @@ msgid ""
 "requirements separate."
 msgstr ""
 "Agora deve estar claro que usar ambientes virtuais é um ótimo meio para "
-"deixar seu ambiente de desenvolvimento limpo e manter os requerimentos de "
-"diferentes projetos separados."
+"deixar seu ambiente virtual limpo e manter necessidades de diferentes "
+"projetos separadas."
 
 #: ../../dev/pip-virtualenv.rst:13
 msgid ""
@@ -70,6 +70,11 @@ msgid ""
 " a virtual environment pip will gently remind you that an activated virtual "
 "environment is needed to install packages."
 msgstr ""
+"Após salvar essas mudanças e  **sourcing** o arquivo :file:`~/.bashrc` com "
+"``source ~/.bashrc``, o pip não vai mais deixar você instalar pacotes se "
+"você não estiver em um ambiente virtual. Se você tentar usar ``pip install``"
+" fora de um ambiente virtual, o pip vai lhe lembrar que um ambiente virtual "
+"ativado é necessário para a instalação de pacotes."
 
 #: ../../dev/pip-virtualenv.rst:39
 msgid ""
@@ -77,15 +82,17 @@ msgid ""
 ":file:`pip.ini` file. :file:`pip.conf` is used by Unix and Mac OS X "
 "operating systems and it can be found at:"
 msgstr ""
-"Você também pode fazer essa modificação ao editar o seu :file:`pip.conf` ou "
-":file:`pip.ini` file. :file:`pip.conf` é usado pelos sistemas operacionais "
-"Unix e MAC OS X e pode ser achado em:"
+"Você também pode fazer essa modificação ao editar o seus arquivos "
+":file:`pip.conf` ou :file:`pip.ini`. :file:`pip.conf` é usado pelos sistemas"
+" operacionais Unix e MAC OS X e pode ser achado em:"
 
 #: ../../dev/pip-virtualenv.rst:47
 msgid ""
 "Similarly, the :file:`pip.ini` file is used by Windows operating systems and"
 " it can be found at:"
 msgstr ""
+"Do mesmo modo, o arquivo :file:`pip.ini` é utilizado pelos sistemas "
+"operacionais Windows e pode ser encontrado em:"
 
 #: ../../dev/pip-virtualenv.rst:54
 msgid ""
@@ -93,12 +100,18 @@ msgid ""
 "locations, you can create a new file with the correct name for your "
 "operating system."
 msgstr ""
+"Se você não possuir um arquivo :file:`pip.conf` ou :file:`pip.ini` nesses "
+"locais, você pode criar um novo arquivo com os nomes corretos do seu sistema"
+" operacional."
 
 #: ../../dev/pip-virtualenv.rst:57
 msgid ""
 "If you already have a configuration file, just add the following line under "
 "the ``[global]`` settings to require an active virtual environment:"
-msgstr " "
+msgstr ""
+"Caso você já tenha um arquivo de configuração, basta adicionar as seguintes "
+"linhas abaixo das configurações ``[globais]`` para requerir um ambiente "
+"virtual ativo."
 
 #: ../../dev/pip-virtualenv.rst:64
 msgid ""
@@ -116,7 +129,7 @@ msgid ""
 msgstr ""
 "Você obviamente precisará instalar alguns pacotes globalmente (geralmente os"
 " que você usa em pacotes diferentes com frequência), e isso pode ser feito "
-"ao adicionar a seguinte linha ao seu :file:`~/.bashrc` file:"
+"ao adicionar a seguinte linha ao seu arquivo :file:`~/.bashrc`."
 
 #: ../../dev/pip-virtualenv.rst:83
 msgid ""
@@ -152,8 +165,8 @@ msgid ""
 "On UNIX systems, you can add the following line to your :file:`.bashrc` or "
 ":file:`.bash_profile` file."
 msgstr ""
-"Em sistemas UNIX, você pode adicionar a seguinte linha ao seu "
-":file:`.bashrc` ou :file:`.bash_profile` file."
+"Em sistemas UNIX, você pode adicionar a seguinte linha ao seu arquivo "
+":file:`.bashrc` ou :file:`.bash_profile`."
 
 #: ../../dev/pip-virtualenv.rst:108
 msgid ""
