@@ -7,7 +7,7 @@ Versão em Português - BR
 
 -----------
 
-**Trabalho em andamento. Se você quiser ajudar, por favor, ajude! Ainda há muito a ser feito. **
+**Trabalho em andamento. Se você quiser ajudar, por favor, ajude! Ainda há muito a ser feito.**
 
 
 Este guia está atualmente em intenso desenvolvimento - e tradução. Este guia enviesado existe para novatos e profissionais desenvolvedores e provê um guia de boas práticas para instalação, configuração e e boas práticas para o uso de Python no dia-a-dia.
@@ -28,12 +28,10 @@ Tópicos incluem:
 - Testing: Jenkins & tox guides
 - How to easily interface ``hg`` from ``git``
 
-If you aren't fond of reading reStructuredText, there is an
-almost up-to-date `HTML version at docs.python-guide.org
-<http://docs.python-guide.org>`_.
+Se você não gosta muito de ler reStructuredTExt, a versão `HTML <http://docs.python-guide.org>`_ do guia é mantida quase perfeitamente atualizada.
 
 
-** Time de Tradutores:
+**Time de Tradutores**:
 	- `Victor Caldas <http://www.github.com/vcaldas>`_.
 	- Renato Giovani
 	- Edson Mendes de Oliveira Filho
