@@ -1,6 +1,8 @@
 Testing Your Code
 =================
 
+.. image:: https://farm5.staticflickr.com/4166/34435687940_8f73fc1fa6_k_d.jpg
+
 Testing your code is very important.
 
 Getting used to writing testing code and running this code in parallel is now 
@@ -185,7 +187,7 @@ and then running the `py.test` command
 is far less work than would be required for the equivalent functionality with
 the unittest module!
 
-    `py.test <http://pytest.org/latest/>`_
+    `py.test <https://docs.pytest.org/en/latest/>`_
 
 
 Nose

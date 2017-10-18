@@ -1,5 +1,7 @@
-Picking an Interpreter
-======================
+Picking an Python Interpreter (3 vs. 2)
+=======================================
+
+.. image:: https://farm5.staticflickr.com/4265/34484834733_5b80f65ab1_k_d.jpg
 
 .. _which-python:
 
@@ -20,6 +22,10 @@ The basic gist of the state of things is as follows:
 
 Recommendations
 ~~~~~~~~~~~~~~~
+
+
+.. note:: The use of **Python 3** is *highly* preferred over Python 2. Consider upgrading your applications and infrastructure if you find yourself *still* using Python 2 in production today. If you are using Python 3, congratulations — you are indeed a person of excellent taste.
+  —*Kenneth Reitz*
 
 I'll be blunt:
 

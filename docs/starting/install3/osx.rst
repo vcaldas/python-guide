@@ -3,14 +3,16 @@
 .. _install3-osx:
 
 Installing Python 3 on Mac OS X
-================================
+===============================
+
+.. image:: https://farm5.staticflickr.com/4276/34435689480_2e6f358510_k_d.jpg
 
 The latest version of Mac OS X, Sierra, **comes with Python 2.7 out of the box**.
 
 You do not need to install or configure anything else to use Python 2. These
 instructions document the installation of Python 3.
 
-The version of Python that ships with OS X is great for learning but it's not
+The version of Python that ships with OS X is great for learning, but it's not
 good for development. The version shipped with OS X may be out of date from the
 `official current Python release <https://www.python.org/downloads/mac-osx/>`_,
 which is considered the stable production version.
@@ -70,8 +72,7 @@ Pip
 
 Homebrew installs ``pip3`` for you.
 
-``pip3`` is the alias for the Python 3 version of ``pip`` on systems with both
-the Homebrew'd Python 2 and 3 installed.
+``pip3`` is the alias to ``pip`` pointing to the Homebrew'd Python 3.
 
 Working with Python 3
 ---------------------
@@ -84,33 +85,38 @@ version of Python 3 as well.
 
     $ python
 
-will launch the Python 2 interpreter.
+will launch the system Python interpreter.
+
+.. code-block:: console
+
+    $ python2
+
+will launch the homebrew-installed Python 2 interpreter (if any).
 
 .. code-block:: console
 
     $ python3
 
-will launch the Python 3 interpreter
+will launch the homebrew-installed Python 3 interpreter.
 
-``pip3`` and ``pip`` will both be available.  If the Homebrew version of Python
-2 is not installed, they will be the same.  If the Homebrew version of Python 2
-is installed then ``pip`` will point to Python 2 and ``pip3`` will point to
-Python 3.
+If the Homebrew version of Python 2 is installed then ``pip2`` will point to Python 2.
+If the Homebrew version of Python 3 is installed then ``pip3`` will point to Python 3.
 
 
-Virtual Environments
---------------------
+Pipenv & Virtual Environments
+-----------------------------
 
-A Virtual Environment (commonly referred to as a 'virtualenv') is a tool to keep
-the dependencies required by different projects in separate places, by creating
-virtual Python environments for them. It solves the "Project X depends on
-version 1.x but, Project Y needs 4.x" dilemma, and keeps your global
-site-packages directory clean and manageable.
+The next step it to install Pipenv, so you can install dependencies and manage virtual environments. 
+
+A Virtual Environment is a tool to keep the dependencies required by different projects
+in separate places, by creating virtual Python environments for them. It solves the
+"Project X depends on version 1.x but, Project Y needs 4.x" dilemma, and keeps
+your global site-packages directory clean and manageable.
 
 For example, you can work on a project which requires Django 1.10 while also
 maintaining a project which requires Django 1.8.
 
-To start using this and see more information: :ref:`Virtual Environments <virtualenvironments-ref>` docs.
+So, onward! To the :ref:`Pipenv & Virtual Environments <virtualenvironments-ref>` docs!
 
 --------------------------------
 

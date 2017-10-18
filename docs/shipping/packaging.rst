@@ -4,6 +4,8 @@
 Packaging Your Code
 ===================
 
+.. image:: https://farm5.staticflickr.com/4325/36137234682_be6898bf57_k_d.jpg
+
 Package your code to share it with other developers. For example
 to share a library for other developers to use in their application,
 or for development tools like 'py.test'.
@@ -152,7 +154,7 @@ Also, if a distribution releases a new security update for Python, then your
 application will automatically start using that new version of Python.
 
 The bdist_rpm command makes `producing an RPM file <https://docs.python.org/3/distutils/builtdist.html#creating-rpm-packages>`_
-for use by distributions like Red Hat or SuSE is trivially easy.
+for use by distributions like Red Hat or SuSE trivially easy.
 
 However, creating and maintaining the different configurations required for
 each distribution's format (e.g. .deb for Debian/Ubuntu, .rpm for Red

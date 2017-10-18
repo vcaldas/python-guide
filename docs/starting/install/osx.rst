@@ -1,7 +1,9 @@
 .. _install-osx:
 
-Installing Python on Mac OS X
-=============================
+Installing Python 2 on Mac OS X
+===============================
+
+.. image:: https://farm5.staticflickr.com/4268/34435688560_4cc2a7bcbb_k_d.jpg
 
 .. note::
     Check out our :ref:`guide for installing Python 3 on OS X<install3-osx>`.
@@ -14,7 +16,7 @@ described in the next section before you start building Python applications for
 real-world use. In particular, you should always install Setuptools, as it makes
 it much easier for you to install and manage other third-party Python libraries.
 
-The version of Python that ships with OS X is great for learning but it's not
+The version of Python that ships with OS X is great for learning, but it's not
 good for development. The version shipped with OS X may be out of date from the
 `official current Python release <https://www.python.org/downloads/mac-osx/>`_,
 which is considered the stable production version.
@@ -77,6 +79,15 @@ or Python 3:
 
 This will take a minute or two.
 
+Homebrew names the executable ``python2`` so that you can still run the system Python via the executable ``python``.
+
+
+.. code-block:: console
+
+    $ python -V   # system Python interpreter
+    $ python2 -V  # Homebrew installed Python 2 interpreter
+    $ python3 -V  # Homebrew installed Python 3 interpreter (if installed)
+
 
 Setuptools & Pip
 ----------------
@@ -92,6 +103,12 @@ capability to your own Python software with very little work.
 that is recommended over ``easy_install``. It is superior to ``easy_install``
 in `several ways <https://python-packaging-user-guide.readthedocs.io/pip_easy_install/#pip-vs-easy-install>`_,
 and is actively maintained.
+
+.. code-block:: console
+
+    $ pip2 -V  # pip pointing to the Homebrew installed Python 2 interpreter
+    $ pip3 -V  # pip pointing to the Homebrew installed Python 3 interpreter (if installed)
+
 
 
 Virtual Environments
