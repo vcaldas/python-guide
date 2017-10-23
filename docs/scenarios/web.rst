@@ -2,6 +2,8 @@
 Web Applications & Frameworks
 =============================
 
+.. image:: https://farm3.staticflickr.com/2891/34309496175_b82d104282_k_d.jpg
+
 As a powerful scripting language adapted to both fast prototyping
 and bigger projects, Python is widely used in web application
 development.
@@ -366,7 +368,7 @@ into the corresponding block in the :file:`base.html` page.
 
 .. code-block:: html
 
-    <!{% extends "base.html" %}
+    {% extends "base.html" %}
     {% block content %}
         <p class="important">
         <div id="content">

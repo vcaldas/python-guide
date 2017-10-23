@@ -5,6 +5,8 @@ Versão em Português - BR
 
 **Guia de Boas Práticas em Python**
 
+.. image:: https://farm1.staticflickr.com/628/33173824932_58add34581_k_d.jpg
+
 -----------
 
 **Trabalho em andamento. Se você quiser ajudar, por favor, ajude! Ainda há muito a ser feito.**

@@ -1,6 +1,8 @@
 News
 ====
 
+.. image:: https://farm4.staticflickr.com/3804/33573767786_eececc5d27_k_d.jpg
+
 Planet Python
 ~~~~~~~~~~~~~
 
@@ -15,6 +17,20 @@ This is an aggregate of Python news from a growing number of developers.
 Python-related news.
 
     `/r/python <http://reddit.com/r/python>`_
+
+Talk Python Podcast
+~~~~~~~~~~~~~~~~~~~
+
+The #1 Python-focused podcast covering the people and ideas in Python.
+
+    `Talk Python To Me <https://talkpython.fm>`_
+
+Python Bytes Podcast
+~~~~~~~~~~~~~~~~~~~~
+
+A short-form Python podcast covering recent developer headlines.
+
+    `Python Bytes <https://pythonbytes.fm>`_
 
 Pycoder's Weekly
 ~~~~~~~~~~~~~~~~

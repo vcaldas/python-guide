@@ -109,7 +109,8 @@ html_theme_options = {
     'github_user': 'vcaldas',
     'github_repo': 'python-guide-pt_BR',
     'github_banner': True,
-    'show_related': False
+    'show_related': False,
+    'note_bg': '#FFF59C'
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
