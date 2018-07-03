@@ -49,7 +49,14 @@ If you want a more traditional book, *Python For You and Me* is an excellent
 resource for learning all aspects of the language.
 
     `Python for You and Me <https://pymbook.readthedocs.io/>`_
-    `Learn Python Interactively with DataCamp! <https://datacamp.com/>`_
+    `Learn Python Interactively with DataCamp! <https://www.datacamp.com/>`_
+
+Learn Python Step by Step
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Techbeamers.com provides step-by-step tutorials to teach Python. Each tutorial is supplemented with logically added coding snippets and equips with a follow-up quiz on the subject learned. There is a section for `Python interview questions <http://www.techbeamers.com/python-interview-questions-programmers>`_ to help job seekers. You can also read essential `Python tips <http://www.techbeamers.com/essential-python-tips-tricks-programmers>`_ and learn `best coding practices <http://www.techbeamers.com/python-code-optimization-tips-tricks>`_ for writing quality code. Here, you'll get the right platform to learn Python quickly.
+
+`Learn Python Basic to Advanced <http://www.techbeamers.com/python-tutorial-step-by-step>`_
 
 
 Online Python Tutor
@@ -109,7 +116,7 @@ Dive Into Python 3 is a good book for those ready to jump in to Python 3. It's
 a good read if you are moving from Python 2 to 3 or if you already have some
 experience programming in another language.
 
-    `Dive Into Python 3 <http://www.diveinto.org/python3/>`_
+    `Dive Into Python 3 <http://www.diveintopython3.net/>`_
 
 
 Think Python: How to Think Like a Computer Scientist
@@ -157,7 +164,7 @@ A free introductory book that teaches Python at the beginner level, it assumes
 no previous programming experience.
 
     `A Byte of Python for Python 2.x <http://www.ibiblio.org/swaroopch/byteofpython/read/>`_
-    `A Byte of Python for Python 3.x <http://swaroopch.com/notes/Python_en-Preface/>`_
+    `A Byte of Python for Python 3.x <https://python.swaroopch.com/>`_
 
 
 Learn to Program in Python with Codeacademy
@@ -167,6 +174,18 @@ A Codeacademy course for the absolute Python beginner. This free and interactive
 This course also features a built-in interpreter for receiving instant feedback on your learning.
 
     `Learn to Program in Python with Codeacademy <http://www.codecademy.com/en/tracks/python>`_
+
+
+Code the blocks
+~~~~~~~~~~~~~~~
+
+*Code the blocks* provides free and interactive Python tutorials for
+beginners. It combines Python programming with a 3D environment where
+you "place blocks" and construct structures. The tutorials teach you
+how to use Python to create progressively elaborate 3D structures,
+making the process of learning Python fun and engaging.
+
+    `Code the blocks <https://codetheblocks.com/tutorials/introduction>`_
 
 
 Intermediate

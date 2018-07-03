@@ -17,7 +17,7 @@ Este guia está atualmente em intenso desenvolvimento - e tradução. Este guia 
 
 Tópicos incluem:
 
-- Platform- and version-specific installations
+- Platform and version-specific installations
 - Py2app, Py2exe, bbfreeze, pyInstaller
 - Pip
 - Numpy, scipy, statpy, pyplot, matplotlib
