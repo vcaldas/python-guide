@@ -34,6 +34,11 @@ Tópicos incluem:
 
 Se você não gosta muito de ler reStructuredTExt, a versão `HTML <http://docs.python-guide.org>`_ do guia é mantida quase perfeitamente atualizada.
 
+**Tradução**:
+
+A tradução pode ser feita de várias formas. Uma das mais simples é utilizando o `Transifex <https://www.transifex.com/own-16/python-guide-pt_br/dashboard/>`_. Basta fazer o seu cadastro lá e começar a traduzir/revisar/contribuir! 
+
+
 
 **Time de Tradutores**:
 	- `Victor Caldas <http://www.github.com/vcaldas>`_.
