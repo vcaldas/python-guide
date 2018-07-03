@@ -1,7 +1,7 @@
 Guia do Mochileiro para Python
-============================
-Versão em Português - BR
+==============================
 
+Versão em Português - BR
 
 **Guia de Boas Práticas em Python**
 
@@ -12,7 +12,9 @@ Versão em Português - BR
 **Trabalho em andamento. Se você quiser ajudar, por favor, ajude! Ainda há muito a ser feito.**
 
 
-Este guia está atualmente em intenso desenvolvimento - e tradução. Este guia enviesado existe para novatos e profissionais desenvolvedores e provê um guia de boas práticas para instalação, configuração e e boas práticas para o uso de Python no dia-a-dia.
+Este guia está atualmente em intenso desenvolvimento - e tradução. Sempre que possível manteremos as notas originais do autor.
+
+Este guia enviesado existe para novatos e profissionais desenvolvedores e provê um guia de boas práticas para instalação, configuração e e boas práticas para o uso de Python no dia-a-dia.
 
 
 Tópicos incluem:
@@ -23,12 +25,12 @@ Tópicos incluem:
 - Numpy, scipy, statpy, pyplot, matplotlib
 - Virtualenv
 - Fabric
-- Exhaustive module recommendations, grouped by topic/purpose
-- Which libraries to use for what
-- Server configurations & tools for various web frameworks
-- Documentation: writing it
-- Testing: Jenkins & tox guides
-- How to easily interface ``hg`` from ``git``
+- Recomendação exaustiva de módulos, agrupados por tópico/propósito
+- Quais bibliotecas usar e para quê
+- Configuração de servidores e ferramentas para várias "web frameworks"
+- Documentação: Escrevendo
+- Testes: Jenkins & tox guides
+- Como facilmente integrar ``hg`` a partir do ``git``
 
 Se você não gosta muito de ler reStructuredTExt, a versão `HTML <http://docs.python-guide.org>`_ do guia é mantida quase perfeitamente atualizada.
 
@@ -39,4 +41,3 @@ Se você não gosta muito de ler reStructuredTExt, a versão `HTML <http://docs.
 	- Edson Mendes de Oliveira Filho
 	- Juan Funez
 	- você!
-

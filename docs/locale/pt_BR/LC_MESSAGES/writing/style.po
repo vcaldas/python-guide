@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-17 19:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Edson Mendes De Oliveira Filho <filho30face@gmail.com>, 2017\n"
+"Last-Translator: Claudio Rogerio <excriptbrasil@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -52,25 +52,27 @@ msgstr ""
 
 #: ../../writing/style.rst:23
 msgid "General concepts"
-msgstr ""
+msgstr "Conceitos gerais"
 
 #: ../../writing/style.rst:26
 msgid "Explicit code"
-msgstr ""
+msgstr "Código Explicito"
 
 #: ../../writing/style.rst:28
 msgid ""
 "While any kind of black magic is possible with Python, the most explicit and"
 " straightforward manner is preferred."
 msgstr ""
+"Embora seja possível qualquer tipo de magia negra com o Python, a maneira "
+"mais explícita e direta é a preferida."
 
 #: ../../writing/style.rst:31 ../../writing/style.rst:58
 msgid "**Bad**"
-msgstr ""
+msgstr "**Mau**"
 
 #: ../../writing/style.rst:39 ../../writing/style.rst:69
 msgid "**Good**"
-msgstr ""
+msgstr "**Bom**"
 
 #: ../../writing/style.rst:46
 msgid ""
@@ -82,7 +84,7 @@ msgstr ""
 
 #: ../../writing/style.rst:52
 msgid "One statement per line"
-msgstr ""
+msgstr "Uma declaração por linha"
 
 #: ../../writing/style.rst:54
 msgid ""
@@ -90,14 +92,18 @@ msgid ""
 "appreciated for their brevity and their expressiveness, it is bad practice "
 "to have two disjointed statements on the same line of code."
 msgstr ""
+"Embora algumas declarações compostas, como compreensões de lista, sejam "
+"permitidas e apreciadas pela sua brevidade e sua expressividade, é má "
+"prática ter duas declarações desconexas na mesma linha de código."
 
 #: ../../writing/style.rst:85
 msgid "Function arguments"
-msgstr ""
+msgstr "Argumentos de Funções"
 
 #: ../../writing/style.rst:87
 msgid "Arguments can be passed to functions in four different ways."
 msgstr ""
+"Argumentos podem ser passados para funções de quatro maneiras diferentes."
 
 #: ../../writing/style.rst:89
 msgid ""
@@ -108,6 +114,12 @@ msgid ""
 "the user of the function has no difficulty remembering that those two "
 "functions require two arguments, and in which order."
 msgstr ""
+"**Os argumentos posicionais** são obrigatórios e não têm valores padrão. "
+"Eles são a forma mais simples de argumentos e podem ser usados para os "
+"poucos argumentos de função que fazem parte integrante do significado da "
+"função e sua ordem é natural. Por exemplo, no ``send (message, recipient)`` "
+"ou ``point (x, y)`` o usuário da função não tem dificuldade em lembrar que "
+"essas duas funções requerem dois argumentos e em qual ordem."
 
 #: ../../writing/style.rst:96
 msgid ""

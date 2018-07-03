@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-17 19:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Edson Mendes De Oliveira Filho <filho30face@gmail.com>, 2017\n"
+"Last-Translator: Claudio Rogerio <excriptbrasil@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +24,7 @@ msgstr "Testando seu código"
 
 #: ../../writing/tests.rst:4
 msgid "Testing your code is very important."
-msgstr ""
+msgstr "Testar o seu código é muito importante."
 
 #: ../../writing/tests.rst:6
 msgid ""
@@ -32,16 +32,22 @@ msgid ""
 "now considered a good habit. Used wisely, this method helps you define more "
 "precisely your code's intent and have a more decoupled architecture."
 msgstr ""
+"Acostumar-se a escrever código de teste e a executar este código em paralelo"
+" agora é considerado um bom hábito. Usado sabiamente, esse método ajuda você"
+" a definir mais precisamente a intenção do seu código e ter uma arquitetura "
+"mais desacoplada."
 
 #: ../../writing/tests.rst:10
 msgid "Some general rules of testing:"
-msgstr ""
+msgstr "Algumas regras gerais de teste:"
 
 #: ../../writing/tests.rst:12
 msgid ""
 "A testing unit should focus on one tiny bit of functionality and prove it "
 "correct."
 msgstr ""
+"Uma unidade de teste deve se concentrar em um pequeno número de "
+"funcionalidades e provar que tudo está correto."
 
 #: ../../writing/tests.rst:15
 msgid ""
@@ -51,6 +57,12 @@ msgid ""
 "a fresh dataset and may have to do some cleanup afterwards. This is usually "
 "handled by :meth:`setUp()` and :meth:`tearDown()` methods."
 msgstr ""
+"Cada unidade de teste deve ser totalmente independente. Cada teste deve ser "
+"capaz de executar sozinho, e também dentro do conjunto de teste, "
+"independentemente da ordem em que são chamados. A implicação desta regra é "
+"que cada teste deve ser carregado com um novo conjunto de dados e talvez "
+"seja necessário fazer alguma limpeza depois. Isso geralmente é gerenciado "
+"pelos métodos :meth:`setUp()` e :meth:`tearDown()`."
 
 #: ../../writing/tests.rst:21
 msgid ""
@@ -62,6 +74,14 @@ msgid ""
 "in a separate test suite that is run by some scheduled task, and run all "
 "other tests as often as needed."
 msgstr ""
+"Tente arduamente fazer testes que funcionem rapidamente. Se um único teste "
+"precisa de mais de alguns milissegundos para executar, o desenvolvimento "
+"será diminuído ou os testes não serão executados com a frequência desejável."
+" Em alguns casos, os testes não podem ser rápidos porque eles precisam de "
+"uma estrutura de dados complexa para trabalhar, e esta estrutura de dados "
+"deve ser carregada toda vez que o teste é executado. Mantenha esses testes "
+"mais pesados em um conjunto de teste separado executado por alguma tarefa "
+"agendada e execute todos os outros testes sempre que necessário."
 
 #: ../../writing/tests.rst:29
 msgid ""
@@ -69,6 +89,10 @@ msgid ""
 "when developing a function inside a module, run this function's tests "
 "frequently, ideally automatically when you save the code."
 msgstr ""
+"Aprenda suas ferramentas e aprenda como executar uma única prova ou um caso "
+"de teste. Então, ao desenvolver uma função dentro de um módulo, execute os "
+"testes dessa função freqüentemente, idealmente automaticamente quando você "
+"salvar o código."
 
 #: ../../writing/tests.rst:33
 msgid ""
@@ -76,12 +100,17 @@ msgid ""
 "after. This will give you more confidence that you did not break anything in"
 " the rest of the code."
 msgstr ""
+"Execute sempre o conjunto de teste completo antes de uma sessão de "
+"codificação, e execute novamente depois. Isso lhe dará mais confiança de que"
+" você não quebrou nada no resto do código."
 
 #: ../../writing/tests.rst:37
 msgid ""
 "It is a good idea to implement a hook that runs all tests before pushing "
 "code to a shared repository."
 msgstr ""
+"É uma boa ideia implementar um hook que executa todos os testes antes de "
+"enviar o código para um repositório compartilhado."
 
 #: ../../writing/tests.rst:40
 msgid ""
@@ -90,6 +119,11 @@ msgid ""
 "develop next. When coming back to work, you will have a pointer to where you"
 " were and get back on track faster."
 msgstr ""
+"Caso estejas no meio de uma sessão de desenvolvimento e tiver que "
+"interromper o seu trabalho, é uma boa ideia escrever um teste de unidade "
+"quebrado sobre o que deseja desenvolver em seguida. Ao retornar ao "
+"desenvolvimento, você terá um ponteiro para onde estavas e voltará ao "
+"percurso mais rapidamente."
 
 #: ../../writing/tests.rst:45
 msgid ""
@@ -97,6 +131,10 @@ msgid ""
 "pinpointing the bug. While it is not always possible to do, those bug "
 "catching tests are among the most valuable pieces of code in your project."
 msgstr ""
+"O primeiro passo quando você estiver depurando o seu código é escrever um "
+"novo teste identificando o bug. Embora nem sempre seja possível, esses "
+"testes de detecção de falhas estão entre os mais valiosos itens de código do"
+" seu projeto."
 
 #: ../../writing/tests.rst:49
 msgid ""
@@ -108,6 +146,14 @@ msgid ""
 "``test_square_negative_number()``. These function names are displayed when a"
 " test fails, and should be as descriptive as possible."
 msgstr ""
+"Use nomes longos e descritivos para testar funções. O guia de estilo aqui é "
+"ligeiramente diferente do código de execução, onde os nomes curtos são "
+"frequentemente preferidos. O motivo é que as funções de teste nunca são "
+"chamadas explicitamente. ``square()`` ou mesmo ``sqr()`` está ok no código "
+"em execução, mas no código de teste você teria nomes como "
+"``test_square_of_number_2()``, ``test_square_negative_number()``. Esses "
+"nomes de função são exibidos quando um teste falhar e deverá ser o mais "
+"descritivo possível."
 
 #: ../../writing/tests.rst:57
 msgid ""
@@ -131,11 +177,11 @@ msgstr ""
 
 #: ../../writing/tests.rst:73
 msgid "The Basics"
-msgstr ""
+msgstr "O Básico"
 
 #: ../../writing/tests.rst:77
 msgid "Unittest"
-msgstr ""
+msgstr "Unittest"
 
 #: ../../writing/tests.rst:79
 msgid ""
@@ -149,21 +195,27 @@ msgid ""
 "Creating test cases is accomplished by subclassing "
 ":class:`unittest.TestCase`."
 msgstr ""
+"Criar casos de teste será realizado escrevendo uma subclasse "
+":class:`unittest.TestCase`."
 
 #: ../../writing/tests.rst:96
 msgid ""
 "As of Python 2.7 unittest also includes its own test discovery mechanisms."
 msgstr ""
+"A partir do Python 2.7 o unittest também inclui seus próprios mecanismos de "
+"descoberta de teste."
 
 #: ../../writing/tests.rst:98
 msgid ""
 "`unittest in the standard library documentation "
 "<http://docs.python.org/library/unittest.html>`_"
 msgstr ""
+"`unittest in the standard library documentation "
+"<http://docs.python.org/library/unittest.html>`_"
 
 #: ../../writing/tests.rst:102
 msgid "Doctest"
-msgstr ""
+msgstr "Doctest"
 
 #: ../../writing/tests.rst:104
 msgid ""
@@ -194,11 +246,11 @@ msgstr ""
 
 #: ../../writing/tests.rst:138
 msgid "Tools"
-msgstr ""
+msgstr "Ferramentas"
 
 #: ../../writing/tests.rst:142
 msgid "py.test"
-msgstr ""
+msgstr "py.test"
 
 #: ../../writing/tests.rst:144
 msgid ""
@@ -225,15 +277,15 @@ msgstr ""
 
 #: ../../writing/tests.rst:188
 msgid "`py.test <http://pytest.org/latest/>`_"
-msgstr ""
+msgstr "`py.test <http://pytest.org/latest/>`_"
 
 #: ../../writing/tests.rst:192
 msgid "Nose"
-msgstr ""
+msgstr "Nose"
 
 #: ../../writing/tests.rst:194
 msgid "nose extends unittest to make testing easier."
-msgstr ""
+msgstr "O nose estende o unittest tornando-o mais fácil"
 
 #: ../../writing/tests.rst:201
 msgid ""
@@ -244,11 +296,11 @@ msgstr ""
 
 #: ../../writing/tests.rst:205
 msgid "`nose <https://nose.readthedocs.io/en/latest/>`_"
-msgstr ""
+msgstr "`nose <https://nose.readthedocs.io/en/latest/>`_"
 
 #: ../../writing/tests.rst:209
 msgid "tox"
-msgstr ""
+msgstr "tox"
 
 #: ../../writing/tests.rst:211
 msgid ""
@@ -264,11 +316,11 @@ msgstr ""
 
 #: ../../writing/tests.rst:221
 msgid "`tox <https://tox.readthedocs.io/en/latest/>`_"
-msgstr ""
+msgstr "`tox <https://tox.readthedocs.io/en/latest/>`_"
 
 #: ../../writing/tests.rst:225
 msgid "Unittest2"
-msgstr ""
+msgstr "Unittest2"
 
 #: ../../writing/tests.rst:227
 msgid ""
@@ -296,11 +348,11 @@ msgstr ""
 
 #: ../../writing/tests.rst:250
 msgid "`unittest2 <http://pypi.python.org/pypi/unittest2>`_"
-msgstr ""
+msgstr "`unittest2 <http://pypi.python.org/pypi/unittest2>`_"
 
 #: ../../writing/tests.rst:254
 msgid "mock"
-msgstr ""
+msgstr "mock"
 
 #: ../../writing/tests.rst:256
 msgid ""
@@ -308,10 +360,13 @@ msgid ""
 "it is available in the `standard library "
 "<https://docs.python.org/dev/library/unittest.mock>`_."
 msgstr ""
+":mod:`unittest.mock` é uma biblioteca para a realização de testes em Python."
+" A partir da versão do Python 3.3, está disponível a `standard library "
+"<https://docs.python.org/dev/library/unittest.mock>`_."
 
 #: ../../writing/tests.rst:260
 msgid "For older versions of Python:"
-msgstr ""
+msgstr "Para as versões mais antigas do Python:"
 
 #: ../../writing/tests.rst:266
 msgid ""
@@ -338,4 +393,4 @@ msgstr ""
 
 #: ../../writing/tests.rst:301
 msgid "`mock <http://www.voidspace.org.uk/python/mock/>`_"
-msgstr ""
+msgstr "`mock <http://www.voidspace.org.uk/python/mock/>`_"

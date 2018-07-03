@@ -10,6 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-17 19:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Claudio Rogerio <excriptbrasil@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +20,11 @@ msgstr ""
 
 #: ../../scenarios/network.rst:2
 msgid "Networking"
-msgstr ""
+msgstr "Networking"
 
 #: ../../scenarios/network.rst:5
 msgid "Twisted"
-msgstr ""
+msgstr "Twisted"
 
 #: ../../scenarios/network.rst:7
 msgid ""
@@ -33,10 +34,16 @@ msgid ""
 " SMTP, POP3, IMAP or SSH protocols, instant messaging and `much more "
 "<http://twistedmatrix.com/trac/wiki/Documentation>`_."
 msgstr ""
+"O `Twisted <http://twistedmatrix.com/trac/>`_ é um mecanismo de rede "
+"orientado a eventos. Ele pode ser usado para criar aplicativos em torno de "
+"vários protocolos de rede diferentes, incluindo servidores e clientes http, "
+"aplicativos usando protocolos SMTP, POP3, IMAP ou SSH, mensagens "
+"instantâneas e muito mais`much more "
+"<http://twistedmatrix.com/trac/wiki/Documentation>`_."
 
 #: ../../scenarios/network.rst:14
 msgid "PyZMQ"
-msgstr ""
+msgstr "PyZMQ"
 
 #: ../../scenarios/network.rst:16
 msgid ""
@@ -45,18 +52,28 @@ msgid ""
 "messaging library. One great advantage of ZeroMQ is that it can be used for "
 "message queuing without a message broker. The basic patterns for this are:"
 msgstr ""
+"O `PyZMQ <http://zeromq.github.com/pyzmq/>`_ é o bind Python para o `ZeroMQ "
+"<http://www.zeromq.org/>`_, que é uma biblioteca de mensagens assíncronas de"
+" alto desempenho. Uma grande vantagem do ZeroMQ é que ele pode ser usado "
+"para filas de mensagens sem um runner de mensagens. Os padrões básicos para "
+"isso são:"
 
 #: ../../scenarios/network.rst:21
 msgid ""
 "request-reply: connects a set of clients to a set of services. This is a "
 "remote procedure call and task distribution pattern."
 msgstr ""
+"request-reply: conecta um conjunto de clientes a um conjunto de serviços. "
+"Esta é uma chamada de procedimento remoto e um padrão de distribuição de "
+"tarefas."
 
 #: ../../scenarios/network.rst:23
 msgid ""
 "publish-subscribe: connects a set of publishers to a set of subscribers. "
 "This is a data distribution pattern."
 msgstr ""
+"publish-subscribe: conecta um conjunto de editores a um conjunto de "
+"assinantes. Este é um padrão de distribuição de dados."
 
 #: ../../scenarios/network.rst:25
 msgid ""
@@ -64,16 +81,21 @@ msgid ""
 "can have multiple steps, and loops. This is a parallel task distribution and"
 " collection pattern."
 msgstr ""
+"push-pull (ou pipeline): conecta nós em um padrão fan-out/fan-in que pode "
+"ter várias etapas e loops. Este é um padrão de distribuição e coleta de "
+"tarefas paralelas."
 
 #: ../../scenarios/network.rst:29
 msgid ""
 "For a quick start, read the `ZeroMQ guide "
 "<http://zguide.zeromq.org/page:all>`_."
 msgstr ""
+"Para ler um guia rápido veja `ZeroMQ guide "
+"<http://zguide.zeromq.org/page:all>`_."
 
 #: ../../scenarios/network.rst:32
 msgid "gevent"
-msgstr ""
+msgstr "gevent"
 
 #: ../../scenarios/network.rst:34
 msgid ""
@@ -81,3 +103,6 @@ msgid ""
 "library that uses greenlets to provide a high-level synchronous API on top "
 "of the libev event loop."
 msgstr ""
+"`gevent <http://www.gevent.org/>`_ é uma biblioteca de rede Python baseada "
+"em corutine que usa greenlets para fornecer uma API síncrona de alto nível "
+"em cima do loop de eventos libev."

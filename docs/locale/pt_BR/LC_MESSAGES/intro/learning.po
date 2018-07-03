@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-17 19:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: rgiovanini <renato.feis@gmail.com>, 2017\n"
+"Last-Translator: Hugo Ribeiro <hugodea.ribeiro@gmail.com>, 2018\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -473,6 +473,10 @@ msgid ""
 "Methods (repo on GitHub) "
 "<https://github.com/RafeKettler/magicmethods/blob/master/magicmethods.pdf>`_"
 msgstr ""
+"O Raffekettler.com atualmente está indisponível, você pode acessar uma "
+"versão diretamente no Github. Aqui você pode entrar a versão PDF: `Um Guia "
+"para Métodos Magicos do Python (repositório no GitHub) "
+"<https://github.com/RafeKettler/magicmethods/blob/master/magicmethods.pdf>`_"
 
 #: ../../intro/learning.rst:219
 msgid "For Engineers and Scientists"
@@ -497,6 +501,8 @@ msgid ""
 "`A Primer on Scientific Programming with Python "
 "<http://www.springer.com/mathematics/computational+science+%26+engineering/book/978-3-642-30292-3>`_"
 msgstr ""
+"`A Primer on Scientific Programming with Python "
+"<http://www.springer.com/mathematics/computational+science+%26+engineering/book/978-3-642-30292-3>`_"
 
 #: ../../intro/learning.rst:231
 msgid "Numerical Methods in Engineering with Python"
@@ -551,7 +557,7 @@ msgstr ""
 
 #: ../../intro/learning.rst:252
 msgid "Programming Collective Intelligence"
-msgstr ""
+msgstr "Programming Collective Intelligence"
 
 #: ../../intro/learning.rst:254
 msgid ""
@@ -560,12 +566,18 @@ msgid ""
 " formal, but rather focuses on explaining the underlying intuition and shows"
 " how to implement the algorithms in Python."
 msgstr ""
+"Programming Collective Intelligence introduz a uma ampla lista de métodos de"
+" aprendizado de máquina e mineração de dados. A exposição não é muito "
+"matemáticamente formal, mas no entanto foca em explicar a intuição "
+"subjacente e mostra como implementar os algoritmos em python."
 
 #: ../../intro/learning.rst:259
 msgid ""
 "`Programming Collective Intelligence "
 "<http://shop.oreilly.com/product/9780596529321.do>`_"
 msgstr ""
+"`Programming Collective Intelligence "
+"<http://shop.oreilly.com/product/9780596529321.do>`_"
 
 #: ../../intro/learning.rst:263
 msgid "Transforming Code into Beautiful, Idiomatic Python"
@@ -633,23 +645,27 @@ msgstr ""
 
 #: ../../intro/learning.rst:300
 msgid "The Python Language Reference"
-msgstr ""
+msgstr "A Referência da Linguagem Python"
 
 #: ../../intro/learning.rst:302
 msgid ""
 "This is Python's reference manual, it covers the syntax and the core "
 "semantics of the language."
 msgstr ""
+"Este é o manual de referência de Python, ele cobre a sintaxe e a semântica "
+"básica da linguagem."
 
 #: ../../intro/learning.rst:305
 msgid ""
 "`The Python Language Reference "
 "<http://docs.python.org/reference/index.html>`_"
 msgstr ""
+"`A Referência da Linguagem Python "
+"<http://docs.python.org/reference/index.html>`_"
 
 #: ../../intro/learning.rst:308
 msgid "Python Essential Reference"
-msgstr ""
+msgstr "Python Essential Reference"
 
 #: ../../intro/learning.rst:310
 msgid ""
@@ -658,6 +674,10 @@ msgid ""
 "the most essential parts of the standard library. It covers Python 3 and 2.6"
 " versions."
 msgstr ""
+"Python Essential Reference, escrito por David Beazley, é a referência "
+"definitiva para Python. Ele explica de forma concisa tanto o básico da "
+"linguagem quanto partes essenciais da biblioteca padrão. Ele cobre Python "
+"nas versões 3 e 2.6."
 
 #: ../../intro/learning.rst:314
 msgid "`Python Essential Reference <http://www.dabeaz.com/per.html>`_"
@@ -690,6 +710,9 @@ msgid ""
 " practical recipes. This book covers the core python language as well as "
 "tasks common to a wide variety of application domains."
 msgstr ""
+"Python Cookbook, escrito por David Beazley e Brian K. Jones, é cheio de "
+"receitas praticas. Esse livro cobre tanto o núcleo da linguagem python como "
+"tarefas comuns para uma ampla variedade de domínios de aplicação."
 
 #: ../../intro/learning.rst:332
 msgid "`Python Cookbook <http://shop.oreilly.com/product/0636920027072.do>`_"
@@ -708,6 +731,12 @@ msgid ""
 "the idiom is important. It also contains two code samples for each idiom: "
 "the \"Harmful\" way to write it and the \"Idiomatic\" way."
 msgstr ""
+"\"Writing Idiomatic Python\", escrito por Jeff Knupp, contém os mais comuns "
+"e importantes Idiomas python em um formato que maximiza identificação e "
+"entendimento. Cada idioma é apresentado como uma recomendação de uma maneira"
+" de escrever trechos de código comumente usados, seguido de uma explicação "
+"do por quê do idioma ser importante. Também contem dois exemplos de código "
+"para cada idioma: a maneira \"Nociva\" de escrever e a \"Idiomática\"."
 
 #: ../../intro/learning.rst:344
 msgid ""

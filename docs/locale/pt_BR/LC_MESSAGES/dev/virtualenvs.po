@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-17 19:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Edson Mendes De Oliveira Filho <filho30face@gmail.com>, 2017\n"
+"Last-Translator: Victor Caldas <caldas.victor@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,12 +30,21 @@ msgid ""
 " Project Y needs 4.x\" dilemma, and keeps your global site-packages "
 "directory clean and manageable."
 msgstr ""
+"Um Virtual Environment (Ambiente virtual) é uma ferramenta que permite "
+"guardar as dependências de projetos diferentes em lugares separados criando "
+"um ambiente virtual Python para cada um deles. Isso resolve problemas como "
+"\"O projeto X usa uma biblioteca na versão 1.x mas o projeto Y usa essa "
+"mesma biblioteca mas na versão 4.x\" e mantém os seus pacotes instalados na "
+"pasta site-packages global limpa e organizada."
 
 #: ../../dev/virtualenvs.rst:11
 msgid ""
 "For example, you can work on a project which requires Django 1.10 while also"
 " maintaining a project which requires Django 1.8."
 msgstr ""
+"Por exemplo, você pode trabalhar em um projeto que usa o Django na versão "
+"1.10 enquanto também poderá trabalhar em um outro projeto que use o Django "
+"na versão 1.8."
 
 #: ../../dev/virtualenvs.rst:15
 msgid "virtualenv"
@@ -48,18 +57,22 @@ msgid ""
 " the necessary executables to use the packages that a Python project would "
 "need."
 msgstr ""
+"`virtualenv <http://pypi.python.org/pypi/virtualenv>`_ é uma ferramenta que "
+"permite criar ambientes Python isolados. O virtualenv cria uma pasta que "
+"contém todos os executáveis necessários para usar os pacotes que o seu "
+"projeto em Python necessita."
 
 #: ../../dev/virtualenvs.rst:21
 msgid "Install virtualenv via pip:"
-msgstr ""
+msgstr "Instalação  do virtualenv via pip:"
 
 #: ../../dev/virtualenvs.rst:28 ../../dev/virtualenvs.rst:155
 msgid "Basic Usage"
-msgstr ""
+msgstr "Uso"
 
 #: ../../dev/virtualenvs.rst:30
 msgid "Create a virtual environment for a project:"
-msgstr ""
+msgstr "Criar um ambiente virtual para um projeto:"
 
 #: ../../dev/virtualenvs.rst:37
 msgid ""
@@ -69,26 +82,38 @@ msgid ""
 " environment (in this case, it was ``my_project``) can be anything; omitting"
 " the name will place the files in the current directory instead."
 msgstr ""
+"O comando ``virtualenv my_project`` criará uma pasta no diretório atual que "
+"contém os arquivos executáveis do Python e uma cópia da biblioteca ``pip`` "
+"que você poderá usar para instalar outros pacotes. O nome do ambiente "
+"virtual (nesse caso, seria ``my_project``) mas pode ser qualquer coisa; ao "
+"omitir o nome do ambiente os arquivos serão copiados para a pasta local."
 
 #: ../../dev/virtualenvs.rst:43
 msgid ""
 "This creates a copy of Python in whichever directory you ran the command in,"
 " placing it in a folder named :file:`my_project`."
 msgstr ""
+"Ele cria uma cópia do Python em qualquer diretório em que você executar o "
+"comando dentro de uma pasta chamada :file:`my_project`."
 
 #: ../../dev/virtualenvs.rst:46
 msgid ""
 "You can also use the Python interpreter of your choice (like ``python2.7``)."
 msgstr ""
+"Vocẽ também poderá usar qualquer versão do interpretador Python se preferir "
+"(como ``python2.7``)."
 
 #: ../../dev/virtualenvs.rst:53
 msgid ""
 "or change the interpreter globally with an env variable in ``~/.bashrc``:"
 msgstr ""
+"ou definir o interpretador global com uma variável de ambiente no arquivo "
+"``~/.bashrc``:"
 
 #: ../../dev/virtualenvs.rst:59
 msgid "To begin using the virtual environment, it needs to be activated:"
 msgstr ""
+"Para começar a usar o ambiente virtual, ele precisa primeiro ser ativado:"
 
 #: ../../dev/virtualenvs.rst:65
 msgid ""
@@ -98,28 +123,39 @@ msgid ""
 "using pip will be placed in the ``my_project`` folder, isolated from the "
 "global Python installation."
 msgstr ""
+"O nome do ambiente virtual atual aparecerá no lado esquerdo da linha de "
+"comando (p. ex.  ``(my_project)Your-Computer:your_project UserName$)`` para "
+"que você saiba qual ambiente foi ativado. A partir de agora, qualquer pacote"
+" que você instalar usando o pip será instalado dentro da pasta "
+"``my_project`` isolado da pasta global."
 
 #: ../../dev/virtualenvs.rst:70
 msgid "Install packages as usual, for example:"
-msgstr ""
+msgstr "Instalar os pacotes como de costume, por exemplo:"
 
 #: ../../dev/virtualenvs.rst:76
 msgid ""
 "If you are done working in the virtual environment for the moment, you can "
 "deactivate it:"
 msgstr ""
+"Se você já tiver terminado de trabalhar no ambiente virtual no momento, você"
+" pode desativá-lo:"
 
 #: ../../dev/virtualenvs.rst:83
 msgid ""
 "This puts you back to the system's default Python interpreter with all its "
 "installed libraries."
 msgstr ""
+"Isso faz com que você volte a versão padrão do interpretador Python do "
+"sistema e todas as suas bibliotecas."
 
 #: ../../dev/virtualenvs.rst:86
 msgid ""
 "To delete a virtual environment, just delete its folder. (In this case, it "
 "would be ``rm -rf my_project``.)"
 msgstr ""
+"Para remover um ambiente virtual, simplesmente apague a pasta. (Nesse caso "
+"seria ``rm -rf my_project``.)"
 
 #: ../../dev/virtualenvs.rst:89
 msgid ""

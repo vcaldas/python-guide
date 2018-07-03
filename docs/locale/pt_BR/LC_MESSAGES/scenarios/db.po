@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-17 19:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Edson Mendes De Oliveira Filho <filho30face@gmail.com>, 2017\n"
+"Last-Translator: Claudio Rogerio <excriptbrasil@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +24,7 @@ msgstr "Bancos de dados"
 
 #: ../../scenarios/db.rst:5
 msgid "DB-API"
-msgstr ""
+msgstr "DB-API"
 
 #: ../../scenarios/db.rst:7
 msgid ""
@@ -33,6 +33,10 @@ msgid ""
 "database modules such as `sqlite3`, `psycopg` and `mysql-python` conform to "
 "this interface."
 msgstr ""
+"A Python Database API (DB-API) define uma interface padrão para módulos de "
+"acesso ao banco de dados Python. Está documentado em :pep:`249`. Quase todos"
+" os módulos de banco de dados Python, como o `sqlite3`, `psycopg` e `mysql-"
+"python`, estão em conformidade com essa interface."
 
 #: ../../scenarios/db.rst:12
 msgid ""
@@ -43,10 +47,15 @@ msgid ""
 "<http://web.archive.org/web/20120815130844/http://www.amk.ca/python/writing"
 "/DB-API.html>`__."
 msgstr ""
+"Podem ser encontrados tutoriais que explicam como trabalhar com módulos que "
+"estejam em conformidade com esta interface `aqui "
+"<http://halfcooked.com/presentations/osdc2006/python_databases.html>`__ e "
+"`aqui <http://web.archive.org "
+"/web/20120815130844/http://www.amk.ca/python/writing/DB-API.html>`__."
 
 #: ../../scenarios/db.rst:17
 msgid "SQLAlchemy"
-msgstr ""
+msgstr "SQLAlchemy"
 
 #: ../../scenarios/db.rst:19
 msgid ""
@@ -54,10 +63,14 @@ msgid ""
 "toolkit. Unlike many database libraries it not only provides an ORM layer "
 "but also a generalized API for writing database-agnostic code without SQL."
 msgstr ""
+"O `SQLAlchemy <http://www.sqlalchemy.org/>`_ é um conjunto de ferramentas de"
+" banco de dados comum. Ao contrário de muitas bibliotecas de banco de dados,"
+" ele não só fornece uma camada ORM, mas também uma API generalizada para "
+"escrever o código agnóstico do banco de dados sem SQL."
 
 #: ../../scenarios/db.rst:28
 msgid "Records"
-msgstr ""
+msgstr "Records"
 
 #: ../../scenarios/db.rst:30
 msgid ""
@@ -65,20 +78,28 @@ msgid ""
 "library, designed for sending raw SQL queries to various databases. Data can"
 " be used programmatically, or exported to a number of useful data formats."
 msgstr ""
+"`Records <https://github.com/kennethreitz/records>`_ é uma biblioteca SQL "
+"minimalista, projetada para enviar consultas SQL cruciais para vários bancos"
+" de dados. Os dados podem ser usados programaticamente ou exportados para "
+"vários formatos de dados úteis."
 
 #: ../../scenarios/db.rst:38
 msgid "Also included is a command-line tool for exporting SQL data."
 msgstr ""
+"Também está incluída uma ferramenta de linha de comando para exportação de "
+"dados SQL."
 
 #: ../../scenarios/db.rst:41
 msgid "Django ORM"
-msgstr ""
+msgstr "Django ORM"
 
 #: ../../scenarios/db.rst:43
 msgid ""
 "The Django ORM is the interface used by `Django "
 "<http://www.djangoproject.com>`_ to provide database access."
 msgstr ""
+"O Django ORM é a interface usada pelo `Django "
+"<http://www.djangoproject.com>`_ para fornecer acesso ao banco de dados."
 
 #: ../../scenarios/db.rst:46
 msgid ""
@@ -86,28 +107,35 @@ msgid ""
 "/#the-model-layer>`_, an abstraction that makes it easier to manipulate data"
 " in Python."
 msgstr ""
+"Baseia-se na ideia de `modelos <https://docs.djangoproject.com/en/dev/#the-"
+"model-layer>`_, uma abstração que facilita a manipulação de dados em Python."
 
 #: ../../scenarios/db.rst:50
 msgid "The basics:"
-msgstr ""
+msgstr "O básico:"
 
 #: ../../scenarios/db.rst:52
 msgid "Each model is a Python class that subclasses django.db.models.Model."
 msgstr ""
+"Cada modelo é uma classe Python e que é uma subclasse de "
+"``django.db.models.Model``."
 
 #: ../../scenarios/db.rst:53
 msgid "Each attribute of the model represents a database field."
-msgstr ""
+msgstr "Cada atributo do modelo representa um campo de banco de dados."
 
 #: ../../scenarios/db.rst:54
 msgid ""
 "Django gives you an automatically-generated database-access API; see `Making"
 " queries <https://docs.djangoproject.com/en/dev/topics/db/queries/>`__."
 msgstr ""
+"O Django oferece uma API de acesso ao banco de dados gerada automaticamente;"
+"  `Making queries "
+"<https://docs.djangoproject.com/en/dev/topics/db/queries/>`__."
 
 #: ../../scenarios/db.rst:58
 msgid "peewee"
-msgstr ""
+msgstr "peewee"
 
 #: ../../scenarios/db.rst:60
 msgid ""
@@ -122,10 +150,22 @@ msgid ""
 "<https://peewee.readthedocs.io/en/latest/peewee/playhouse.html#playhouse>`_ "
 "available."
 msgstr ""
+"`peewee <http://docs.peewee-orm.com/en/latest/>`_ é outro ORM com foco em "
+"ser leve com suporte para o Python 2.6+ e 3.2+ que suporta SQLite, MySQL e "
+"Postgres por padrão. A camada de modelo `model layer "
+"<https://peewee.readthedocs.io/en/latest/peewee/quickstart.html#model-"
+"definition>`_ é semelhante à do ORM de Django e tem métodos semelhantes a "
+"SQL  `SQL-like methods "
+"<https://peewee.readthedocs.io/en/latest/peewee/quickstart.html#retrieving-"
+"data>`_ para consultar dados. Enquanto SQLite, MySQL e Postgres são "
+"suportados fora de linha, há uma coleção de complementos  `collection of "
+"add-ons "
+"<https://peewee.readthedocs.io/en/latest/peewee/playhouse.html#playhouse>`_ "
+"acessíveis."
 
 #: ../../scenarios/db.rst:71
 msgid "PonyORM"
-msgstr ""
+msgstr "PonyORM"
 
 #: ../../scenarios/db.rst:73
 msgid ""
@@ -135,10 +175,16 @@ msgid ""
 "schema editor that can generate PonyORM entities for you. It supports Python"
 " 2.6+ and Python 3.3+ and can connect to SQLite, MySQL, Postgres & Oracle"
 msgstr ""
+"`PonyORM <http://ponyorm.com/>`_ é um ORM que adota uma abordagem diferente "
+"para consultar o banco de dados. Em vez de escrever um idioma semelhante ao "
+"SQL ou expressões booleanas, a sintaxe do gerador do Python é usada. Há "
+"também um editor de esquema gráfico que pode gerar entidades PonyORM para "
+"você. Ele suporta Python 2.6+ e Python 3.3+ e pode se conectar a SQLite, "
+"MySQL, Postgres e Oracle"
 
 #: ../../scenarios/db.rst:82
 msgid "SQLObject"
-msgstr ""
+msgstr "SQLObject"
 
 #: ../../scenarios/db.rst:84
 msgid ""
@@ -147,3 +193,7 @@ msgid ""
 "SQLite and more exotic systems like SAP DB, SyBase and MSSQL. It only "
 "supports Python 2 from Python 2.6 upwards."
 msgstr ""
+"`SQLObject <http://www.sqlobject.org/>`_ é mais uma ORM. Ele suporta uma "
+"grande variedade de bancos de dados: sistemas de banco de dados comuns "
+"MySQL, Postgres e SQLite e sistemas mais exóticos, como SAP DB, SyBase e "
+"MSSQL. Ele só suporta o Python 2 do Python 2.6 para cima."
