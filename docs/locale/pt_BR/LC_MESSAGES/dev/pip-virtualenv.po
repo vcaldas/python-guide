@@ -1,16 +1,23 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
+# Copyright (C) 2011–2018 <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> &amp; <a href="https://realpython.com">Real Python</a>. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
 # This file is distributed under the same license as the pythonguide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Renato Giovanini <renato.feis@gmail.com>, 2017
+# Edson Mendes De Oliveira Filho <filho30face@gmail.com>, 2017
+# Victor Caldas <caldas.victor@gmail.com>, 2017
+# Claudio Rogerio, 2017
+# Jonatha Daguerre <jonatha@daguerre.com.br>, 2017
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-17 19:37+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Claudio Rogerio <excriptbrasil@gmail.com>, 2017\n"
+"POT-Creation-Date: 2019-02-10 18:10+0100\n"
+"PO-Revision-Date: 2017-03-18 10:44+0000\n"
+"Last-Translator: Jonatha Daguerre <jonatha@daguerre.com.br>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,14 +26,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../dev/pip-virtualenv.rst:4
-msgid "Further Configuration of Pip and Virtualenv"
-msgstr "Configuração avançada do Pip e Virtualenv"
+msgid "Further Configuration of pip and Virtualenv"
+msgstr ""
 
-#: ../../dev/pip-virtualenv.rst:7
+#: ../../dev/pip-virtualenv.rst:9
 msgid "Requiring an active virtual environment for ``pip``"
 msgstr "Requisitando um ambiente virtual ativo para o \"pip\""
 
-#: ../../dev/pip-virtualenv.rst:9
+#: ../../dev/pip-virtualenv.rst:11
 msgid ""
 "By now it should be clear that using virtual environments is a great way to "
 "keep your development environment clean and keeping different projects' "
@@ -36,7 +43,7 @@ msgstr ""
 "deixar seu ambiente virtual limpo e manter necessidades de diferentes "
 "projetos separadas."
 
-#: ../../dev/pip-virtualenv.rst:13
+#: ../../dev/pip-virtualenv.rst:15
 msgid ""
 "When you start working on many different projects, it can be hard to "
 "remember to activate the related virtual environment when you come back to a"
@@ -52,7 +59,7 @@ msgstr ""
 "virtual do projeto. Com o tempo isso pode ocasionar uma bagunça na sua lista"
 " de pacotes globais."
 
-#: ../../dev/pip-virtualenv.rst:20
+#: ../../dev/pip-virtualenv.rst:22
 msgid ""
 "In order to make sure that you install packages to your active virtual "
 "environment when you use ``pip install``, consider adding the following line"
@@ -62,7 +69,7 @@ msgstr ""
 " usar \"pip install\", adicione a seguinte linha ao seu :file:`~/.bashrc` "
 "file:"
 
-#: ../../dev/pip-virtualenv.rst:28
+#: ../../dev/pip-virtualenv.rst:30
 msgid ""
 "After saving this change and sourcing the :file:`~/.bashrc` file with "
 "``source ~/.bashrc``, pip will no longer let you install packages if you are"
@@ -76,7 +83,7 @@ msgstr ""
 " fora de um ambiente virtual, o pip vai lhe lembrar que um ambiente virtual "
 "ativado é necessário para a instalação de pacotes."
 
-#: ../../dev/pip-virtualenv.rst:39
+#: ../../dev/pip-virtualenv.rst:41
 msgid ""
 "You can also do this configuration by editing your :file:`pip.conf` or "
 ":file:`pip.ini` file. :file:`pip.conf` is used by Unix and Mac OS X "
@@ -86,7 +93,7 @@ msgstr ""
 ":file:`pip.conf` ou :file:`pip.ini`. :file:`pip.conf` é usado pelos sistemas"
 " operacionais Unix e MAC OS X e pode ser achado em:"
 
-#: ../../dev/pip-virtualenv.rst:47
+#: ../../dev/pip-virtualenv.rst:49
 msgid ""
 "Similarly, the :file:`pip.ini` file is used by Windows operating systems and"
 " it can be found at:"
@@ -94,7 +101,7 @@ msgstr ""
 "Do mesmo modo, o arquivo :file:`pip.ini` é utilizado pelos sistemas "
 "operacionais Windows e pode ser encontrado em:"
 
-#: ../../dev/pip-virtualenv.rst:54
+#: ../../dev/pip-virtualenv.rst:56
 msgid ""
 "If you don't have a :file:`pip.conf` or :file:`pip.ini` file at these "
 "locations, you can create a new file with the correct name for your "
@@ -104,7 +111,7 @@ msgstr ""
 "locais, você pode criar um novo arquivo com os nomes corretos do seu sistema"
 " operacional."
 
-#: ../../dev/pip-virtualenv.rst:57
+#: ../../dev/pip-virtualenv.rst:59
 msgid ""
 "If you already have a configuration file, just add the following line under "
 "the ``[global]`` settings to require an active virtual environment:"
@@ -113,7 +120,7 @@ msgstr ""
 "linhas abaixo das configurações ``[globais]`` para requerir um ambiente "
 "virtual ativo."
 
-#: ../../dev/pip-virtualenv.rst:64
+#: ../../dev/pip-virtualenv.rst:66
 msgid ""
 "If you did not have a configuration file, you will need to create a new one "
 "and add the following lines to this new file:"
@@ -121,7 +128,7 @@ msgstr ""
 "Se você não tinha um arquivo de configuração, você terá que criar um novo e "
 "adicionar as seguintes linhas ao mesmo:"
 
-#: ../../dev/pip-virtualenv.rst:73
+#: ../../dev/pip-virtualenv.rst:75
 msgid ""
 "You will of course need to install some packages globally (usually ones that"
 " you use across different projects consistently) and this can be "
@@ -131,7 +138,7 @@ msgstr ""
 " que você usa em pacotes diferentes com frequência), e isso pode ser feito "
 "ao adicionar a seguinte linha ao seu arquivo :file:`~/.bashrc`."
 
-#: ../../dev/pip-virtualenv.rst:83
+#: ../../dev/pip-virtualenv.rst:85
 msgid ""
 "After saving the changes and sourcing your :file:`~/.bashrc` file you can "
 "now install packages globally by running ``gpip install``. You can change "
@@ -139,60 +146,62 @@ msgid ""
 "will have to use that name when trying to install packages globally with "
 "pip."
 msgstr ""
-"Depois de salvar as alterações e o seu arquivo arquivo fonte "
-":file:`~/.bashrc` agora você pode instalar pacotes globalmente executando  "
-"``gpip install``.  Você pode alterar o nome da função para qualquer coisa "
-"que você gosta, basta ter em mente que terás que usar esse nome ao tentar "
-"instalar pacotes globalmente com o ``pip``."
+"Depois de salvar as alterações e recarregar o seu arquivo :file:`~/.bashrc` "
+"você pode instalar pacotes globalmente executando  ``gpip install``.  Você "
+"pode alterar o nome da função para qualquer coisa que você goste, mas tenha "
+"em mente que precisará usar esse nome ao tentar instalar pacotes globalmente"
+" com o ``pip``."
 
-#: ../../dev/pip-virtualenv.rst:89
+#: ../../dev/pip-virtualenv.rst:91
 msgid "Caching packages for future use"
 msgstr "Pacotes de cache para uso futuro"
 
-#: ../../dev/pip-virtualenv.rst:91
+#: ../../dev/pip-virtualenv.rst:93
 msgid ""
 "Every developer has preferred libraries and when you are working on a lot of"
 " different projects, you are bound to have some overlap between the "
 "libraries that you use. For example, you may be using the ``requests`` "
 "library in a lot of different projects."
 msgstr ""
-"Cada desenvolvedor tem bibliotecas preferenciais e quando você está "
-"trabalhando em um monte de projetos diferentes, és obrigado a ter alguma "
-"sobreposição entre as bibliotecas que você usa. Por exemplo, você pode estar"
-" usando a biblioteca  ``requests`` em vários projetos diferentes."
+"Cada desenvolvedor tem bibliotecas preferidas e quando você está trabalhando"
+" em um monte de projetos diferentes, é obrigado a ter alguma sobreposição "
+"entre as bibliotecas que você usa. Por exemplo, você pode estar usando a "
+"biblioteca  ``requests`` em vários projetos diferentes."
 
-#: ../../dev/pip-virtualenv.rst:96
+#: ../../dev/pip-virtualenv.rst:98
 msgid ""
 "It is surely unnecessary to re-download the same packages/libraries each "
 "time you start working on a new project (and in a new virtual environment as"
-" a result). Fortunately, you can configure pip in such a way that it tries "
-"to reuse already installed packages."
+" a result). Fortunately, starting with version 6.0, pip provides an `on-by-"
+"default caching mechanism "
+"<https://pip.pypa.io/en/stable/reference/pip_install/#caching>`_ that "
+"doesn't need any configuration."
 msgstr ""
-"É certamente desnecessário refazer o download dos mesmos pacotes/bibliotecas"
-" toda vez que começarmos a trabalhar em um novo projeto (e em um novo "
-"ambiente virtual como resultado). Felizmente, podemos configurar o pip de "
-"tal forma que ele saiba reutilizar pacotes já instalados."
 
-#: ../../dev/pip-virtualenv.rst:101
+#: ../../dev/pip-virtualenv.rst:105
 msgid ""
-"On UNIX systems, you can add the following line to your :file:`.bashrc` or "
-":file:`.bash_profile` file."
+"When using older versions, you can configure pip in such a way that it tries"
+" to reuse already installed packages, too."
 msgstr ""
-"Em sistemas UNIX, você pode adicionar a seguinte linha ao seu arquivo "
-":file:`.bashrc` ou :file:`.bash_profile`."
 
 #: ../../dev/pip-virtualenv.rst:108
+msgid ""
+"On Unix systems, you can add the following line to your :file:`.bashrc` or "
+":file:`.bash_profile` file."
+msgstr ""
+
+#: ../../dev/pip-virtualenv.rst:115
 msgid ""
 "You can set the path to anywhere you like (as long as you have write "
 "access). After adding this line, ``source`` your :file:`.bashrc` (or "
 ":file:`.bash_profile`) file and you will be all set."
 msgstr ""
-"Você pode definir o caminho para qualquer lugar que gostes (contanto que "
-"você tenha acesso de gravação). Depois de adicionar esta linha, os seus "
+"Você pode definir o caminho para qualquer lugar que goste (contanto que você"
+" tenha acesso de escrita). Depois de adicionar esta linha, os seus "
 "``source`` :file:`.bashrc` (ou :file:`.bash_profile`) estarão todos "
-"definido."
+"definidos."
 
-#: ../../dev/pip-virtualenv.rst:112
+#: ../../dev/pip-virtualenv.rst:119
 msgid ""
 "Another way of doing the same configuration is via the :file:`pip.conf` or "
 ":file:`pip.ini` files, depending on your system. If you are on Windows, you "
@@ -202,17 +211,15 @@ msgstr ""
 "Outra maneira de fazer a mesma configuração é através dos arquivos "
 ":file:`pip.conf` ou :file:`pip.ini`, dependendo do seu sistema. Se "
 "estivermos no Windows, podemos adicionar a seguinte linha ao nosso arquivo "
-":file:`pip.ini` em ``[global]`` settings:"
-
-#: ../../dev/pip-virtualenv.rst:120
-msgid ""
-"Similarly, on UNIX systems you should simply add the following line to your "
-":file:`pip.conf` file under ``[global]`` settings:"
-msgstr ""
-"Da mesma forma, em sistemas UNIX, simplesmente devemos adicionar a seguinte "
-"linha ao nosso arquivo :file:`pip.conf` em ``[global]`` settings:"
+":file:`pip.ini` na seção ``[global]``:"
 
 #: ../../dev/pip-virtualenv.rst:127
+msgid ""
+"Similarly, on Unix systems you should simply add the following line to your "
+":file:`pip.conf` file under ``[global]`` settings:"
+msgstr ""
+
+#: ../../dev/pip-virtualenv.rst:134
 msgid ""
 "Even though you can use any path you like to store your cache, it is "
 "recommended that you create a new folder *in* the folder where your "
@@ -220,8 +227,8 @@ msgid ""
 "with all of this path voodoo, just use the values provided here and you will"
 " be fine."
 msgstr ""
-"Mesmo que você possa usar qualquer caminho que você gosta de armazenar o seu"
+"Mesmo que você possa usar qualquer caminho que você goste de armazenar o seu"
 " cache, recomenda-se que você crie uma nova pasta *dentro de* onde o arquivo"
-" :file:`pip.conf` ou o :file:`pip.ini` reside. Se você não confiares em si "
-"próprio mesmo com todo esse caminho voodoo, basta usar os valores fornecidos"
-" aqui e estarás bem."
+" :file:`pip.conf` ou o :file:`pip.ini` está. Se você não confia em si mesmo "
+"com todo esse caminho voodoo, basta usar os valores fornecidos aqui e estará"
+" bem."

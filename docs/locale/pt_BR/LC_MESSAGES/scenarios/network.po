@@ -1,16 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
+# Copyright (C) 2011–2018 <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> &amp; <a href="https://realpython.com">Real Python</a>. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
 # This file is distributed under the same license as the pythonguide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Claudio Rogerio, 2017
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-17 19:37+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Claudio Rogerio <excriptbrasil@gmail.com>, 2017\n"
+"POT-Creation-Date: 2019-02-10 18:10+0100\n"
+"PO-Revision-Date: 2017-03-18 10:44+0000\n"
+"Last-Translator: Claudio Rogerio, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,34 +21,28 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../scenarios/network.rst:2
+#: ../../scenarios/network.rst:4
 msgid "Networking"
 msgstr "Networking"
 
-#: ../../scenarios/network.rst:5
+#: ../../scenarios/network.rst:11
 msgid "Twisted"
 msgstr "Twisted"
 
-#: ../../scenarios/network.rst:7
+#: ../../scenarios/network.rst:13
 msgid ""
 "`Twisted <http://twistedmatrix.com/trac/>`_ is an event-driven networking "
 "engine. It can be used to build applications around many different "
-"networking protocols, including http servers and clients, applications using"
-" SMTP, POP3, IMAP or SSH protocols, instant messaging and `much more "
+"networking protocols, including HTTP servers and clients, applications using"
+" SMTP, POP3, IMAP, or SSH protocols, instant messaging, and `much more "
 "<http://twistedmatrix.com/trac/wiki/Documentation>`_."
 msgstr ""
-"O `Twisted <http://twistedmatrix.com/trac/>`_ é um mecanismo de rede "
-"orientado a eventos. Ele pode ser usado para criar aplicativos em torno de "
-"vários protocolos de rede diferentes, incluindo servidores e clientes http, "
-"aplicativos usando protocolos SMTP, POP3, IMAP ou SSH, mensagens "
-"instantâneas e muito mais`much more "
-"<http://twistedmatrix.com/trac/wiki/Documentation>`_."
 
-#: ../../scenarios/network.rst:14
+#: ../../scenarios/network.rst:22
 msgid "PyZMQ"
 msgstr "PyZMQ"
 
-#: ../../scenarios/network.rst:16
+#: ../../scenarios/network.rst:24
 msgid ""
 "`PyZMQ <http://zeromq.github.com/pyzmq/>`_ is the Python binding for `ZeroMQ"
 " <http://www.zeromq.org/>`_, which is a high-performance asynchronous "
@@ -58,7 +55,7 @@ msgstr ""
 "para filas de mensagens sem um runner de mensagens. Os padrões básicos para "
 "isso são:"
 
-#: ../../scenarios/network.rst:21
+#: ../../scenarios/network.rst:29
 msgid ""
 "request-reply: connects a set of clients to a set of services. This is a "
 "remote procedure call and task distribution pattern."
@@ -67,7 +64,7 @@ msgstr ""
 "Esta é uma chamada de procedimento remoto e um padrão de distribuição de "
 "tarefas."
 
-#: ../../scenarios/network.rst:23
+#: ../../scenarios/network.rst:31
 msgid ""
 "publish-subscribe: connects a set of publishers to a set of subscribers. "
 "This is a data distribution pattern."
@@ -75,17 +72,14 @@ msgstr ""
 "publish-subscribe: conecta um conjunto de editores a um conjunto de "
 "assinantes. Este é um padrão de distribuição de dados."
 
-#: ../../scenarios/network.rst:25
+#: ../../scenarios/network.rst:33
 msgid ""
-"push-pull (or pipeline): connects nodes in a fan-out / fan-in pattern that "
-"can have multiple steps, and loops. This is a parallel task distribution and"
-" collection pattern."
+"push-pull (or pipeline): connects nodes in a fan-out/fan-in pattern that can"
+" have multiple steps and loops. This is a parallel task distribution and "
+"collection pattern."
 msgstr ""
-"push-pull (ou pipeline): conecta nós em um padrão fan-out/fan-in que pode "
-"ter várias etapas e loops. Este é um padrão de distribuição e coleta de "
-"tarefas paralelas."
 
-#: ../../scenarios/network.rst:29
+#: ../../scenarios/network.rst:37
 msgid ""
 "For a quick start, read the `ZeroMQ guide "
 "<http://zguide.zeromq.org/page:all>`_."
@@ -93,11 +87,11 @@ msgstr ""
 "Para ler um guia rápido veja `ZeroMQ guide "
 "<http://zguide.zeromq.org/page:all>`_."
 
-#: ../../scenarios/network.rst:32
+#: ../../scenarios/network.rst:42
 msgid "gevent"
 msgstr "gevent"
 
-#: ../../scenarios/network.rst:34
+#: ../../scenarios/network.rst:44
 msgid ""
 "`gevent <http://www.gevent.org/>`_ is a coroutine-based Python networking "
 "library that uses greenlets to provide a high-level synchronous API on top "

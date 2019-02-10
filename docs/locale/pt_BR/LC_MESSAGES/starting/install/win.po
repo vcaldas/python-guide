@@ -1,16 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
+# Copyright (C) 2011–2018 <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> &amp; <a href="https://realpython.com">Real Python</a>. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
 # This file is distributed under the same license as the pythonguide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Edson Mendes De Oliveira Filho <filho30face@gmail.com>, 2017
+# Caio wzy <CaioWzy@gmail.com>, 2017
+# Jonatha Daguerre <jonatha@daguerre.com.br>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-17 19:37+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Caio wzy <CaioWzy@gmail.com>, 2017\n"
+"POT-Creation-Date: 2019-02-10 18:10+0100\n"
+"PO-Revision-Date: 2017-03-18 10:45+0000\n"
+"Last-Translator: Jonatha Daguerre <jonatha@daguerre.com.br>, 2019\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,27 +23,33 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../starting/install/win.rst:4
-msgid "Installing Python on Windows"
-msgstr "Instalando Python no Windows"
-
 #: ../../starting/install/win.rst:6
+msgid "Installing Python 2 on Windows"
+msgstr ""
+
+#: ../../starting/install/win.rst:11
+msgid ""
+"Check out our :ref:`guide for installing Python 3 on "
+"Windows<install3-windows>`."
+msgstr ""
+
+#: ../../starting/install/win.rst:13
 msgid ""
 "First, download the `latest version "
-"<https://www.python.org/ftp/python/2.7.12/python-2.7.12.msi>`_ of Python 2.7"
-" from the official Website. If you want to be sure you are installing a "
+"<https://www.python.org/ftp/python/2.7.15/python-2.7.15.msi>`_ of Python 2.7"
+" from the official website. If you want to be sure you are installing a "
 "fully up-to-date version, click the Downloads > Windows link from the home "
 "page of the `Python.org web site <http://python.org>`_ ."
 msgstr ""
 
-#: ../../starting/install/win.rst:11
+#: ../../starting/install/win.rst:18
 msgid ""
 "The Windows version is provided as an MSI package. To install it manually, "
 "just double-click the file. The MSI package format allows Windows "
 "administrators to automate installation with their standard tools."
 msgstr ""
 
-#: ../../starting/install/win.rst:15
+#: ../../starting/install/win.rst:22
 msgid ""
 "By design, Python installs to a directory with the version number embedded, "
 "e.g. Python version 2.7 will install at :file:`C:\\\\Python27\\\\`, so that "
@@ -49,7 +60,7 @@ msgid ""
 "which copy of Python is run."
 msgstr ""
 
-#: ../../starting/install/win.rst:23
+#: ../../starting/install/win.rst:30
 msgid ""
 "Typing the full path name for a Python interpreter each time quickly gets "
 "tedious, so add the directories for your default Python version to the "
@@ -57,11 +68,15 @@ msgid ""
 ":file:`C:\\\\Python27\\\\`, add this to your :envvar:`PATH`:"
 msgstr ""
 
-#: ../../starting/install/win.rst:32
+#: ../../starting/install/win.rst:39
 msgid "You can do this easily by running the following in ``powershell``:"
 msgstr ""
 
-#: ../../starting/install/win.rst:38
+#: ../../starting/install/win.rst:45
+msgid "This is also an option during the installation process."
+msgstr ""
+
+#: ../../starting/install/win.rst:47
 msgid ""
 "The second (:file:`Scripts`) directory receives command files when certain "
 "packages are installed, so it is a very useful addition. You do not need to "
@@ -72,46 +87,59 @@ msgid ""
 "much easier for you to use other third-party Python libraries."
 msgstr ""
 
-#: ../../starting/install/win.rst:47
+#: ../../starting/install/win.rst:58
 msgid "Setuptools + Pip"
-msgstr ""
-
-#: ../../starting/install/win.rst:49
-msgid ""
-"The most crucial third-party Python software of all is Setuptools, which "
-"extends the packaging and installation facilities provided by the distutils "
-"in the standard library. Once you add Setuptools to your Python system you "
-"can download and install any compliant Python software product with a single"
-" command. It also enables you to add this network installation capability to"
-" your own Python software with very little work."
-msgstr ""
-
-#: ../../starting/install/win.rst:56
-msgid ""
-"To obtain the latest version of Setuptools for Windows, run the Python "
-"script available here: `ez_setup.py "
-"<https://bootstrap.pypa.io/ez_setup.py>`_"
 msgstr ""
 
 #: ../../starting/install/win.rst:60
 msgid ""
-"You'll now have a new command available to you: **easy_install**. It is "
-"considered by many to be deprecated, so we will install its replacement: "
-"**pip**. Pip allows for uninstallation of packages, and is actively "
-"maintained, unlike easy_install."
+"The two most crucial third-party Python packages are `setuptools "
+"<https://pypi.python.org/pypi/setuptools>`_ and `pip "
+"<https://pip.pypa.io/en/stable/>`_."
 msgstr ""
+"Os dois pacotes de Python de terceiros mais cruciais são `setuptools "
+"<https://pypi.python.org/pypi/setuptools>`_ e `pip "
+"<https://pip.pypa.io/en/stable/>`_."
 
-#: ../../starting/install/win.rst:65
+#: ../../starting/install/win.rst:62
 msgid ""
-"To install pip, run the Python script available here: `get-pip.py "
-"<https://raw.github.com/pypa/pip/master/contrib/get-pip.py>`_"
+"Once installed, you can download, install and uninstall any compliant Python"
+" software product with a single command. It also enables you to add this "
+"network installation capability to your own Python software with very little"
+" work."
 msgstr ""
+"Uma vez instalado, você pode baixar, instalar e desinstalar qualquer produto"
+" de software Python compatível com um único comando. Ele também permite que "
+"você adicione esse recurso de instalação de rede ao seu próprio software "
+"Python com muito pouco trabalho."
 
-#: ../../starting/install/win.rst:70
+#: ../../starting/install/win.rst:66
+msgid ""
+"Python 2.7.9 and later (on the python2 series), and Python 3.4 and later "
+"include pip by default."
+msgstr ""
+"O Python 2.7.9 e posterior (na série python2) e o Python 3.4 e posterior "
+"incluem pip por padrão."
+
+#: ../../starting/install/win.rst:69
+msgid "To see if pip is installed, open a command prompt and run"
+msgstr "Para ver se o pip está instalado, abra um prompt de comando e execute"
+
+#: ../../starting/install/win.rst:75
+msgid ""
+"To install pip, `follow the official pip installation guide "
+"<https://pip.pypa.io/en/latest/installing/>`_ - this will automatically "
+"install the latest version of setuptools."
+msgstr ""
+"Para instalar o pip, `siga o guia oficial de instalação do pip "
+"<https://pip.pypa.io/en/latest/installing/>`_ - isso instalará "
+"automaticamente a versão mais recente do setuptools."
+
+#: ../../starting/install/win.rst:80
 msgid "Virtual Environments"
 msgstr "Ambientes virtuais"
 
-#: ../../starting/install/win.rst:72
+#: ../../starting/install/win.rst:82
 msgid ""
 "A Virtual Environment is a tool to keep the dependencies required by "
 "different projects in separate places, by creating virtual Python "
@@ -126,7 +154,7 @@ msgstr ""
 "mesma biblioteca mas na versão 4.x\" e mantém os seus pacotes instalados na "
 "pasta site-packages global limpa e organizada."
 
-#: ../../starting/install/win.rst:77
+#: ../../starting/install/win.rst:87
 msgid ""
 "For example, you can work on a project which requires Django 1.10 while also"
 " maintaining a project which requires Django 1.8."
@@ -135,15 +163,20 @@ msgstr ""
 "1.10 enquanto também poderá trabalhar em um outro projeto que use o Django "
 "mas na versão 1.8."
 
-#: ../../starting/install/win.rst:80
+#: ../../starting/install/win.rst:90
 msgid ""
 "To start using this and see more information: :ref:`Virtual Environments "
 "<virtualenvironments-ref>` docs."
 msgstr ""
+"Para começar a usar isso e ver mais informações: documentação "
+":ref:`Ambientes Virtuais <virtualenvironments-ref>`."
 
-#: ../../starting/install/win.rst:85
+#: ../../starting/install/win.rst:95
 msgid ""
 "This page is a remixed version of `another guide "
 "<http://www.stuartellis.eu/articles/python-development-windows/>`_, which is"
 " available under the same license."
 msgstr ""
+"Esta página é uma versão remixada de `outro guia "
+"<http://www.stuartellis.eu/articles/python-development-windows/>`_, que está"
+" disponível sob a mesma licença."

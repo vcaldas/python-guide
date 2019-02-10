@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
+# Copyright (C) 2011–2018 <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> &amp; <a href="https://realpython.com">Real Python</a>. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
 # This file is distributed under the same license as the pythonguide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Edson Mendes De Oliveira Filho <filho30face@gmail.com>, 2017
+# Victor Caldas <caldas.victor@gmail.com>, 2017
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-17 19:37+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2019-02-10 18:10+0100\n"
+"PO-Revision-Date: 2017-03-18 10:44+0000\n"
 "Last-Translator: Victor Caldas <caldas.victor@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -18,30 +22,60 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../intro/news.rst:2
+#: ../../intro/news.rst:5
 msgid "News"
 msgstr "Notícias "
 
-#: ../../intro/news.rst:5
+#: ../../intro/news.rst:12
+msgid "PyCoder’s Weekly"
+msgstr ""
+
+#: ../../intro/news.rst:14
+msgid ""
+"PyCoder’s Weekly is a free weekly Python newsletter for Python developers by"
+" Python developers (Projects, Articles, News, and Jobs)."
+msgstr ""
+
+#: ../../intro/news.rst:17
+msgid "`PyCoder’s Weekly <https://pycoders.com/>`_"
+msgstr ""
+
+#: ../../intro/news.rst:22
+msgid "Real Python"
+msgstr ""
+
+#: ../../intro/news.rst:24
+msgid ""
+"At Real Python you can learn all things Python from the ground up, with "
+"weekly free and in-depth tutorials. Everything from the absolute basics of "
+"Python, to web development and web scraping, to data visualization, and "
+"beyond."
+msgstr ""
+
+#: ../../intro/news.rst:26
+msgid "`Real Python <https://realpython.com/>`_"
+msgstr ""
+
+#: ../../intro/news.rst:31
 msgid "Planet Python"
 msgstr "Planeta Python"
 
-#: ../../intro/news.rst:7
+#: ../../intro/news.rst:33
 msgid ""
 "This is an aggregate of Python news from a growing number of developers."
 msgstr ""
 "Este é um compilado de novidades sobre Python vindo de um crescente número "
 "de desenvolvedores."
 
-#: ../../intro/news.rst:9
+#: ../../intro/news.rst:35
 msgid "`Planet Python <http://planet.python.org>`_"
 msgstr "`Planet Python <http://planet.python.org>`_"
 
-#: ../../intro/news.rst:12
+#: ../../intro/news.rst:40
 msgid "/r/python"
 msgstr "/r/python"
 
-#: ../../intro/news.rst:14
+#: ../../intro/news.rst:42
 msgid ""
 "/r/python is the Reddit Python community where users contribute and vote on "
 "Python-related news."
@@ -49,32 +83,39 @@ msgstr ""
 "/r/python é a comunidade Python no Reddit, onde usuários contribuem e votam "
 "sobre as novidades acerca de Python."
 
-#: ../../intro/news.rst:17
+#: ../../intro/news.rst:45
 msgid "`/r/python <http://reddit.com/r/python>`_"
 msgstr "`/r/python <http://reddit.com/r/python>`_"
 
-#: ../../intro/news.rst:20
-msgid "Pycoder's Weekly"
-msgstr "*Pycoder's Weekly*"
-
-#: ../../intro/news.rst:22
-msgid ""
-"Pycoder's Weekly is a free weekly Python newsletter for Python developers by"
-" Python developers (Projects, Articles, News, and Jobs)."
+#: ../../intro/news.rst:50
+msgid "Talk Python Podcast"
 msgstr ""
-"Pycoder's Weekly é uma folhetim semanal gratuito sobre Python para "
-"desenvolvedores Python escrito por desenvolvedores em Python. (Projetos, "
-"Artigos, Notícias e ofertas de emprego)."
 
-#: ../../intro/news.rst:25
-msgid "`Pycoder's Weekly <http://www.pycoders.com/>`_"
-msgstr "`Pycoder's Weekly <http://www.pycoders.com/>`_"
+#: ../../intro/news.rst:52
+msgid "The #1 Python-focused podcast covering the people and ideas in Python."
+msgstr ""
 
-#: ../../intro/news.rst:28
+#: ../../intro/news.rst:54
+msgid "`Talk Python To Me <https://talkpython.fm>`_"
+msgstr ""
+
+#: ../../intro/news.rst:59
+msgid "Python Bytes Podcast"
+msgstr ""
+
+#: ../../intro/news.rst:61
+msgid "A short-form Python podcast covering recent developer headlines."
+msgstr ""
+
+#: ../../intro/news.rst:63
+msgid "`Python Bytes <https://pythonbytes.fm>`_"
+msgstr ""
+
+#: ../../intro/news.rst:68
 msgid "Python Weekly"
 msgstr "Python Weekly"
 
-#: ../../intro/news.rst:30
+#: ../../intro/news.rst:70
 msgid ""
 "Python Weekly is a free weekly newsletter featuring curated news, articles, "
 "new releases, jobs, etc. related to Python."
@@ -83,15 +124,15 @@ msgstr ""
 " artigos, novos lançamentos, ofertas de emprego, etc, relacionados a "
 "Pythonis."
 
-#: ../../intro/news.rst:33
+#: ../../intro/news.rst:73
 msgid "`Python Weekly <http://www.pythonweekly.com/>`_"
 msgstr "`Python Weekly <http://www.pythonweekly.com/>`_"
 
-#: ../../intro/news.rst:36
+#: ../../intro/news.rst:78
 msgid "Python News"
 msgstr "*Python News*"
 
-#: ../../intro/news.rst:38
+#: ../../intro/news.rst:80
 msgid ""
 "Python News is the news section in the official Python web site "
 "(www.python.org). It briefly highlights the news from the Python community."
@@ -100,41 +141,37 @@ msgstr ""
 "(www.python.org). Ela brevemenente destaca as novidades da comunidade "
 "Python. "
 
-#: ../../intro/news.rst:41
+#: ../../intro/news.rst:83
 msgid "`Python News <http://www.python.org/news/>`_"
 msgstr "`Python News <http://www.python.org/news/>`_"
 
-#: ../../intro/news.rst:44
+#: ../../intro/news.rst:88
 msgid "Import Python Weekly"
 msgstr "Importe *Python Weekly*"
 
-#: ../../intro/news.rst:46
+#: ../../intro/news.rst:90
 msgid ""
-"Weekly Python Newsletter containing Python Articles, Projects, Videos, "
+"Weekly Python Newsletter containing Python Articles, Projects, Videos, and "
 "Tweets delivered in your inbox.  Keep Your Python Programming Skills "
 "Updated."
 msgstr ""
-"Semanalmente, a  *Python Newsletter* contém artigos Python, projetos, vídeos"
-" e tweets entregues diretamente na sua caixa de emails. Mantém suas "
-"habilidades em Pytho atualizadas. "
 
-#: ../../intro/news.rst:49
+#: ../../intro/news.rst:93
 msgid ""
 "`Import Python Weekly Newsletter <http://www.importpython.com/newsletter/>`_"
 msgstr ""
 "`Importe Python Weekly Newsletter "
 "<http://www.importpython.com/newsletter/>`_"
 
-#: ../../intro/news.rst:52
+#: ../../intro/news.rst:98
 msgid "Awesome Python Newsletter"
 msgstr "*Awesome Python Newsletter*"
 
-#: ../../intro/news.rst:54
+#: ../../intro/news.rst:100
 msgid ""
-"A weekly overview of the most popular Python news, articles and packages."
+"A weekly overview of the most popular Python news, articles, and packages."
 msgstr ""
-"Uma pincelada semanal nas novidades, artigos e pacotes mais populares."
 
-#: ../../intro/news.rst:56
+#: ../../intro/news.rst:102
 msgid "`Awesome Python Newsletter <https://python.libhunt.com/newsletter>`_"
 msgstr "`Awesome Python Newsletter <https://python.libhunt.com/newsletter>`_"

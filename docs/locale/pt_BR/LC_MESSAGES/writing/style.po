@@ -1,16 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
+# Copyright (C) 2011–2018 <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> &amp; <a href="https://realpython.com">Real Python</a>. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
 # This file is distributed under the same license as the pythonguide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Edson Mendes De Oliveira Filho <filho30face@gmail.com>, 2017
+# Claudio Rogerio, 2017
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-17 19:37+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Claudio Rogerio <excriptbrasil@gmail.com>, 2017\n"
+"POT-Creation-Date: 2019-02-10 18:10+0100\n"
+"PO-Revision-Date: 2017-03-18 10:45+0000\n"
+"Last-Translator: Claudio Rogerio, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,11 +22,11 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../writing/style.rst:4
+#: ../../writing/style.rst:6
 msgid "Code Style"
 msgstr "Estilo de código"
 
-#: ../../writing/style.rst:6
+#: ../../writing/style.rst:10
 msgid ""
 "If you ask Python programmers what they like most about Python, they will "
 "often cite its high readability.  Indeed, a high level of readability is at "
@@ -30,13 +34,13 @@ msgid ""
 "fact that code is read much more often than it is written."
 msgstr ""
 
-#: ../../writing/style.rst:11
+#: ../../writing/style.rst:15
 msgid ""
 "One reason for the high readability of Python code is its relatively "
 "complete set of Code Style guidelines and \"Pythonic\" idioms."
 msgstr ""
 
-#: ../../writing/style.rst:14
+#: ../../writing/style.rst:18
 msgid ""
 "When a veteran Python developer (a Pythonista) calls portions of code not "
 "\"Pythonic\", they usually mean that these lines of code do not follow the "
@@ -44,21 +48,21 @@ msgid ""
 "best (hear: most readable) way."
 msgstr ""
 
-#: ../../writing/style.rst:19
+#: ../../writing/style.rst:23
 msgid ""
 "On some border cases, no best way has been agreed upon on how to express an "
 "intent in Python code, but these cases are rare."
 msgstr ""
 
-#: ../../writing/style.rst:23
+#: ../../writing/style.rst:29
 msgid "General concepts"
 msgstr "Conceitos gerais"
 
-#: ../../writing/style.rst:26
+#: ../../writing/style.rst:32
 msgid "Explicit code"
 msgstr "Código Explicito"
 
-#: ../../writing/style.rst:28
+#: ../../writing/style.rst:34
 msgid ""
 "While any kind of black magic is possible with Python, the most explicit and"
 " straightforward manner is preferred."
@@ -66,15 +70,15 @@ msgstr ""
 "Embora seja possível qualquer tipo de magia negra com o Python, a maneira "
 "mais explícita e direta é a preferida."
 
-#: ../../writing/style.rst:31 ../../writing/style.rst:58
+#: ../../writing/style.rst:37 ../../writing/style.rst:64
 msgid "**Bad**"
 msgstr "**Mau**"
 
-#: ../../writing/style.rst:39 ../../writing/style.rst:69
+#: ../../writing/style.rst:45 ../../writing/style.rst:75
 msgid "**Good**"
 msgstr "**Bom**"
 
-#: ../../writing/style.rst:46
+#: ../../writing/style.rst:52
 msgid ""
 "In the good code above, x and y are explicitly received from the caller, and"
 " an explicit dictionary is returned. The developer using this function knows"
@@ -82,11 +86,11 @@ msgid ""
 "case with the bad example."
 msgstr ""
 
-#: ../../writing/style.rst:52
+#: ../../writing/style.rst:58
 msgid "One statement per line"
 msgstr "Uma declaração por linha"
 
-#: ../../writing/style.rst:54
+#: ../../writing/style.rst:60
 msgid ""
 "While some compound statements such as list comprehensions are allowed and "
 "appreciated for their brevity and their expressiveness, it is bad practice "
@@ -96,16 +100,16 @@ msgstr ""
 "permitidas e apreciadas pela sua brevidade e sua expressividade, é má "
 "prática ter duas declarações desconexas na mesma linha de código."
 
-#: ../../writing/style.rst:85
+#: ../../writing/style.rst:91
 msgid "Function arguments"
 msgstr "Argumentos de Funções"
 
-#: ../../writing/style.rst:87
+#: ../../writing/style.rst:93
 msgid "Arguments can be passed to functions in four different ways."
 msgstr ""
 "Argumentos podem ser passados para funções de quatro maneiras diferentes."
 
-#: ../../writing/style.rst:89
+#: ../../writing/style.rst:95
 msgid ""
 "**Positional arguments** are mandatory and have no default values. They are "
 "the simplest form of arguments and they can be used for the few function "
@@ -121,7 +125,7 @@ msgstr ""
 "ou ``point (x, y)`` o usuário da função não tem dificuldade em lembrar que "
 "essas duas funções requerem dois argumentos e em qual ordem."
 
-#: ../../writing/style.rst:96
+#: ../../writing/style.rst:102
 msgid ""
 "In those two cases, it is possible to use argument names when calling the "
 "functions and, doing so, it is possible to switch the order of arguments, "
@@ -131,7 +135,7 @@ msgid ""
 "'World')`` and ``point(1, 2)``."
 msgstr ""
 
-#: ../../writing/style.rst:103
+#: ../../writing/style.rst:109
 msgid ""
 "**Keyword arguments** are not mandatory and have default values. They are "
 "often used for optional parameters sent to the function. When a function has"
@@ -142,10 +146,10 @@ msgid ""
 "optional, and evaluate to ``None`` when they are not passed another value."
 msgstr ""
 
-#: ../../writing/style.rst:111
+#: ../../writing/style.rst:117
 msgid ""
 "Calling a function with keyword arguments can be done in multiple ways in "
-"Python, for example it is possible to follow the order of arguments in the "
+"Python; for example, it is possible to follow the order of arguments in the "
 "definition without explicitly naming the arguments, like in ``send('Hello', "
 "'World', 'Cthulhu', 'God')``, sending a blind carbon copy to God. It would "
 "also be possible to name arguments in another order, like in ``send('Hello "
@@ -155,28 +159,28 @@ msgid ""
 "cc='Cthulhu', bcc='God')``."
 msgstr ""
 
-#: ../../writing/style.rst:121
+#: ../../writing/style.rst:127
 msgid ""
-"As a side note, following `YAGNI "
+"As a side note, following the `YAGNI "
 "<http://en.wikipedia.org/wiki/You_ain't_gonna_need_it>`_ principle, it is "
 "often harder to remove an optional argument (and its logic inside the "
 "function) that was added \"just in case\" and is seemingly never used, than "
 "to add a new optional argument and its logic when needed."
 msgstr ""
 
-#: ../../writing/style.rst:126
+#: ../../writing/style.rst:132
 msgid ""
 "The **arbitrary argument list** is the third way to pass arguments to a "
 "function. If the function intention is better expressed by a signature with "
 "an extensible number of positional arguments, it can be defined with the "
 "``*args`` constructs. In the function body, ``args`` will be a tuple of all "
 "the remaining positional arguments. For example, ``send(message, *args)`` "
-"can be called with each recipient as an argument:``send('Hello', 'God', "
+"can be called with each recipient as an argument: ``send('Hello', 'God', "
 "'Mom', 'Cthulhu')``, and in the function body ``args`` will be equal to "
 "``('God', 'Mom', 'Cthulhu')``."
 msgstr ""
 
-#: ../../writing/style.rst:135
+#: ../../writing/style.rst:141
 msgid ""
 "However, this construct has some drawbacks and should be used with caution. "
 "If a function receives a list of arguments of the same nature, it is often "
@@ -189,7 +193,7 @@ msgid ""
 " be unpacked as other sequences."
 msgstr ""
 
-#: ../../writing/style.rst:144
+#: ../../writing/style.rst:150
 msgid ""
 "The **arbitrary keyword argument dictionary** is the last way to pass "
 "arguments to functions. If the function requires an undetermined series of "
@@ -199,7 +203,7 @@ msgid ""
 "function signature."
 msgstr ""
 
-#: ../../writing/style.rst:151
+#: ../../writing/style.rst:157
 msgid ""
 "The same caution as in the case of *arbitrary argument list* is necessary, "
 "for similar reasons: these powerful techniques are to be used when there is "
@@ -207,7 +211,7 @@ msgid ""
 "and clearer construct is sufficient to express the function's intention."
 msgstr ""
 
-#: ../../writing/style.rst:156
+#: ../../writing/style.rst:162
 msgid ""
 "It is up to the programmer writing the function to determine which arguments"
 " are positional arguments and which are optional keyword arguments, and to "
@@ -216,42 +220,42 @@ msgid ""
 "write Python functions that are:"
 msgstr ""
 
-#: ../../writing/style.rst:162
+#: ../../writing/style.rst:168
 msgid "easy to read (the name and arguments need no explanations)"
 msgstr ""
 
-#: ../../writing/style.rst:164
+#: ../../writing/style.rst:170
 msgid ""
 "easy to change (adding a new keyword argument does not break other parts of "
 "the code)"
 msgstr ""
 
-#: ../../writing/style.rst:168
+#: ../../writing/style.rst:174
 msgid "Avoid the magical wand"
 msgstr ""
 
-#: ../../writing/style.rst:170
+#: ../../writing/style.rst:176
 msgid ""
 "A powerful tool for hackers, Python comes with a very rich set of hooks and "
 "tools allowing you to do almost any kind of tricky tricks. For instance, it "
 "is possible to do each of the following:"
 msgstr ""
 
-#: ../../writing/style.rst:174
+#: ../../writing/style.rst:180
 msgid "change how objects are created and instantiated"
 msgstr ""
 
-#: ../../writing/style.rst:176
+#: ../../writing/style.rst:182
 msgid "change how the Python interpreter imports modules"
 msgstr ""
 
-#: ../../writing/style.rst:178
+#: ../../writing/style.rst:184
 msgid ""
-"it is even possible (and recommended if needed) to embed C routines in "
+"It is even possible (and recommended if needed) to embed C routines in "
 "Python."
 msgstr ""
 
-#: ../../writing/style.rst:180
+#: ../../writing/style.rst:186
 msgid ""
 "However, all these options have many drawbacks and it is always better to "
 "use the most straightforward way to achieve your goal. The main drawback is "
@@ -260,7 +264,7 @@ msgid ""
 "\"magic\" code."
 msgstr ""
 
-#: ../../writing/style.rst:185
+#: ../../writing/style.rst:191
 msgid ""
 "We consider that a Python developer should know about these nearly infinite "
 "possibilities, because it instills confidence that no impassable problem "
@@ -268,17 +272,17 @@ msgid ""
 "use them is very important."
 msgstr ""
 
-#: ../../writing/style.rst:190
+#: ../../writing/style.rst:196
 msgid ""
 "Like a kung fu master, a Pythonista knows how to kill with a single finger, "
 "and never to actually do it."
 msgstr ""
 
-#: ../../writing/style.rst:194
+#: ../../writing/style.rst:200
 msgid "We are all responsible users"
 msgstr ""
 
-#: ../../writing/style.rst:196
+#: ../../writing/style.rst:202
 msgid ""
 "As seen above, Python allows many tricks, and some of them are potentially "
 "dangerous. A good example is that any client code can override an object's "
@@ -288,16 +292,16 @@ msgid ""
 "\"We are all responsible users\"."
 msgstr ""
 
-#: ../../writing/style.rst:203
+#: ../../writing/style.rst:209
 msgid ""
 "This doesn't mean that, for example, no properties are considered private, "
 "and that no proper encapsulation is possible in Python. Rather, instead of "
 "relying on concrete walls erected by the developers between their code and "
-"other's, the Python community prefers to rely on a set of conventions "
+"others', the Python community prefers to rely on a set of conventions "
 "indicating that these elements should not be accessed directly."
 msgstr ""
 
-#: ../../writing/style.rst:209
+#: ../../writing/style.rst:215
 msgid ""
 "The main convention for private properties and implementation details is to "
 "prefix all \"internals\" with an underscore. If the client code breaks this "
@@ -306,7 +310,7 @@ msgid ""
 "code."
 msgstr ""
 
-#: ../../writing/style.rst:214
+#: ../../writing/style.rst:220
 msgid ""
 "Using this convention generously is encouraged: any method or property that "
 "is not intended to be used by client code should be prefixed with an "
@@ -316,11 +320,11 @@ msgid ""
 "harder operation."
 msgstr ""
 
-#: ../../writing/style.rst:221
+#: ../../writing/style.rst:227
 msgid "Returning values"
 msgstr ""
 
-#: ../../writing/style.rst:223
+#: ../../writing/style.rst:229
 msgid ""
 "When a function grows in complexity it is not uncommon to use multiple "
 "return statements inside the function's body. However, in order to keep a "
@@ -328,7 +332,7 @@ msgid ""
 "returning meaningful values from many output points in the body."
 msgstr ""
 
-#: ../../writing/style.rst:228
+#: ../../writing/style.rst:234
 msgid ""
 "There are two main cases for returning values in a function: the result of "
 "the function return when it has been processed normally, and the error cases"
@@ -336,7 +340,7 @@ msgid ""
 "to not be able to complete its computation or task."
 msgstr ""
 
-#: ../../writing/style.rst:233
+#: ../../writing/style.rst:239
 msgid ""
 "If you do not wish to raise exceptions for the second case, then returning a"
 " value, such as None or False, indicating that the function could not "
@@ -348,7 +352,7 @@ msgid ""
 "necessary."
 msgstr ""
 
-#: ../../writing/style.rst:241
+#: ../../writing/style.rst:247
 msgid ""
 "However, when a function has multiple main exit points for its normal "
 "course, it becomes difficult to debug the returned result, so it may be "
@@ -357,11 +361,11 @@ msgid ""
 " such a refactoring is needed."
 msgstr ""
 
-#: ../../writing/style.rst:262
+#: ../../writing/style.rst:270
 msgid "Idioms"
 msgstr ""
 
-#: ../../writing/style.rst:264
+#: ../../writing/style.rst:272
 msgid ""
 "A programming idiom, put simply, is a *way* to write code. The notion of "
 "programming idioms is discussed amply at `c2 "
@@ -369,57 +373,57 @@ msgid ""
 "<http://stackoverflow.com/questions/302459/what-is-a-programming-idiom>`_."
 msgstr ""
 
-#: ../../writing/style.rst:268
+#: ../../writing/style.rst:276
 msgid "Idiomatic Python code is often referred to as being *Pythonic*."
 msgstr ""
 
-#: ../../writing/style.rst:270
+#: ../../writing/style.rst:278
 msgid ""
 "Although there usually is one --- and preferably only one --- obvious way to"
 " do it; *the* way to write idiomatic Python code can be non-obvious to "
 "Python beginners. So, good idioms must be consciously acquired."
 msgstr ""
 
-#: ../../writing/style.rst:274
+#: ../../writing/style.rst:282
 msgid "Some common Python idioms follow:"
 msgstr ""
 
-#: ../../writing/style.rst:279
+#: ../../writing/style.rst:287
 msgid "Unpacking"
 msgstr ""
 
-#: ../../writing/style.rst:281
+#: ../../writing/style.rst:289
 msgid ""
 "If you know the length of a list or tuple, you can assign names to its "
 "elements with unpacking. For example, since ``enumerate()`` will provide a "
 "tuple of two elements for each item in list:"
 msgstr ""
 
-#: ../../writing/style.rst:290
+#: ../../writing/style.rst:298
 msgid "You can use this to swap variables as well:"
 msgstr ""
 
-#: ../../writing/style.rst:296
+#: ../../writing/style.rst:304
 msgid "Nested unpacking works too:"
 msgstr ""
 
-#: ../../writing/style.rst:302
+#: ../../writing/style.rst:310
 msgid ""
 "In Python 3, a new method of extended unpacking was introduced by "
 ":pep:`3132`:"
 msgstr ""
 
-#: ../../writing/style.rst:313
+#: ../../writing/style.rst:321
 msgid "Create an ignored variable"
 msgstr ""
 
-#: ../../writing/style.rst:315
+#: ../../writing/style.rst:323
 msgid ""
 "If you need to assign something (for instance, in :ref:`unpacking-ref`) but "
 "will not need that variable, use ``__``:"
 msgstr ""
 
-#: ../../writing/style.rst:325
+#: ../../writing/style.rst:333
 msgid ""
 "Many Python style guides recommend the use of a single underscore \"``_``\" "
 "for throwaway variables rather than the double underscore \"``__``\" "
@@ -430,60 +434,60 @@ msgid ""
 " the risk of accidentally interfering with either of these other use cases."
 msgstr ""
 
-#: ../../writing/style.rst:335
+#: ../../writing/style.rst:343
 msgid "Create a length-N list of the same thing"
 msgstr ""
 
-#: ../../writing/style.rst:337
+#: ../../writing/style.rst:345
 msgid "Use the Python list ``*`` operator:"
 msgstr ""
 
-#: ../../writing/style.rst:344
+#: ../../writing/style.rst:352
 msgid "Create a length-N list of lists"
 msgstr ""
 
-#: ../../writing/style.rst:346
+#: ../../writing/style.rst:354
 msgid ""
 "Because lists are mutable, the ``*`` operator (as above) will create a list "
 "of N references to the `same` list, which is not likely what you want. "
 "Instead, use a list comprehension:"
 msgstr ""
 
-#: ../../writing/style.rst:354
-msgid "Note: Use range() instead of xrange() in Python 3"
+#: ../../writing/style.rst:362
+msgid "Note: Use range() instead of xrange() in Python 3."
 msgstr ""
 
-#: ../../writing/style.rst:357
+#: ../../writing/style.rst:365
 msgid "Create a string from a list"
 msgstr ""
 
-#: ../../writing/style.rst:359
+#: ../../writing/style.rst:367
 msgid ""
 "A common idiom for creating strings is to use :py:meth:`str.join` on an "
 "empty string."
 msgstr ""
 
-#: ../../writing/style.rst:367
+#: ../../writing/style.rst:375
 msgid ""
 "This will set the value of the variable *word* to 'spam'. This idiom can be "
 "applied to lists and tuples."
 msgstr ""
 
-#: ../../writing/style.rst:371
+#: ../../writing/style.rst:379
 msgid "Searching for an item in a collection"
 msgstr ""
 
-#: ../../writing/style.rst:373
+#: ../../writing/style.rst:381
 msgid ""
 "Sometimes we need to search through a collection of things. Let's look at "
 "two options: lists and sets."
 msgstr ""
 
-#: ../../writing/style.rst:376
+#: ../../writing/style.rst:384
 msgid "Take the following code for example:"
 msgstr ""
 
-#: ../../writing/style.rst:389
+#: ../../writing/style.rst:397
 msgid ""
 "Even though both functions look identical, because *lookup_set* is utilizing"
 " the fact that sets in Python are hashtables, the lookup performance between"
@@ -499,25 +503,25 @@ msgid ""
 "structures, see `this page <https://wiki.python.org/moin/TimeComplexity?>`_."
 msgstr ""
 
-#: ../../writing/style.rst:403
+#: ../../writing/style.rst:411
 msgid ""
 "Because of these differences in performance, it is often a good idea to use "
 "sets or dictionaries instead of lists in cases where:"
 msgstr ""
 
-#: ../../writing/style.rst:406
+#: ../../writing/style.rst:414
 msgid "The collection will contain a large number of items"
 msgstr ""
 
-#: ../../writing/style.rst:408
+#: ../../writing/style.rst:416
 msgid "You will be repeatedly searching for items in the collection"
 msgstr ""
 
-#: ../../writing/style.rst:410
+#: ../../writing/style.rst:418
 msgid "You do not have duplicate items."
 msgstr ""
 
-#: ../../writing/style.rst:412
+#: ../../writing/style.rst:420
 msgid ""
 "For small collections, or collections which you will not frequently be "
 "searching through, the additional time and memory required to set up the "
@@ -525,32 +529,32 @@ msgid ""
 "speed."
 msgstr ""
 
-#: ../../writing/style.rst:419
+#: ../../writing/style.rst:428
 msgid "Zen of Python"
 msgstr ""
 
-#: ../../writing/style.rst:421
+#: ../../writing/style.rst:430
 msgid "Also known as :pep:`20`, the guiding principles for Python's design."
 msgstr ""
 
-#: ../../writing/style.rst:448
+#: ../../writing/style.rst:457
 msgid ""
 "For some examples of good Python style, see `these slides from a Python user"
 " group <http://artifex.org/~hblanks/talks/2011/pep20_by_example.pdf>`_."
 msgstr ""
 
-#: ../../writing/style.rst:452
+#: ../../writing/style.rst:463
 msgid "PEP 8"
 msgstr ""
 
-#: ../../writing/style.rst:454
+#: ../../writing/style.rst:465
 msgid ""
-":pep:`8` is the de-facto code style guide for Python. A high quality, easy-"
+":pep:`8` is the de facto code style guide for Python. A high quality, easy-"
 "to-read version of PEP 8 is also available at `pep8.org "
 "<http://pep8.org/>`_."
 msgstr ""
 
-#: ../../writing/style.rst:457
+#: ../../writing/style.rst:468
 msgid ""
 "This is highly recommended reading. The entire Python community does their "
 "best to adhere to the guidelines laid out within this document. Some project"
@@ -559,32 +563,33 @@ msgid ""
 "/#kenneth-reitz-s-code-style>`_."
 msgstr ""
 
-#: ../../writing/style.rst:462
+#: ../../writing/style.rst:473
 msgid ""
 "That being said, conforming your Python code to PEP 8 is generally a good "
 "idea and helps make code more consistent when working on projects with other"
-" developers. There is a command-line program, `pep8 "
-"<https://github.com/jcrocholl/pep8>`_, that can check your code for "
-"conformance. Install it by running the following command in your terminal:"
+" developers. There is a command-line program, `pycodestyle "
+"<https://github.com/PyCQA/pycodestyle>`_ (previously known as ``pep8``), "
+"that can check your code for conformance. Install it by running the "
+"following command in your terminal:"
 msgstr ""
 
-#: ../../writing/style.rst:474
+#: ../../writing/style.rst:485
 msgid ""
 "Then run it on a file or series of files to get a report of any violations."
 msgstr ""
 
-#: ../../writing/style.rst:488
+#: ../../writing/style.rst:499
 msgid ""
 "The program `autopep8 <https://pypi.python.org/pypi/autopep8/>`_ can be used"
 " to automatically reformat code in the PEP 8 style. Install the program "
 "with:"
 msgstr ""
 
-#: ../../writing/style.rst:495
+#: ../../writing/style.rst:506
 msgid "Use it to format a file in-place with:"
 msgstr ""
 
-#: ../../writing/style.rst:501
+#: ../../writing/style.rst:512
 msgid ""
 "Excluding the ``--in-place`` flag will cause the program to output the "
 "modified code directly to the console for review. The ``--aggressive`` flag "
@@ -592,93 +597,165 @@ msgid ""
 "greater effect."
 msgstr ""
 
-#: ../../writing/style.rst:506
+#: ../../writing/style.rst:519
 msgid "Conventions"
 msgstr ""
 
-#: ../../writing/style.rst:508
+#: ../../writing/style.rst:521
 msgid ""
 "Here are some conventions you should follow to make your code easier to "
 "read."
 msgstr ""
 
-#: ../../writing/style.rst:511
-msgid "Check if variable equals a constant"
+#: ../../writing/style.rst:524
+msgid "Check if a variable equals a constant"
 msgstr ""
 
-#: ../../writing/style.rst:513
+#: ../../writing/style.rst:526
 msgid ""
-"You don't need to explicitly compare a value to True, or None, or 0 - you "
+"You don't need to explicitly compare a value to True, or None, or 0 -- you "
 "can just add it to the if statement. See `Truth Value Testing "
 "<http://docs.python.org/library/stdtypes.html#truth-value-testing>`_ for a "
 "list of what is considered false."
 msgstr ""
 
-#: ../../writing/style.rst:518 ../../writing/style.rst:550
-#: ../../writing/style.rst:582 ../../writing/style.rst:602
-#: ../../writing/style.rst:641 ../../writing/style.rst:676
+#: ../../writing/style.rst:531 ../../writing/style.rst:563
+#: ../../writing/style.rst:601 ../../writing/style.rst:642
+#: ../../writing/style.rst:659 ../../writing/style.rst:704
+#: ../../writing/style.rst:750 ../../writing/style.rst:785
 msgid "**Bad**:"
 msgstr ""
 
-#: ../../writing/style.rst:528 ../../writing/style.rst:560
-#: ../../writing/style.rst:593 ../../writing/style.rst:611
-#: ../../writing/style.rst:650 ../../writing/style.rst:687
+#: ../../writing/style.rst:541 ../../writing/style.rst:573
+#: ../../writing/style.rst:608 ../../writing/style.rst:622
+#: ../../writing/style.rst:648 ../../writing/style.rst:678
+#: ../../writing/style.rst:717 ../../writing/style.rst:759
+#: ../../writing/style.rst:796
 msgid "**Good**:"
 msgstr ""
 
-#: ../../writing/style.rst:545
+#: ../../writing/style.rst:558
 msgid "Access a Dictionary Element"
 msgstr ""
 
-#: ../../writing/style.rst:547
+#: ../../writing/style.rst:560
 msgid ""
 "Don't use the :py:meth:`dict.has_key` method. Instead, use ``x in d`` "
 "syntax, or pass a default argument to :py:meth:`dict.get`."
 msgstr ""
 
-#: ../../writing/style.rst:574
+#: ../../writing/style.rst:587
 msgid "Short Ways to Manipulate Lists"
 msgstr ""
 
-#: ../../writing/style.rst:576
+#: ../../writing/style.rst:589
 msgid ""
 "`List comprehensions <http://docs.python.org/tutorial/datastructures.html"
-"#list-comprehensions>`_ provide a powerful, concise way to work with lists. "
-"Also, the :py:func:`map` and :py:func:`filter` functions can perform "
-"operations on lists using a different, more concise syntax."
+"#list-comprehensions>`_ provide a powerful, concise way to work with lists."
 msgstr ""
 
-#: ../../writing/style.rst:620
+#: ../../writing/style.rst:593
+msgid ""
+"`Generator expressions <http://docs.python.org/tutorial/classes.html"
+"#generator-expressions>`_ follow almost the same syntax as list "
+"comprehensions but return a generator instead of a list."
+msgstr ""
+
+#: ../../writing/style.rst:598
+msgid ""
+"Creating a new list requires more work and uses more memory. If you are just"
+" going to loop through the new list, prefer using an iterator instead."
+msgstr ""
+
+#: ../../writing/style.rst:615
+msgid ""
+"Use list comprehensions when you really need to create a second list, for "
+"example if you need to use the result multiple times."
+msgstr ""
+
+#: ../../writing/style.rst:619
+msgid ""
+"If your logic is too complicated for a short list comprehension or generator"
+" expression, consider using a generator function instead of returning a "
+"list."
+msgstr ""
+
+#: ../../writing/style.rst:640
+msgid "Never use a list comprehension just for its side effects."
+msgstr ""
+
+#: ../../writing/style.rst:657
+msgid "Filtering a list"
+msgstr ""
+
+#: ../../writing/style.rst:661
+msgid "Never remove items from a list while you are iterating through it."
+msgstr ""
+
+#: ../../writing/style.rst:671
+msgid "Don't make multiple passes through the list."
+msgstr ""
+
+#: ../../writing/style.rst:680
+msgid "Use a list comprehension or generator expression."
+msgstr ""
+
+#: ../../writing/style.rst:692
+msgid "Possible side effects of modifying the original list"
+msgstr ""
+
+#: ../../writing/style.rst:694
+msgid ""
+"Modifying the original list can be risky if there are other variables "
+"referencing it. But you can use *slice assignment* if you really want to do "
+"that."
+msgstr ""
+
+#: ../../writing/style.rst:703
+msgid "Modifying the values in a list"
+msgstr ""
+
+#: ../../writing/style.rst:706
+msgid ""
+"Remember that assignment never creates a new object. If two or more "
+"variables refer to the same list, changing one of them changes them all."
+msgstr ""
+
+#: ../../writing/style.rst:719
+msgid "It's safer to create a new list object and leave the original alone."
+msgstr ""
+
+#: ../../writing/style.rst:729
 msgid "Use :py:func:`enumerate` keep a count of your place in the list."
 msgstr ""
 
-#: ../../writing/style.rst:632
+#: ../../writing/style.rst:741
 msgid ""
 "The :py:func:`enumerate` function has better readability than handling a "
 "counter manually. Moreover, it is better optimized for iterators."
 msgstr ""
 
-#: ../../writing/style.rst:636
+#: ../../writing/style.rst:745
 msgid "Read From a File"
 msgstr ""
 
-#: ../../writing/style.rst:638
+#: ../../writing/style.rst:747
 msgid ""
 "Use the ``with open`` syntax to read from files. This will automatically "
 "close files for you."
 msgstr ""
 
-#: ../../writing/style.rst:658
+#: ../../writing/style.rst:767
 msgid ""
 "The ``with`` statement is better because it will ensure you always close the"
 " file, even if an exception is raised inside the ``with`` block."
 msgstr ""
 
-#: ../../writing/style.rst:662
+#: ../../writing/style.rst:771
 msgid "Line Continuations"
 msgstr ""
 
-#: ../../writing/style.rst:664
+#: ../../writing/style.rst:773
 msgid ""
 "When a logical line of code is longer than the accepted limit, you need to "
 "split it over multiple physical lines. The Python interpreter will join "
@@ -688,7 +765,7 @@ msgid ""
 "will break the code and may have unexpected results."
 msgstr ""
 
-#: ../../writing/style.rst:671
+#: ../../writing/style.rst:780
 msgid ""
 "A better solution is to use parentheses around your elements. Left with an "
 "unclosed parenthesis on an end-of-line the Python interpreter will join the "
@@ -696,7 +773,7 @@ msgid ""
 "curly and square braces."
 msgstr ""
 
-#: ../../writing/style.rst:700
+#: ../../writing/style.rst:809
 msgid ""
 "However, more often than not, having to split a long logical line is a sign "
 "that you are trying to do too many things at the same time, which may hinder"

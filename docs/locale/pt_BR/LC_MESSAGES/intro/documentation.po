@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
+# Copyright (C) 2011–2018 <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> &amp; <a href="https://realpython.com">Real Python</a>. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
 # This file is distributed under the same license as the pythonguide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Edson Mendes De Oliveira Filho <filho30face@gmail.com>, 2017
+# Victor Caldas <caldas.victor@gmail.com>, 2017
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-17 19:37+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2019-02-10 18:10+0100\n"
+"PO-Revision-Date: 2017-03-18 10:44+0000\n"
 "Last-Translator: Victor Caldas <caldas.victor@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -18,34 +22,34 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../intro/documentation.rst:2
+#: ../../intro/documentation.rst:5
 msgid "Documentation"
 msgstr "Documentação"
 
-#: ../../intro/documentation.rst:5
+#: ../../intro/documentation.rst:12
 msgid "Official Documentation"
 msgstr "Documentação oficial"
 
-#: ../../intro/documentation.rst:7
+#: ../../intro/documentation.rst:14
 msgid ""
 "The official Python Language and Library documentation can be found here:"
 msgstr ""
 "A documentação oficial da linguagem Python e das sua bibliotecas podem ser "
 "encontradas aqui:"
 
-#: ../../intro/documentation.rst:9
+#: ../../intro/documentation.rst:16
 msgid "`Python 2.x <https://docs.python.org/2/>`_"
 msgstr "`Python 2.x <https://docs.python.org/2/>`_"
 
-#: ../../intro/documentation.rst:10
+#: ../../intro/documentation.rst:17
 msgid "`Python 3.x <https://docs.python.org/3/>`_"
 msgstr "`Python 3.x <https://docs.python.org/3/>`_"
 
-#: ../../intro/documentation.rst:14
+#: ../../intro/documentation.rst:22
 msgid "Read the Docs"
 msgstr "*Read the Docs*"
 
-#: ../../intro/documentation.rst:16
+#: ../../intro/documentation.rst:24
 msgid ""
 "Read the Docs is a popular community project that hosts documentation for "
 "open source software. It holds documentation for many Python modules, both "
@@ -55,29 +59,24 @@ msgstr ""
 " arquiva a documentação para software de código aberto. Ele possui "
 "documentação para muitos módulos do Python, tanto populares quanto exóticos."
 
-#: ../../intro/documentation.rst:20
+#: ../../intro/documentation.rst:28
 msgid "`Read the Docs <https://readthedocs.org/>`_"
 msgstr "`Read the Docs <https://readthedocs.org/>`_"
 
-#: ../../intro/documentation.rst:24
+#: ../../intro/documentation.rst:33
 msgid "pydoc"
 msgstr "pydoc"
 
-#: ../../intro/documentation.rst:26
+#: ../../intro/documentation.rst:35
 msgid ""
 ":program:`pydoc` is a utility that is installed when you install Python. It "
 "allows you to quickly retrieve and search for documentation from your shell."
 " For example, if you needed a quick refresher on the :mod:`time` module, "
-"pulling up documentation would be as simple as"
+"pulling up documentation would be as simple as:"
 msgstr ""
-":program:`pydoc` é uma ferramenta instalada quando você instala Python. Ela "
-"permite que você rapidamente recuperar e procurar por alguma documentação "
-"sobre o seu sistema. Por exemplo, se você precisa lembrar de algum módulo "
-":mod:`time` , pegar a documentação vai ser simples como "
 
-#: ../../intro/documentation.rst:35
+#: ../../intro/documentation.rst:44
 msgid ""
 "The above command is essentially equivalent to opening the Python REPL and "
-"running"
+"running:"
 msgstr ""
-"O comando acima é essencialmente equivalente a abrir o Python REPL e rodar"

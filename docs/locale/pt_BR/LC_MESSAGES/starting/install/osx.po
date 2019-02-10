@@ -1,16 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
+# Copyright (C) 2011–2018 <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> &amp; <a href="https://realpython.com">Real Python</a>. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
 # This file is distributed under the same license as the pythonguide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Edson Mendes De Oliveira Filho <filho30face@gmail.com>, 2017
+# Caio wzy <CaioWzy@gmail.com>, 2017
+# Jonatha Daguerre <jonatha@daguerre.com.br>, 2018
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-17 19:37+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Caio wzy <CaioWzy@gmail.com>, 2017\n"
+"POT-Creation-Date: 2019-02-10 18:10+0100\n"
+"PO-Revision-Date: 2017-03-18 10:45+0000\n"
+"Last-Translator: Jonatha Daguerre <jonatha@daguerre.com.br>, 2018\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,22 +23,20 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../starting/install/osx.rst:4
-msgid "Installing Python on Mac OS X"
-msgstr "Instalando Python no Mac OS X"
+#: ../../starting/install/osx.rst:6
+msgid "Installing Python 2 on Mac OS X"
+msgstr ""
 
-#: ../../starting/install/osx.rst:7
+#: ../../starting/install/osx.rst:11
 msgid ""
 "Check out our :ref:`guide for installing Python 3 on OS X<install3-osx>`."
 msgstr ""
 
-#: ../../starting/install/osx.rst:9
-msgid ""
-"The latest version of Mac OS X, Sierra, **comes with Python 2.7 out of the "
-"box**."
+#: ../../starting/install/osx.rst:13
+msgid "**Mac OS X comes with Python 2.7 out of the box.**"
 msgstr ""
 
-#: ../../starting/install/osx.rst:11
+#: ../../starting/install/osx.rst:15
 msgid ""
 "You do not need to install or configure anything else to use Python. Having "
 "said that, I would strongly recommend that you install the tools and "
@@ -43,23 +46,23 @@ msgid ""
 "third-party Python libraries."
 msgstr ""
 
-#: ../../starting/install/osx.rst:17
+#: ../../starting/install/osx.rst:21
 msgid ""
-"The version of Python that ships with OS X is great for learning but it's "
+"The version of Python that ships with OS X is great for learning, but it's "
 "not good for development. The version shipped with OS X may be out of date "
 "from the `official current Python release <https://www.python.org/downloads"
 "/mac-osx/>`_, which is considered the stable production version."
 msgstr ""
 
-#: ../../starting/install/osx.rst:23
+#: ../../starting/install/osx.rst:29
 msgid "Doing it Right"
 msgstr ""
 
-#: ../../starting/install/osx.rst:25
+#: ../../starting/install/osx.rst:31
 msgid "Let's install a real version of Python."
 msgstr ""
 
-#: ../../starting/install/osx.rst:27
+#: ../../starting/install/osx.rst:33
 msgid ""
 "Before installing Python, you'll need to install a C compiler. The fastest "
 "way is to install the Xcode Command Line Tools by running ``xcode-select "
@@ -69,32 +72,32 @@ msgid ""
 "installer#readme>`_ package."
 msgstr ""
 
-#: ../../starting/install/osx.rst:36
+#: ../../starting/install/osx.rst:42
 msgid ""
-"If you already have XCode installed, do not install OSX-GCC-Installer. In "
+"If you already have Xcode installed, do not install OSX-GCC-Installer. In "
 "combination, the software can cause issues that are difficult to diagnose."
 msgstr ""
 
-#: ../../starting/install/osx.rst:41
+#: ../../starting/install/osx.rst:47
 msgid ""
-"If you perform a fresh install of XCode, you will also need to add the "
+"If you perform a fresh install of Xcode, you will also need to add the "
 "commandline tools by running ``xcode-select --install`` on the terminal."
 msgstr ""
 
-#: ../../starting/install/osx.rst:45
+#: ../../starting/install/osx.rst:51
 msgid ""
-"While OS X comes with a large number of UNIX utilities, those familiar with "
+"While OS X comes with a large number of Unix utilities, those familiar with "
 "Linux systems will notice one key component missing: a decent package "
 "manager. `Homebrew <http://brew.sh>`_ fills this void."
 msgstr ""
 
-#: ../../starting/install/osx.rst:49
+#: ../../starting/install/osx.rst:55
 msgid ""
 "To `install Homebrew <http://brew.sh/#install>`_, open :file:`Terminal` or "
-"your favorite OSX terminal emulator and run"
+"your favorite OS X terminal emulator and run"
 msgstr ""
 
-#: ../../starting/install/osx.rst:56
+#: ../../starting/install/osx.rst:62
 msgid ""
 "The script will explain what changes it will make and prompt you before the "
 "installation begins. Once you've installed Homebrew, insert the Homebrew "
@@ -103,27 +106,31 @@ msgid ""
 "file"
 msgstr ""
 
-#: ../../starting/install/osx.rst:66
+#: ../../starting/install/osx.rst:72
 msgid "Now, we can install Python 2.7:"
 msgstr ""
 
-#: ../../starting/install/osx.rst:72
-msgid "or Python 3:"
-msgstr ""
-
 #: ../../starting/install/osx.rst:78
-msgid "This will take a minute or two."
-msgstr ""
-
-#: ../../starting/install/osx.rst:82
-msgid "Setuptools & Pip"
+msgid ""
+"Because ``python@2`` is a \"keg\", we need to update our ``PATH`` again, to "
+"point at our new installation:"
 msgstr ""
 
 #: ../../starting/install/osx.rst:84
+msgid ""
+"Homebrew names the executable ``python2`` so that you can still run the "
+"system Python via the executable ``python``."
+msgstr ""
+
+#: ../../starting/install/osx.rst:96
+msgid "Setuptools & Pip"
+msgstr "Setuptools & Pip"
+
+#: ../../starting/install/osx.rst:98
 msgid "Homebrew installs Setuptools and ``pip`` for you."
 msgstr ""
 
-#: ../../starting/install/osx.rst:86
+#: ../../starting/install/osx.rst:100
 msgid ""
 "Setuptools enables you to download and install any compliant Python software"
 " over a network (usually the Internet) with a single command "
@@ -131,7 +138,7 @@ msgid ""
 "capability to your own Python software with very little work."
 msgstr ""
 
-#: ../../starting/install/osx.rst:91
+#: ../../starting/install/osx.rst:105
 msgid ""
 "``pip`` is a tool for easily installing and managing Python packages, that "
 "is recommended over ``easy_install``. It is superior to ``easy_install`` in "
@@ -140,11 +147,11 @@ msgid ""
 "actively maintained."
 msgstr ""
 
-#: ../../starting/install/osx.rst:98
+#: ../../starting/install/osx.rst:118
 msgid "Virtual Environments"
 msgstr "Ambientes virtuais"
 
-#: ../../starting/install/osx.rst:100
+#: ../../starting/install/osx.rst:120
 msgid ""
 "A Virtual Environment (commonly referred to as a 'virtualenv') is a tool to "
 "keep the dependencies required by different projects in separate places, by "
@@ -153,7 +160,7 @@ msgid ""
 "global site-packages directory clean and manageable."
 msgstr ""
 
-#: ../../starting/install/osx.rst:105
+#: ../../starting/install/osx.rst:125
 msgid ""
 "For example, you can work on a project which requires Django 1.10 while also"
 " maintaining a project which requires Django 1.8."
@@ -162,15 +169,20 @@ msgstr ""
 "1.10 enquanto também poderá trabalhar em um outro projeto que use o Django "
 "mas na versão 1.8."
 
-#: ../../starting/install/osx.rst:108
+#: ../../starting/install/osx.rst:128
 msgid ""
 "To start using this and see more information: :ref:`Virtual Environments "
 "<virtualenvironments-ref>` docs."
 msgstr ""
+"Para começar a usar isso e ver mais informações: documentação "
+":ref:`Ambientes Virtuais <virtualenvironments-ref>`."
 
-#: ../../starting/install/osx.rst:112
+#: ../../starting/install/osx.rst:132
 msgid ""
 "This page is a remixed version of `another guide "
 "<http://www.stuartellis.eu/articles/python-development-windows/>`_, which is"
 " available under the same license."
 msgstr ""
+"Esta página é uma versão remixada de `outro guia "
+"<http://www.stuartellis.eu/articles/python-development-windows/>`_, que está"
+" disponível sob a mesma licença."

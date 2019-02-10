@@ -1,15 +1,18 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
+# Copyright (C) 2011–2018 <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> &amp; <a href="https://realpython.com">Real Python</a>. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
 # This file is distributed under the same license as the pythonguide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Edson Mendes De Oliveira Filho <filho30face@gmail.com>, 2017
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-17 19:37+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2019-02-10 18:10+0100\n"
+"PO-Revision-Date: 2017-03-18 10:44+0000\n"
 "Last-Translator: Edson Mendes De Oliveira Filho <filho30face@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +25,7 @@ msgstr ""
 msgid "The Guide Style Guide"
 msgstr ""
 
-#: ../../notes/styleguide.rst:7
+#: ../../notes/styleguide.rst:9
 msgid ""
 "As with all documentation, having a consistent format helps make the "
 "document more understandable. In order to make The Guide easier to digest, "
@@ -34,97 +37,101 @@ msgstr ""
 "todas as contribuições devem seguir as regras de estilo descritas aqui onde "
 "necessário."
 
-#: ../../notes/styleguide.rst:12
+#: ../../notes/styleguide.rst:14
 msgid "The Guide is written as :ref:`restructuredtext-ref`."
 msgstr ""
 
-#: ../../notes/styleguide.rst:14
+#: ../../notes/styleguide.rst:16
 msgid ""
 "Parts of The Guide may not yet match this style guide. Feel free to update "
 "those parts to be in sync with The Guide Style Guide"
 msgstr ""
 
-#: ../../notes/styleguide.rst:17
+#: ../../notes/styleguide.rst:19
 msgid ""
 "On any page of the rendered HTML you can click \"Show Source\" to see how "
 "authors have styled the page."
 msgstr ""
 
-#: ../../notes/styleguide.rst:21
+#: ../../notes/styleguide.rst:25
 msgid "Relevancy"
 msgstr ""
 
-#: ../../notes/styleguide.rst:23
+#: ../../notes/styleguide.rst:27
 msgid ""
 "Strive to keep any contributions relevant to the :ref:`purpose of The Guide "
 "<about-ref>`."
 msgstr ""
 
-#: ../../notes/styleguide.rst:26
+#: ../../notes/styleguide.rst:30
 msgid ""
 "Avoid including too much information on subjects that don't directly relate "
 "to Python development."
 msgstr ""
 
-#: ../../notes/styleguide.rst:28
+#: ../../notes/styleguide.rst:32
 msgid ""
 "Prefer to link to other sources if the information is already out there. Be "
 "sure to describe what and why you are linking."
 msgstr ""
 
-#: ../../notes/styleguide.rst:30
+#: ../../notes/styleguide.rst:34
 msgid ""
 "`Cite <http://sphinx.pocoo.org/rest.html?highlight=citations#citations>`_ "
 "references where needed."
 msgstr ""
 
-#: ../../notes/styleguide.rst:32
+#: ../../notes/styleguide.rst:36
 msgid ""
 "If a subject isn't directly relevant to Python, but useful in conjunction "
 "with Python (e.g., Git, GitHub, Databases), reference by linking to useful "
 "resources, and describe why it's useful to Python."
 msgstr ""
 
-#: ../../notes/styleguide.rst:35
+#: ../../notes/styleguide.rst:39
 msgid "When in doubt, ask."
 msgstr ""
 
-#: ../../notes/styleguide.rst:38
+#: ../../notes/styleguide.rst:44
 msgid "Headings"
 msgstr ""
 
-#: ../../notes/styleguide.rst:40
+#: ../../notes/styleguide.rst:46
 msgid "Use the following styles for headings."
 msgstr ""
 
-#: ../../notes/styleguide.rst:42
+#: ../../notes/styleguide.rst:48
 msgid "Chapter title:"
 msgstr ""
 
-#: ../../notes/styleguide.rst:50
+#: ../../notes/styleguide.rst:56
 msgid "Page title:"
 msgstr ""
 
-#: ../../notes/styleguide.rst:58
+#: ../../notes/styleguide.rst:64
 msgid "Section headings:"
 msgstr ""
 
-#: ../../notes/styleguide.rst:65
+#: ../../notes/styleguide.rst:71
 msgid "Sub section headings:"
 msgstr ""
 
-#: ../../notes/styleguide.rst:73
+#: ../../notes/styleguide.rst:81
 msgid "Prose"
 msgstr ""
 
-#: ../../notes/styleguide.rst:75
+#: ../../notes/styleguide.rst:83
 msgid ""
 "Wrap text lines at 78 characters. Where necessary, lines may exceed 78 "
 "characters, especially if wrapping would make the source text more difficult"
 " to read."
 msgstr ""
 
-#: ../../notes/styleguide.rst:79
+#: ../../notes/styleguide.rst:87
+msgid "Use Standard American English, not British English."
+msgstr ""
+
+#: ../../notes/styleguide.rst:89
 msgid ""
 "Use of the `serial comma <https://en.wikipedia.org/wiki/Serial_comma>`_ "
 "(also known as the Oxford comma) is 100% non-optional. Any attempt to submit"
@@ -132,95 +139,96 @@ msgid ""
 "from this project, due to complete and total lack of taste."
 msgstr ""
 
-#: ../../notes/styleguide.rst:84
+#: ../../notes/styleguide.rst:94
 msgid "Banishment? Is this a joke? Hopefully we will never have to find out."
 msgstr ""
 
-#: ../../notes/styleguide.rst:87
+#: ../../notes/styleguide.rst:99
 msgid "Code Examples"
 msgstr ""
 
-#: ../../notes/styleguide.rst:89
+#: ../../notes/styleguide.rst:101
 msgid ""
 "Wrap all code examples at 70 characters to avoid horizontal scrollbars."
 msgstr ""
 
-#: ../../notes/styleguide.rst:91
+#: ../../notes/styleguide.rst:103
 msgid "Command line examples:"
 msgstr ""
 
-#: ../../notes/styleguide.rst:100
+#: ../../notes/styleguide.rst:112
 msgid "Be sure to include the ``$`` prefix before each line."
 msgstr ""
 
-#: ../../notes/styleguide.rst:102
+#: ../../notes/styleguide.rst:114
 msgid "Python interpreter examples:"
 msgstr ""
 
-#: ../../notes/styleguide.rst:112
+#: ../../notes/styleguide.rst:124
 msgid "Python examples:"
 msgstr ""
 
-#: ../../notes/styleguide.rst:124
+#: ../../notes/styleguide.rst:138
 msgid "Externally Linking"
 msgstr ""
 
-#: ../../notes/styleguide.rst:126
-msgid "Prefer labels for well known subjects (ex: proper nouns) when linking:"
+#: ../../notes/styleguide.rst:140
+msgid ""
+"Prefer labels for well known subjects (e.g. proper nouns) when linking:"
 msgstr ""
 
-#: ../../notes/styleguide.rst:134
+#: ../../notes/styleguide.rst:148
 msgid ""
 "Prefer to use descriptive labels with inline links instead of leaving bare "
 "links:"
 msgstr ""
 
-#: ../../notes/styleguide.rst:141
+#: ../../notes/styleguide.rst:155
 msgid ""
-"Avoid using labels such as \"click here\", \"this\", etc. preferring "
+"Avoid using labels such as \"click here\", \"this\", etc., preferring "
 "descriptive labels (SEO worthy) instead."
 msgstr ""
 
-#: ../../notes/styleguide.rst:145
+#: ../../notes/styleguide.rst:161
 msgid "Linking to Sections in The Guide"
 msgstr ""
 
-#: ../../notes/styleguide.rst:147
+#: ../../notes/styleguide.rst:163
 msgid ""
 "To cross-reference other parts of this documentation, use the `:ref: "
 "<http://sphinx.pocoo.org/markup/inline.html#cross-referencing-arbitrary-"
 "locations>`_ keyword and labels."
 msgstr ""
 
-#: ../../notes/styleguide.rst:151
+#: ../../notes/styleguide.rst:167
 msgid ""
 "To make reference labels more clear and unique, always add a ``-ref`` "
 "suffix:"
 msgstr ""
 
-#: ../../notes/styleguide.rst:161
+#: ../../notes/styleguide.rst:179
 msgid "Notes and Warnings"
 msgstr ""
 
-#: ../../notes/styleguide.rst:163
+#: ../../notes/styleguide.rst:181
 msgid ""
 "Make use of the appropriate `admonitions directives "
 "<http://sphinx.pocoo.org/rest.html#directives>`_ when making notes."
 msgstr ""
 
-#: ../../notes/styleguide.rst:166
+#: ../../notes/styleguide.rst:184
 msgid "Notes:"
 msgstr ""
 
-#: ../../notes/styleguide.rst:175
+#: ../../notes/styleguide.rst:193
 msgid "Warnings:"
 msgstr ""
 
-#: ../../notes/styleguide.rst:182
+#: ../../notes/styleguide.rst:202
 msgid "TODOs"
 msgstr ""
 
-#: ../../notes/styleguide.rst:184
+#: ../../notes/styleguide.rst:204
 msgid ""
 "Please mark any incomplete areas of The Guide with a `todo directive "
 "<http://sphinx.pocoo.org/ext/todo.html?highlight=todo#directive-todo>`_. To "

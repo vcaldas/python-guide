@@ -1,16 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
+# Copyright (C) 2011–2018 <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> &amp; <a href="https://realpython.com">Real Python</a>. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
 # This file is distributed under the same license as the pythonguide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Claudio Rogerio, 2017
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-17 19:37+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Claudio Rogerio <excriptbrasil@gmail.com>, 2017\n"
+"POT-Creation-Date: 2019-02-10 18:10+0100\n"
+"PO-Revision-Date: 2017-03-18 10:45+0000\n"
+"Last-Translator: Claudio Rogerio, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,18 +21,18 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../shipping/packaging.rst:5
+#: ../../shipping/packaging.rst:6
 msgid "Packaging Your Code"
 msgstr "Empacotando o Seu Código"
 
-#: ../../shipping/packaging.rst:7
+#: ../../shipping/packaging.rst:10
 msgid ""
-"Package your code to share it with other developers. For example to share a "
-"library for other developers to use in their application, or for development"
-" tools like 'py.test'."
+"Package your code to share it with other developers. For example, to share a"
+" library for other developers to use in their application, or for "
+"development tools like 'py.test'."
 msgstr ""
 
-#: ../../shipping/packaging.rst:11
+#: ../../shipping/packaging.rst:14
 msgid ""
 "An advantage of this method of distribution is its well established "
 "ecosystem of tools such as PyPI and pip, which make it easy for other "
@@ -37,16 +40,16 @@ msgid ""
 "experiments, or as part of large, professional systems."
 msgstr ""
 
-#: ../../shipping/packaging.rst:16
+#: ../../shipping/packaging.rst:19
 msgid ""
 "It is a well-established convention for Python code to be shared this way. "
 "If your code isn't packaged on PyPI, then it will be harder for other "
-"developers to find it, and to use it as part of their existing process. They"
-" will regard such projects with substantial suspicion of being either badly "
+"developers to find it and to use it as part of their existing process. They "
+"will regard such projects with substantial suspicion of being either badly "
 "managed or abandoned."
 msgstr ""
 
-#: ../../shipping/packaging.rst:22
+#: ../../shipping/packaging.rst:25
 msgid ""
 "The downside of distributing code like this is that it relies on the "
 "recipient understanding how to install the required version of Python, and "
@@ -55,246 +58,247 @@ msgid ""
 " this method unsuitable for distributing applications to end-users."
 msgstr ""
 
-#: ../../shipping/packaging.rst:28
+#: ../../shipping/packaging.rst:31
 msgid ""
 "The `Python Packaging Guide <https://python-packaging-user-"
 "guide.readthedocs.io/>`_ provides an extensive guide on creating and "
 "maintaining Python packages."
 msgstr ""
 
-#: ../../shipping/packaging.rst:32
+#: ../../shipping/packaging.rst:37
 msgid "Alternatives to Packaging"
 msgstr ""
 
-#: ../../shipping/packaging.rst:34
+#: ../../shipping/packaging.rst:39
 msgid ""
 "To distribute applications to end-users, you should :ref:`freeze your "
 "application <freezing-your-code-ref>`."
 msgstr ""
 
-#: ../../shipping/packaging.rst:37
+#: ../../shipping/packaging.rst:42
 msgid ""
 "On Linux, you may also want to consider :ref:`creating a Linux distro "
 "package <packaging-for-linux-distributions-ref>` (e.g. a .deb file for "
 "Debian or Ubuntu.)"
 msgstr ""
 
-#: ../../shipping/packaging.rst:42
+#: ../../shipping/packaging.rst:49
 msgid "For Python Developers"
 msgstr ""
 
-#: ../../shipping/packaging.rst:44
+#: ../../shipping/packaging.rst:51
 msgid ""
 "If you're writing an open source Python module, `PyPI "
 "<http://pypi.python.org>`_ , more properly known as *The Cheeseshop*, is the"
 " place to host it."
 msgstr ""
 
-#: ../../shipping/packaging.rst:50
-msgid "Pip vs. easy_install"
-msgstr ""
-
-#: ../../shipping/packaging.rst:52
-msgid ""
-"Use `pip <http://pypi.python.org/pypi/pip>`_.  More details `here "
-"<http://stackoverflow.com/questions/3220404/why-use-pip-over-easy-install>`_"
-msgstr ""
-
 #: ../../shipping/packaging.rst:57
-msgid "Personal PyPI"
+msgid "Pip vs. easy_install"
 msgstr ""
 
 #: ../../shipping/packaging.rst:59
 msgid ""
-"If you want to install packages from a source other than PyPI, (say, if your"
-" packages are *proprietary*), you can do it by hosting a simple http server,"
-" running from the directory which holds those packages which need to be "
-"installed."
+"Use `pip <http://pypi.python.org/pypi/pip>`_.  More details `here "
+"<http://stackoverflow.com/questions/3220404/why-use-pip-over-easy-"
+"install>`_."
 msgstr ""
 
 #: ../../shipping/packaging.rst:64
-msgid "**Showing an example is always beneficial**"
+msgid "Personal PyPI"
 msgstr ""
 
 #: ../../shipping/packaging.rst:66
+msgid ""
+"If you want to install packages from a source other than PyPI (say, if your "
+"packages are *proprietary*), you can do it by hosting a simple HTTP server, "
+"running from the directory which holds those packages which need to be "
+"installed."
+msgstr ""
+
+#: ../../shipping/packaging.rst:71
+msgid "**Showing an example is always beneficial**"
+msgstr ""
+
+#: ../../shipping/packaging.rst:73
 msgid ""
 "For example, if you want to install a package called "
 ":file:`MyPackage.tar.gz`, and assuming this is your directory structure:"
 msgstr ""
 
-#: ../../shipping/packaging.rst:72
+#: ../../shipping/packaging.rst:79
 msgid "archive"
 msgstr ""
 
-#: ../../shipping/packaging.rst:72
+#: ../../shipping/packaging.rst:79
 msgid "MyPackage"
 msgstr ""
 
-#: ../../shipping/packaging.rst:72
+#: ../../shipping/packaging.rst:79
 msgid "MyPackage.tar.gz"
 msgstr ""
 
-#: ../../shipping/packaging.rst:74
+#: ../../shipping/packaging.rst:81
 msgid "Go to your command prompt and type:"
 msgstr ""
 
-#: ../../shipping/packaging.rst:81
+#: ../../shipping/packaging.rst:88
 msgid ""
-"This runs a simple http server running on port 9000 and will list all "
+"This runs a simple HTTP server running on port 9000 and will list all "
 "packages (like **MyPackage**). Now you can install **MyPackage** using any "
-"Python package installer. Using Pip, you would do it like:"
+"Python package installer. Using pip, you would do it like:"
 msgstr ""
 
-#: ../../shipping/packaging.rst:89
+#: ../../shipping/packaging.rst:96
 msgid ""
 "Having a folder with the same name as the package name is **crucial** here. "
 "I got fooled by that, one time. But if you feel that creating a folder "
-"called :file:`MyPackage` and keeping :file:`MyPackage.tar.gz` inside that, "
-"is *redundant*, you can still install MyPackage using:"
+"called :file:`MyPackage` and keeping :file:`MyPackage.tar.gz` inside that is"
+" *redundant*, you can still install MyPackage using:"
 msgstr ""
 
-#: ../../shipping/packaging.rst:99
+#: ../../shipping/packaging.rst:106
 msgid "pypiserver"
 msgstr ""
 
-#: ../../shipping/packaging.rst:101
+#: ../../shipping/packaging.rst:108
 msgid ""
-"`Pypiserver <https://pypi.python.org/pypi/pypiserver>`_ is a minimal PyPI "
+"`pypiserver <https://pypi.python.org/pypi/pypiserver>`_ is a minimal PyPI "
 "compatible server.  It can be used to serve a set of packages to "
 "easy_install or pip.  It includes helpful features like an administrative "
 "command (``-U``) which will update all its packages to their latest versions"
 " found on PyPI."
 msgstr ""
 
-#: ../../shipping/packaging.rst:109
+#: ../../shipping/packaging.rst:116
 msgid "S3-Hosted PyPi"
 msgstr ""
 
-#: ../../shipping/packaging.rst:111
+#: ../../shipping/packaging.rst:118
 msgid ""
-"One simple option for a personal PyPi server is to use Amazon S3. A "
+"One simple option for a personal PyPI server is to use Amazon S3. A "
 "prerequisite for this is that you have an Amazon AWS account with an S3 "
 "bucket."
 msgstr ""
 
-#: ../../shipping/packaging.rst:114
+#: ../../shipping/packaging.rst:121
 msgid "**Install all your requirements from PyPi or another source**"
 msgstr ""
 
-#: ../../shipping/packaging.rst:115
+#: ../../shipping/packaging.rst:122
 msgid "**Install pip2pi**"
 msgstr ""
 
-#: ../../shipping/packaging.rst:117
+#: ../../shipping/packaging.rst:124
 msgid ":code:`pip install git+https://github.com/wolever/pip2pi.git`"
 msgstr ""
 
-#: ../../shipping/packaging.rst:119
+#: ../../shipping/packaging.rst:126
 msgid "**Follow pip2pi README for pip2tgz and dir2pi commands**"
 msgstr ""
 
-#: ../../shipping/packaging.rst:121
+#: ../../shipping/packaging.rst:128
 msgid ""
 ":code:`pip2tgz packages/ YourPackage` (or :code:`pip2tgz packages/ -r "
 "requirements.txt`)"
 msgstr ""
 
-#: ../../shipping/packaging.rst:122
+#: ../../shipping/packaging.rst:129
 msgid ":code:`dir2pi packages/`"
 msgstr ""
 
-#: ../../shipping/packaging.rst:124
+#: ../../shipping/packaging.rst:131
 msgid "**Upload the new files**"
 msgstr ""
 
-#: ../../shipping/packaging.rst:126
+#: ../../shipping/packaging.rst:133
 msgid ""
 "Use a client like Cyberduck to sync the entire :file:`packages` folder to "
-"your s3 bucket"
+"your s3 bucket."
 msgstr ""
 
-#: ../../shipping/packaging.rst:127
+#: ../../shipping/packaging.rst:134
 msgid ""
 "Make sure you upload :code:`packages/simple/index.html` as well as all new "
-"files and directories"
+"files and directories."
 msgstr ""
 
-#: ../../shipping/packaging.rst:129
+#: ../../shipping/packaging.rst:136
 msgid "**Fix new file permissions**"
 msgstr ""
 
-#: ../../shipping/packaging.rst:131
+#: ../../shipping/packaging.rst:138
 msgid ""
 "By default, when you upload new files to the S3 bucket, they will have the "
 "wrong permissions set."
 msgstr ""
 
-#: ../../shipping/packaging.rst:132
+#: ../../shipping/packaging.rst:139
 msgid ""
 "Use the Amazon web console to set the READ permission of the files to "
 "EVERYONE."
 msgstr ""
 
-#: ../../shipping/packaging.rst:133
+#: ../../shipping/packaging.rst:140
 msgid ""
 "If you get HTTP 403 when trying to install a package, make sure you've set "
 "the permissions correctly."
 msgstr ""
 
-#: ../../shipping/packaging.rst:135
+#: ../../shipping/packaging.rst:142
 msgid "**All done**"
 msgstr ""
 
-#: ../../shipping/packaging.rst:137
+#: ../../shipping/packaging.rst:144
 msgid ""
 "You can now install your package with :code:`pip install --index-"
-"url=http://your-s3-bucket/packages/simple/ YourPackage`"
+"url=http://your-s3-bucket/packages/simple/ YourPackage`."
 msgstr ""
 
-#: ../../shipping/packaging.rst:142
+#: ../../shipping/packaging.rst:151
 msgid "For Linux Distributions"
 msgstr ""
 
-#: ../../shipping/packaging.rst:144
+#: ../../shipping/packaging.rst:153
 msgid ""
 "Creating a Linux distro package is arguably the \"right way\" to distribute "
 "code on Linux."
 msgstr ""
 
-#: ../../shipping/packaging.rst:147
+#: ../../shipping/packaging.rst:156
 msgid ""
 "Because a distribution package doesn't include the Python interpreter, it "
-"makes the download and install about 2MB smaller than :ref:`freezing your "
-"application <freezing-your-code-ref>`."
+"makes the download and install about 2-12 MB smaller than :ref:`freezing "
+"your application <freezing-your-code-ref>`."
 msgstr ""
 
-#: ../../shipping/packaging.rst:151
+#: ../../shipping/packaging.rst:160
 msgid ""
 "Also, if a distribution releases a new security update for Python, then your"
 " application will automatically start using that new version of Python."
 msgstr ""
 
-#: ../../shipping/packaging.rst:154
+#: ../../shipping/packaging.rst:163
 msgid ""
 "The bdist_rpm command makes `producing an RPM file "
 "<https://docs.python.org/3/distutils/builtdist.html#creating-rpm-packages>`_"
-" for use by distributions like Red Hat or SuSE is trivially easy."
+" for use by distributions like Red Hat or SuSE trivially easy."
 msgstr ""
 
-#: ../../shipping/packaging.rst:157
+#: ../../shipping/packaging.rst:166
 msgid ""
 "However, creating and maintaining the different configurations required for "
 "each distribution's format (e.g. .deb for Debian/Ubuntu, .rpm for Red "
-"Hat/Fedora, etc) is a fair amount of work. If your code is an application "
+"Hat/Fedora, etc.) is a fair amount of work. If your code is an application "
 "that you plan to distribute on other platforms, then you'll also have to "
 "create and maintain the separate config required to freeze your application "
-"for Windows and OSX. It would be much less work to simply create and "
+"for Windows and OS X. It would be much less work to simply create and "
 "maintain a single config for one of the cross platform :ref:`freezing tools "
 "<freezing-your-code-ref>`, which will produce stand-alone executables for "
-"all distributions of Linux, as well as Windows and OSX."
+"all distributions of Linux, as well as Windows and OS X."
 msgstr ""
 
-#: ../../shipping/packaging.rst:167
+#: ../../shipping/packaging.rst:176
 msgid ""
 "Creating a distribution package is also problematic if your code is for a "
 "version of Python that isn't currently supported by a distribution. Having "
@@ -307,38 +311,38 @@ msgid ""
 "and worse, have your users read, understand, and act on them."
 msgstr ""
 
-#: ../../shipping/packaging.rst:176
+#: ../../shipping/packaging.rst:185
 msgid "Having said all that, here's how to do it:"
 msgstr ""
 
-#: ../../shipping/packaging.rst:178
+#: ../../shipping/packaging.rst:187
 msgid "`Fedora <https://fedoraproject.org/wiki/Packaging:Python>`_"
 msgstr ""
 
-#: ../../shipping/packaging.rst:179
+#: ../../shipping/packaging.rst:188
 msgid ""
 "`Debian and Ubuntu <http://www.debian.org/doc/packaging-manuals/python-"
 "policy/>`_"
 msgstr ""
 
-#: ../../shipping/packaging.rst:180
+#: ../../shipping/packaging.rst:189
 msgid ""
 "`Arch <https://wiki.archlinux.org/index.php/Python_Package_Guidelines>`_"
 msgstr ""
 
-#: ../../shipping/packaging.rst:183
+#: ../../shipping/packaging.rst:192
 msgid "Useful Tools"
 msgstr ""
 
-#: ../../shipping/packaging.rst:185
+#: ../../shipping/packaging.rst:194
 msgid "`fpm <https://github.com/jordansissel/fpm>`_"
 msgstr ""
 
-#: ../../shipping/packaging.rst:186
+#: ../../shipping/packaging.rst:195
 msgid "`alien <http://joeyh.name/code/alien/>`_"
 msgstr ""
 
-#: ../../shipping/packaging.rst:187
+#: ../../shipping/packaging.rst:196
 msgid ""
 "`dh-virtualenv <https://dh-virtualenv.readthedocs.io/en/latest/info.html>`_ "
 "(for APT/DEB omnibus packaging)"

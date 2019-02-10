@@ -1,16 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
+# Copyright (C) 2011–2018 <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> &amp; <a href="https://realpython.com">Real Python</a>. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
 # This file is distributed under the same license as the pythonguide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Claudio Rogerio, 2017
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-17 19:37+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Claudio Rogerio <excriptbrasil@gmail.com>, 2017\n"
+"POT-Creation-Date: 2019-02-10 18:10+0100\n"
+"PO-Revision-Date: 2017-03-18 10:45+0000\n"
+"Last-Translator: Claudio Rogerio, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,21 +21,11 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../writing/reading.rst:2
+#: ../../writing/reading.rst:5
 msgid "Reading Great Code"
 msgstr "Lendo Ótimos Códigos"
 
-#: ../../writing/reading.rst:4
-msgid ""
-"One of the core tenets behind the design of Python is creating readable "
-"code. The motivation behind this design is simple: The number one thing that"
-" Python programmers do is read code."
-msgstr ""
-"Um dos principais conceitos por trás do design do Python é criação de código"
-" legíveis. A motivação por trás desse design é simples: a primeira coisa que"
-" os programadores Python fazem é ler o código."
-
-#: ../../writing/reading.rst:8
+#: ../../writing/reading.rst:9
 msgid ""
 "One of the secrets of becoming a great Python programmer is to read, "
 "understand, and comprehend excellent code."
@@ -40,7 +33,7 @@ msgstr ""
 "Um dos segredos para tornar-se um excelente programador Python é lendo, "
 "entendendo e compreendendo códigos excelentes."
 
-#: ../../writing/reading.rst:19
+#: ../../writing/reading.rst:12
 msgid ""
 "Excellent code typically follows the guidelines outlined in "
 ":ref:`code_style`, and does its best to express a clear and concise intent "
@@ -50,7 +43,7 @@ msgstr ""
 ":ref:`code_style`, e faz o melhor para expressar uma intenção clara e "
 "concisa para o leitor."
 
-#: ../../writing/reading.rst:23
+#: ../../writing/reading.rst:16
 msgid ""
 "Included below is a list of recommended Python projects for reading. Each "
 "one of these projects is a paragon of Python coding."
@@ -58,7 +51,7 @@ msgstr ""
 "Incluído abaixo temos uma lista de projetos Python recomendados para "
 "leitura. Cada um desses projetos é um paradigma de codificação Python."
 
-#: ../../writing/reading.rst:26
+#: ../../writing/reading.rst:19
 msgid ""
 "`Howdoi <https://github.com/gleitz/howdoi>`_ Howdoi is a code search tool, "
 "written in Python."
@@ -66,7 +59,7 @@ msgstr ""
 "`Howdoi <https://github.com/gleitz/howdoi>`_ Howdoi é uma ferramenta de "
 "busca de código, escrito em Python."
 
-#: ../../writing/reading.rst:29
+#: ../../writing/reading.rst:22
 msgid ""
 "`Flask <https://github.com/mitsuhiko/flask>`_ Flask is a microframework for "
 "Python based on Werkzeug and Jinja2. It's intended for getting started very "
@@ -76,40 +69,27 @@ msgstr ""
 "para Python baseado no Werkzeug e Jinja2. O objetivo é obter um avanço "
 "inicial rápido e foi desenvolvido tendo as melhores ideias e intenções."
 
-#: ../../writing/reading.rst:34
+#: ../../writing/reading.rst:27
 msgid ""
-"`Diamond <https://github.com/python-diamond/Diamond>`_ Diamond is a python "
+"`Diamond <https://github.com/python-diamond/Diamond>`_ Diamond is a Python "
 "daemon that collects metrics and publishes them to Graphite or other "
-"backends. It is capable of collecting cpu, memory, network, i/o, load and "
+"backends. It is capable of collecting CPU, memory, network, I/O, load, and "
 "disk metrics. Additionally, it features an API for implementing custom "
 "collectors for gathering metrics from almost any source."
 msgstr ""
-"`Diamond <https://github.com/python-diamond/Diamond>`_ ``diamond`` é um "
-"daemon Python que coleta métricas publicando-as em ``Graphite`` ou em outros"
-" backends. É capaz de coletar a CPU, memória, rede, i/o, carga e métricas do"
-" uso do disco. Além disso, o mesmo possui uma API para implementação, "
-"coletores personalizados para obtenção de métricas de quase qualquer fonte."
 
-#: ../../writing/reading.rst:41
+#: ../../writing/reading.rst:34
 msgid ""
-"`Werkzeug <https://github.com/mitsuhiko/werkzeug>`_ Werkzeug started as "
+"`Werkzeug <https://github.com/mitsuhiko/werkzeug>`_ Werkzeug started as a "
 "simple collection of various utilities for WSGI applications and has become "
 "one of the most advanced WSGI utility modules. It includes a powerful "
 "debugger, full-featured request and response objects, HTTP utilities to "
 "handle entity tags, cache control headers, HTTP dates, cookie handling, file"
-" uploads, a powerful URL routing system and a bunch of community-contributed"
-" addon modules."
+" uploads, a powerful URL routing system, and a bunch of community-"
+"contributed addon modules."
 msgstr ""
-"`Werkzeug <https://github.com/mitsuhiko/werkzeug>`_ O ``werkzeug`` começou "
-"como uma simples coleção de vários utilitários para aplicativos WSGI e se "
-"tornou um dos módulos de utilidade WSGI mais avançados. O mesmo inclui um "
-"poderoso depurador, solicitação completa e objetos de resposta, utilitários "
-"HTTP para lidar com tags de entidade, cabeçalhos de controle de cache, datas"
-" HTTP, manipulação de cookies, uploads de arquivos, um poderoso sistema de "
-"roteamento de URL e um monte de módulos de complemento desenvolvidos pela "
-"comunidade."
 
-#: ../../writing/reading.rst:49
+#: ../../writing/reading.rst:42
 msgid ""
 "`Requests <https://github.com/kennethreitz/requests>`_ Requests is an "
 "Apache2 Licensed HTTP library, written in Python, for human beings."
@@ -118,7 +98,7 @@ msgstr ""
 "biblioteca HTTP habilitada para Apache2, escrita em Python, e desenvolvido "
 "para seres humanos."
 
-#: ../../writing/reading.rst:53
+#: ../../writing/reading.rst:46
 msgid ""
 "`Tablib <https://github.com/kennethreitz/tablib>`_ Tablib is a format-"
 "agnostic tabular dataset library, written in Python."
@@ -127,11 +107,11 @@ msgstr ""
 "biblioteca de conjunto de dados tabulares, agnóstica de formato, escrita em "
 "Python."
 
-#: ../../writing/reading.rst:0 ../../writing/reading.rst:0
+#: ../../writing/reading.rst:50 ../../writing/reading.rst:52
 msgid "Todo"
 msgstr "Todo"
 
-#: ../../writing/reading.rst:57
+#: ../../writing/reading.rst:50
 msgid ""
 "Include code examples of exemplary code from each of the projects listed. "
 "Explain why it is excellent code. Use complex examples."
@@ -139,10 +119,8 @@ msgstr ""
 "Incluir exemplos de código demonstrativos de cada um dos projetos listados. "
 "Explicar por que o mesmo é um código excelente. Use exemplos complexos."
 
-#: ../../writing/reading.rst:59
+#: ../../writing/reading.rst:52
 msgid ""
-"Explain techniques to rapidly identify data structures, algorithms and "
+"Explain techniques to rapidly identify data structures and algorithms and "
 "determine what the code is doing."
 msgstr ""
-"Explicar técnicas para identificar rapidamente estruturas de dados, "
-"algoritmos e determinar o que o código está fazendo."

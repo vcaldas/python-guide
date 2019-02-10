@@ -1,16 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
+# Copyright (C) 2011–2018 <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> &amp; <a href="https://realpython.com">Real Python</a>. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
 # This file is distributed under the same license as the pythonguide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Claudio Rogerio, 2017
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-17 19:37+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Claudio Rogerio <excriptbrasil@gmail.com>, 2017\n"
+"POT-Creation-Date: 2019-02-10 18:10+0100\n"
+"PO-Revision-Date: 2017-03-18 10:44+0000\n"
+"Last-Translator: Claudio Rogerio, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,11 +21,11 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../scenarios/json.rst:2
+#: ../../scenarios/json.rst:4
 msgid "JSON"
 msgstr "JSON"
 
-#: ../../scenarios/json.rst:4
+#: ../../scenarios/json.rst:8
 msgid ""
 "The `json <https://docs.python.org/2/library/json.html>`_ library can parse "
 "JSON from strings or files. The library parses JSON into a Python dictionary"
@@ -34,42 +37,39 @@ msgstr ""
 "numa lista Python. Também pode converter dicionários ou listas Python em "
 "Strings JSON."
 
-#: ../../scenarios/json.rst:9
+#: ../../scenarios/json.rst:15
 msgid "Parsing JSON"
 msgstr "Analisando Arquivos JSON"
 
-#: ../../scenarios/json.rst:11
+#: ../../scenarios/json.rst:17
 msgid "Take the following string containing JSON data:"
 msgstr "Pegue a seguinte String contendo dados JSON:"
 
-#: ../../scenarios/json.rst:17
+#: ../../scenarios/json.rst:23
 msgid "It can be parsed like this:"
 msgstr "A mesma pode ser analisado assim:"
 
-#: ../../scenarios/json.rst:24
+#: ../../scenarios/json.rst:30
 msgid "and can now be used as a normal dictionary:"
 msgstr "e agora pode ser usado como um dicionário normal:"
 
-#: ../../scenarios/json.rst:31
+#: ../../scenarios/json.rst:37
 msgid "You can also convert the following to JSON:"
 msgstr "Também podemos pode converte-la da seguinte forma para JSON:"
 
-#: ../../scenarios/json.rst:46
+#: ../../scenarios/json.rst:53
 msgid "simplejson"
 msgstr "simplejson"
 
-#: ../../scenarios/json.rst:48
+#: ../../scenarios/json.rst:55
 msgid ""
-"The JSON library was added to Python in version 2.6. If you're using an "
+"The json library was added to Python in version 2.6. If you're using an "
 "earlier version of Python, the `simplejson "
 "<https://simplejson.readthedocs.io/en/latest/>`_ library is available via "
 "PyPI."
 msgstr ""
-"A biblioteca JSON foi adicionada ao Python na versão 2.6. Se estivermos "
-"usando uma versão anterior do Python, a biblioteca `simplejson "
-"<https://simplejson.readthedocs.io/en/latest/>`_ estará disponível via PyPI."
 
-#: ../../scenarios/json.rst:53
+#: ../../scenarios/json.rst:60
 msgid ""
 "simplejson mimics the json standard library. It is available so that "
 "developers that use older versions of Python can use the latest features "
@@ -79,7 +79,7 @@ msgstr ""
 " que os desenvolvedores que usem versões antigas do Python possam usar os "
 "recursos mais recentes disponíveis na biblioteca JSON."
 
-#: ../../scenarios/json.rst:57
+#: ../../scenarios/json.rst:64
 msgid ""
 "You can start using simplejson when the json library is not available by "
 "importing simplejson under a different name:"
@@ -87,10 +87,8 @@ msgstr ""
 "Podemos começar a utilizar o ``simplejson`` quando a biblioteca JSON não "
 "estiver disponível importando-o com nomes diferentes:"
 
-#: ../../scenarios/json.rst:64
+#: ../../scenarios/json.rst:71
 msgid ""
-"After importing simplejson as json, the above examples will all work as if "
-"you were using the standard json library."
+"After importing simplejson as `json`, the above examples will all work as if"
+" you were using the standard json library."
 msgstr ""
-"Depois de importar o ``simplejson`` como JSON, os exemplos acima funcionarão"
-" como se estivesse usando a biblioteca JSON padrão."

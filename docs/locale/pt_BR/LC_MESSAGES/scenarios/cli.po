@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
+# Copyright (C) 2011–2018 <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> &amp; <a href="https://realpython.com">Real Python</a>. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
 # This file is distributed under the same license as the pythonguide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-17 19:37+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2019-02-10 18:10+0100\n"
+"PO-Revision-Date: 2017-03-18 10:44+0000\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../scenarios/cli.rst:2
+#: ../../scenarios/cli.rst:4
 msgid "Command-line Applications"
 msgstr ""
 
-#: ../../scenarios/cli.rst:4
+#: ../../scenarios/cli.rst:8
 msgid ""
 "Command-line applications, also referred to as `Console Applications "
 "<http://en.wikipedia.org/wiki/Console_application>`_, are computer programs "
@@ -32,58 +32,46 @@ msgid ""
 "flags or switches."
 msgstr ""
 
-#: ../../scenarios/cli.rst:12
+#: ../../scenarios/cli.rst:16
 msgid "Some popular command-line applications include:"
 msgstr ""
 
-#: ../../scenarios/cli.rst:14
-msgid ""
-"`Grep <http://en.wikipedia.org/wiki/Grep>`_ - A plain-text data search "
-"utility"
-msgstr ""
-
-#: ../../scenarios/cli.rst:15
-msgid ""
-"`curl <http://curl.haxx.se/>`_ - A tool for data transfer with URL syntax"
-msgstr ""
-
-#: ../../scenarios/cli.rst:16
-msgid ""
-"`httpie <https://github.com/jakubroztocil/httpie>`_ - A command line HTTP "
-"client, a user-friendly cURL replacement"
-msgstr ""
-
 #: ../../scenarios/cli.rst:18
-msgid "`git <http://git-scm.com/>`_ - A distributed version control system"
+msgid ""
+"`grep <http://en.wikipedia.org/wiki/grep>`_ - A plain-text data search "
+"utility"
 msgstr ""
 
 #: ../../scenarios/cli.rst:19
 msgid ""
-"`mercurial <https://www.mercurial-scm.org/>`_ - A distributed version "
-"control system primarily written in Python"
+"`curl <http://curl.haxx.se/>`_ - A tool for data transfer with URL syntax"
+msgstr ""
+
+#: ../../scenarios/cli.rst:20
+msgid ""
+"`httpie <https://github.com/jakubroztocil/httpie>`_ - A command-line HTTP "
+"client, a user-friendly cURL replacement"
+msgstr ""
+
+#: ../../scenarios/cli.rst:22
+msgid "`Git <http://git-scm.com/>`_ - A distributed version control system"
 msgstr ""
 
 #: ../../scenarios/cli.rst:23
-msgid "Clint"
-msgstr ""
-
-#: ../../scenarios/cli.rst:25
 msgid ""
-"`clint <https://pypi.python.org/pypi/clint/>`_ is a Python module which is "
-"filled with very useful tools for developing command-line applications. It "
-"supports features such as; CLI colors and indents, simple and powerful "
-"column printer, iterator based progress bars and implicit argument handling."
+"`Mercurial <https://www.mercurial-scm.org/>`_ - A distributed version "
+"control system primarily written in Python"
 msgstr ""
 
-#: ../../scenarios/cli.rst:31
+#: ../../scenarios/cli.rst:29
 msgid "Click"
 msgstr ""
 
-#: ../../scenarios/cli.rst:33
+#: ../../scenarios/cli.rst:31
 msgid ""
 "`click <http://click.pocoo.org/>`_ is a Python package for creating command-"
 "line interfaces in a composable way with as little code as possible. This "
-"“Command-line Interface Creation Kit” is highly configurable but comes with "
+"“Command-Line Interface Creation Kit” is highly configurable but comes with "
 "good defaults out of the box."
 msgstr ""
 
@@ -98,46 +86,60 @@ msgid ""
 "parsing POSIX-style usage instructions."
 msgstr ""
 
-#: ../../scenarios/cli.rst:46
+#: ../../scenarios/cli.rst:48
 msgid "Plac"
 msgstr ""
 
-#: ../../scenarios/cli.rst:48
+#: ../../scenarios/cli.rst:50
 msgid ""
 "`Plac <https://pypi.python.org/pypi/plac>`_ is a simple wrapper over the "
 "Python standard library `argparse "
 "<http://docs.python.org/2/library/argparse.html>`_, which hides most of its "
 "complexity by using a declarative interface: the argument parser is inferred"
 " rather than written down by imperatively. This module targets especially "
-"unsophisticated users, programmers, sys-admins, scientists and in general "
+"unsophisticated users, programmers, sysadmins, scientists, and in general "
 "people writing throw-away scripts for themselves, who choose to create a "
 "command-line interface because it is quick and simple."
 msgstr ""
 
-#: ../../scenarios/cli.rst:57
+#: ../../scenarios/cli.rst:61
 msgid "Cliff"
 msgstr ""
 
-#: ../../scenarios/cli.rst:59
+#: ../../scenarios/cli.rst:63
 msgid ""
 "`Cliff <http://docs.openstack.org/developer/cliff/>`_  is a framework for "
 "building command-line programs. It uses setuptools entry points to provide "
 "subcommands, output formatters, and other extensions. The framework is meant"
-" to be used to create multi-level commands such as subversion and git, where"
-" the main program handles some basic argument parsing and then invokes a "
-"sub-command to do the work."
+" to be used to create multi-level commands such as ``svn`` and ``git``, "
+"where the main program handles some basic argument parsing and then invokes "
+"a sub-command to do the work."
 msgstr ""
 
-#: ../../scenarios/cli.rst:67
+#: ../../scenarios/cli.rst:73
 msgid "Cement"
 msgstr ""
 
-#: ../../scenarios/cli.rst:69
+#: ../../scenarios/cli.rst:75
 msgid ""
 "`Cement <http://builtoncement.com/>`_ is an advanced CLI Application "
-"Framework. Its goal is to introduce a standard, and feature-full platform "
-"for both simple and complex command line applications as well as support "
-"rapid development needs without sacrificing quality. Cement is flexible, and"
-" it's use cases span from the simplicity of a micro-framework to the "
-"complexity of a meg-framework."
+"Framework. Its goal is to introduce a standard and feature-full platform for"
+" both simple and complex command line applications as well as support rapid "
+"development needs without sacrificing quality. Cement is flexible, and its "
+"use cases span from the simplicity of a micro-framework to the complexity of"
+" a mega-framework."
+msgstr ""
+
+#: ../../scenarios/cli.rst:85
+msgid "Python Fire"
+msgstr ""
+
+#: ../../scenarios/cli.rst:87
+msgid ""
+"`Python Fire <https://github.com/google/python-fire/>`_ is a library for "
+"automatically generating command-line interfaces from absolutely any Python "
+"object. It can help debug Python code more easily from the command line, "
+"create CLI interfaces to existing code, allow you to interactively explore "
+"code in a REPL, and simplify transitioning between Python and Bash (or any "
+"other shell)."
 msgstr ""

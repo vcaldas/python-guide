@@ -1,16 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
+# Copyright (C) 2011–2018 <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> &amp; <a href="https://realpython.com">Real Python</a>. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
 # This file is distributed under the same license as the pythonguide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Edson Mendes De Oliveira Filho <filho30face@gmail.com>, 2017
+# Caio wzy <CaioWzy@gmail.com>, 2017
+# Jonatha Daguerre <jonatha@daguerre.com.br>, 2018
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-17 19:37+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Caio wzy <CaioWzy@gmail.com>, 2017\n"
+"POT-Creation-Date: 2019-02-10 18:10+0100\n"
+"PO-Revision-Date: 2017-03-18 10:45+0000\n"
+"Last-Translator: Jonatha Daguerre <jonatha@daguerre.com.br>, 2018\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,33 +23,37 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../starting/install/linux.rst:4
-msgid "Installing Python on Linux"
-msgstr "Instalando Python no Linux"
-
 #: ../../starting/install/linux.rst:6
+msgid "Installing Python 2 on Linux"
+msgstr ""
+
+#: ../../starting/install/linux.rst:11
 msgid ""
-"The latest versions of CentOS, Fedora, Redhat Enterprise (RHEL) and Ubuntu "
+"Check out our :ref:`guide for installing Python 3 on Linux<install3-linux>`."
+msgstr ""
+
+#: ../../starting/install/linux.rst:13
+msgid ""
+"The latest versions of CentOS, Red Hat Enterprise Linux (RHEL) and Ubuntu "
 "**come with Python 2.7 out of the box**."
 msgstr ""
 
-#: ../../starting/install/linux.rst:9
+#: ../../starting/install/linux.rst:16
 msgid ""
 "To see which version of Python you have installed, open a command prompt and"
 " run"
 msgstr ""
+"Para ver qual versão do Python você instalou, abra um prompt de comando e "
+"execute"
 
-#: ../../starting/install/linux.rst:15
+#: ../../starting/install/linux.rst:22
 msgid ""
-"Some older versions of RHEL and CentOS come with Python 2.4 which is "
-"unacceptable for modern Python development. Fortunately, there are `Extra "
-"Packages for Enterprise Linux`_ which include high quality additional "
-"packages based on their Fedora counterparts. This repository contains a "
-"Python 2.6 package specifically designed to install side-by-side with the "
-"system's Python 2.4 installation."
+"However, with the growing popularity of Python 3, some distributions, such "
+"as Fedora, don't come with Python 2 pre-installed. You can install the "
+"``python2`` package with your distribution package manager:"
 msgstr ""
 
-#: ../../starting/install/linux.rst:24
+#: ../../starting/install/linux.rst:30
 msgid ""
 "You do not need to install or configure anything else to use Python. Having "
 "said that, I would strongly recommend that you install the tools and "
@@ -53,48 +62,66 @@ msgid ""
 "Setuptools and pip, as it makes it much easier for you to use other third-"
 "party Python libraries."
 msgstr ""
+"Você não precisa instalar ou configurar qualquer outra coisa para usar o "
+"Python. Tendo dito isso, eu recomendo fortemente que você instale as "
+"ferramentas e bibliotecas descritas na próxima seção antes de começar a "
+"construir aplicativos Python para uso no mundo real. Em particular, você "
+"deve sempre instalar o Setuptools e o pip, já que isso facilita muito o uso "
+"de outras bibliotecas Python de terceiros."
 
-#: ../../starting/install/linux.rst:31
+#: ../../starting/install/linux.rst:39
 msgid "Setuptools & Pip"
-msgstr ""
+msgstr "Setuptools & Pip"
 
-#: ../../starting/install/linux.rst:33
+#: ../../starting/install/linux.rst:41
 msgid ""
 "The two most crucial third-party Python packages are `setuptools "
 "<https://pypi.python.org/pypi/setuptools>`_ and `pip "
 "<https://pip.pypa.io/en/stable/>`_."
 msgstr ""
+"Os dois pacotes de Python de terceiros mais cruciais são `setuptools "
+"<https://pypi.python.org/pypi/setuptools>`_ e `pip "
+"<https://pip.pypa.io/en/stable/>`_."
 
-#: ../../starting/install/linux.rst:35
+#: ../../starting/install/linux.rst:43
 msgid ""
 "Once installed, you can download, install and uninstall any compliant Python"
 " software product with a single command. It also enables you to add this "
 "network installation capability to your own Python software with very little"
 " work."
 msgstr ""
+"Uma vez instalado, você pode baixar, instalar e desinstalar qualquer produto"
+" de software Python compatível com um único comando. Ele também permite que "
+"você adicione esse recurso de instalação de rede ao seu próprio software "
+"Python com muito pouco trabalho."
 
-#: ../../starting/install/linux.rst:39
+#: ../../starting/install/linux.rst:47
 msgid ""
 "Python 2.7.9 and later (on the python2 series), and Python 3.4 and later "
 "include pip by default."
 msgstr ""
+"O Python 2.7.9 e posterior (na série python2) e o Python 3.4 e posterior "
+"incluem pip por padrão."
 
-#: ../../starting/install/linux.rst:42
+#: ../../starting/install/linux.rst:50
 msgid "To see if pip is installed, open a command prompt and run"
-msgstr ""
+msgstr "Para ver se o pip está instalado, abra um prompt de comando e execute"
 
-#: ../../starting/install/linux.rst:48
+#: ../../starting/install/linux.rst:56
 msgid ""
 "To install pip, `follow the official pip installation guide "
 "<https://pip.pypa.io/en/latest/installing/>`_ - this will automatically "
 "install the latest version of setuptools."
 msgstr ""
+"Para instalar o pip, `siga o guia oficial de instalação do pip "
+"<https://pip.pypa.io/en/latest/installing/>`_ - isso instalará "
+"automaticamente a versão mais recente do setuptools."
 
-#: ../../starting/install/linux.rst:51
+#: ../../starting/install/linux.rst:61
 msgid "Virtual Environments"
 msgstr "Ambientes virtuais"
 
-#: ../../starting/install/linux.rst:53
+#: ../../starting/install/linux.rst:63
 msgid ""
 "A Virtual Environment is a tool to keep the dependencies required by "
 "different projects in separate places, by creating virtual Python "
@@ -109,7 +136,7 @@ msgstr ""
 "mesma biblioteca mas na versão 4.x\" e mantém os seus pacotes instalados na "
 "pasta site-packages global limpa e organizada."
 
-#: ../../starting/install/linux.rst:58
+#: ../../starting/install/linux.rst:68
 msgid ""
 "For example, you can work on a project which requires Django 1.10 while also"
 " maintaining a project which requires Django 1.8."
@@ -118,21 +145,28 @@ msgstr ""
 "1.10 enquanto também poderá trabalhar em um outro projeto que use o Django "
 "mas na versão 1.8."
 
-#: ../../starting/install/linux.rst:61
+#: ../../starting/install/linux.rst:71
 msgid ""
 "To start using this and see more information: :ref:`Virtual Environments "
 "<virtualenvironments-ref>` docs."
 msgstr ""
+"Para começar a usar isso e ver mais informações: documentação "
+":ref:`Ambientes Virtuais <virtualenvironments-ref>`."
 
-#: ../../starting/install/linux.rst:63
+#: ../../starting/install/linux.rst:73
 msgid ""
 "You can also use :ref:`virtualenvwrapper <virtualenvwrapper-ref>` to make it"
 " easier to manage your virtual environments."
 msgstr ""
+"Você também pode usar :ref:`virtualenvwrapper <virtualenvwrapper-ref>` para "
+"facilitar o gerenciamento de seus ambientes virtuais."
 
-#: ../../starting/install/linux.rst:68
+#: ../../starting/install/linux.rst:78
 msgid ""
 "This page is a remixed version of `another guide "
 "<http://www.stuartellis.eu/articles/python-development-windows/>`_, which is"
 " available under the same license."
 msgstr ""
+"Esta página é uma versão remixada de `outro guia "
+"<http://www.stuartellis.eu/articles/python-development-windows/>`_, que está"
+" disponível sob a mesma licença."

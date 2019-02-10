@@ -1,15 +1,18 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
+# Copyright (C) 2011–2018 <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> &amp; <a href="https://realpython.com">Real Python</a>. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
 # This file is distributed under the same license as the pythonguide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Edson Mendes De Oliveira Filho <filho30face@gmail.com>, 2017
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-17 19:37+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2019-02-10 18:10+0100\n"
+"PO-Revision-Date: 2017-03-18 10:44+0000\n"
 "Last-Translator: Edson Mendes De Oliveira Filho <filho30face@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -18,22 +21,26 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../scenarios/ci.rst:2
+#: ../../scenarios/ci.rst:4
 msgid "Continuous Integration"
 msgstr "Integração contínua"
 
-#: ../../scenarios/ci.rst:6
+#: ../../scenarios/ci.rst:9
+msgid "For advice on writing your tests, see :doc:`/writing/tests`."
+msgstr ""
+
+#: ../../scenarios/ci.rst:14
 msgid "Why?"
 msgstr ""
 
-#: ../../scenarios/ci.rst:8
+#: ../../scenarios/ci.rst:16
 msgid ""
 "Martin Fowler, who first wrote about `Continuous Integration "
 "<http://martinfowler.com/articles/continuousIntegration.html>`_ (short: CI) "
-"together with Kent Beck, describes the CI as follows:"
+"together with Kent Beck, describes CI as follows:"
 msgstr ""
 
-#: ../../scenarios/ci.rst:11
+#: ../../scenarios/ci.rst:19
 msgid ""
 "Continuous Integration is a software development practice where members of a"
 " team integrate their work frequently, usually each person integrates at "
@@ -44,89 +51,89 @@ msgid ""
 "cohesive software more rapidly."
 msgstr ""
 
-#: ../../scenarios/ci.rst:20
+#: ../../scenarios/ci.rst:30
 msgid "Jenkins"
 msgstr ""
 
-#: ../../scenarios/ci.rst:22
+#: ../../scenarios/ci.rst:32
 msgid ""
-"`Jenkins CI <http://jenkins-ci.org>`_ is an extensible continuous "
-"integration engine. Use it."
+"`Jenkins CI <http://jenkins-ci.org>`_ is an extensible Continuous "
+"Integration engine. Use it."
 msgstr ""
 
-#: ../../scenarios/ci.rst:28
+#: ../../scenarios/ci.rst:37
 msgid "Buildbot"
 msgstr ""
 
-#: ../../scenarios/ci.rst:30
+#: ../../scenarios/ci.rst:39
 msgid ""
 "`Buildbot <http://docs.buildbot.net/current/>`_ is a Python system to "
 "automate the compile/test cycle to validate code changes."
 msgstr ""
 
-#: ../../scenarios/ci.rst:36
+#: ../../scenarios/ci.rst:45
 msgid "Tox"
 msgstr ""
 
-#: ../../scenarios/ci.rst:38
+#: ../../scenarios/ci.rst:47
 msgid ""
 "`tox <https://tox.readthedocs.io/en/latest/>`_ is an automation tool "
-"providing packaging, testing and deployment of Python software right from "
+"providing packaging, testing, and deployment of Python software right from "
 "the console or CI server. It is a generic virtualenv management and test "
 "command line tool which provides the following features:"
 msgstr ""
 
-#: ../../scenarios/ci.rst:43
+#: ../../scenarios/ci.rst:52
 msgid ""
 "Checking that packages install correctly with different Python versions and "
 "interpreters"
 msgstr ""
 
-#: ../../scenarios/ci.rst:45
+#: ../../scenarios/ci.rst:54
 msgid ""
 "Running tests in each of the environments, configuring your test tool of "
 "choice"
 msgstr ""
 
-#: ../../scenarios/ci.rst:47
+#: ../../scenarios/ci.rst:56
 msgid ""
 "Acting as a front-end to Continuous Integration servers, reducing "
-"boilerplate and merging CI and shell-based testing."
+"boilerplate and merging CI and shell-based testing"
 msgstr ""
 
-#: ../../scenarios/ci.rst:52
+#: ../../scenarios/ci.rst:62
 msgid "Travis-CI"
 msgstr ""
 
-#: ../../scenarios/ci.rst:54
+#: ../../scenarios/ci.rst:64
 msgid ""
 "`Travis-CI <https://travis-ci.org/>`_ is a distributed CI server which "
 "builds tests for open source projects for free. It provides multiple workers"
 " to run Python tests on and seamlessly integrates with GitHub. You can even "
 "have it comment on your Pull Requests whether this particular changeset "
-"breaks the build or not. So if you are hosting your code on GitHub, travis-"
-"ci is a great and easy way to get started with Continuous Integration."
+"breaks the build or not. So if you are hosting your code on GitHub, Travis-"
+"CI is a great and easy way to get started with Continuous Integration."
 msgstr ""
 
-#: ../../scenarios/ci.rst:61
+#: ../../scenarios/ci.rst:71
 msgid ""
 "In order to get started, add a :file:`.travis.yml` file to your repository "
 "with this example content::"
 msgstr ""
 
-#: ../../scenarios/ci.rst:77
+#: ../../scenarios/ci.rst:87
 msgid ""
 "This will get your project tested on all the listed Python versions by "
-"running the given script, and will only build the master branch. There are a"
-" lot more options you can enable, like notifications, before and after steps"
-" and much more. The `travis-ci docs <https://docs.travis-"
+"running the given script, and will only build the ``master`` branch. There "
+"are a lot more options you can enable, like notifications, before and after "
+"steps, and much more. The `Travis-CI docs <https://docs.travis-"
 "ci.com/user/languages/python/>`_ explain all of these options, and are very "
 "thorough."
 msgstr ""
 
-#: ../../scenarios/ci.rst:83
+#: ../../scenarios/ci.rst:93
 msgid ""
-"In order to activate testing for your project, go to `the travis-ci site "
+"In order to activate testing for your project, go to `the Travis-CI site "
 "<https://travis-ci.org/>`_ and login with your GitHub account. Then activate"
 " your project in your profile settings and you're ready to go. From now on, "
 "your project's tests will be run on every push to GitHub."

@@ -1,15 +1,18 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
+# Copyright (C) 2011–2018 <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> &amp; <a href="https://realpython.com">Real Python</a>. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
 # This file is distributed under the same license as the pythonguide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Victor Caldas <caldas.victor@gmail.com>, 2017
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-17 19:37+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2019-02-10 18:10+0100\n"
+"PO-Revision-Date: 2017-03-18 10:45+0000\n"
 "Last-Translator: Victor Caldas <caldas.victor@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -18,18 +21,18 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../starting/installation.rst:2
+#: ../../starting/installation.rst:6
 msgid "Properly Installing Python"
 msgstr "Instalando Python corretamente."
 
-#: ../../starting/installation.rst:4
+#: ../../starting/installation.rst:10
 msgid ""
 "There's a good chance that you already have Python on your operating system."
 msgstr ""
 "Há uma boa chance the que você já tenha Python instalado em seu sistema "
 "operacional."
 
-#: ../../starting/installation.rst:6
+#: ../../starting/installation.rst:12
 msgid ""
 "If so, you do not need to install or configure anything else to use Python. "
 "Having said that, I would strongly recommend that you install the tools and "
@@ -45,11 +48,20 @@ msgstr ""
 "**Setuptools**, **Pip** e **Virtualenv** - essas ferramentas facilitam muito"
 " o uso de outras bibliotecas de Python."
 
-#: ../../starting/installation.rst:14
+#: ../../starting/installation.rst:19
+msgid ""
+"The use of **Python 3** is *highly* preferred over Python 2. Consider "
+"upgrading your applications and infrastructure if you find yourself *still* "
+"using Python 2 in production today. If you are using Python 3, "
+"congratulations — you are indeed a person of excellent taste. —*Kenneth "
+"Reitz*"
+msgstr ""
+
+#: ../../starting/installation.rst:24
 msgid "Installation Guides"
 msgstr "Guias de Instalação"
 
-#: ../../starting/installation.rst:16
+#: ../../starting/installation.rst:26
 msgid ""
 "These guides go over the proper installation of :ref:`Python <which-python>`"
 " for development purposes, as well as setuptools, pip and virtualenv."
@@ -57,18 +69,34 @@ msgstr ""
 "Esses guias cobre a instalação de :ref:`Python <which-python>`  para "
 "desenvolviment, bem como o **setuptools**, **Pip** e **virtualenv**."
 
-#: ../../starting/installation.rst:19
+#: ../../starting/installation.rst:30
+msgid "Python 3 Installation Guides"
+msgstr ""
+
+#: ../../starting/installation.rst:32
 msgid ":ref:`Python 3 on MacOS <install3-osx>`."
 msgstr ":ref:`Python 3 no MacOS <install3-osx>`."
 
-#: ../../starting/installation.rst:20
+#: ../../starting/installation.rst:33
+msgid ":ref:`Python 3 on Windows <install3-windows>`."
+msgstr ""
+
+#: ../../starting/installation.rst:34
+msgid ":ref:`Python 3 on Linux <install3-linux>`."
+msgstr ""
+
+#: ../../starting/installation.rst:37
+msgid "Legacy Python 2 Installation Guides"
+msgstr ""
+
+#: ../../starting/installation.rst:39
 msgid ":ref:`Python 2 on MacOS <install-osx>`."
 msgstr ":ref:`Python 2 no MacOS <install-osx>`."
 
-#: ../../starting/installation.rst:21
+#: ../../starting/installation.rst:40
 msgid ":ref:`Python 2 on Microsoft Windows <install-windows>`."
 msgstr ":ref:`Python 2 no Microsoft Windows <install-windows>`."
 
-#: ../../starting/installation.rst:22
-msgid ":ref:`Python 2 on Ubuntu Linux <install-linux>`."
-msgstr ":ref:`Python 2 no Ubuntu Linux <install-linux>`."
+#: ../../starting/installation.rst:41
+msgid ":ref:`Python 2 on Linux <install-linux>`."
+msgstr ""

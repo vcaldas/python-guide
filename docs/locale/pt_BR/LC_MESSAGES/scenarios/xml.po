@@ -1,16 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
+# Copyright (C) 2011–2018 <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> &amp; <a href="https://realpython.com">Real Python</a>. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
 # This file is distributed under the same license as the pythonguide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Claudio Rogerio, 2017
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-17 19:37+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Claudio Rogerio <excriptbrasil@gmail.com>, 2017\n"
+"POT-Creation-Date: 2019-02-10 18:10+0100\n"
+"PO-Revision-Date: 2017-03-18 10:44+0000\n"
+"Last-Translator: Claudio Rogerio, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,15 +21,15 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../scenarios/xml.rst:2
+#: ../../scenarios/xml.rst:4
 msgid "XML parsing"
 msgstr "Análise de XML"
 
-#: ../../scenarios/xml.rst:5
+#: ../../scenarios/xml.rst:11
 msgid "untangle"
 msgstr "untangle"
 
-#: ../../scenarios/xml.rst:7
+#: ../../scenarios/xml.rst:13
 msgid ""
 "`untangle <https://github.com/stchris/untangle>`_ is a simple library which "
 "takes an XML document and returns a Python object which mirrors the nodes "
@@ -36,29 +39,27 @@ msgstr ""
 "que recebe um documento XML e retorna um objeto Python contendo os nós e "
 "atributos em sua estrutura."
 
-#: ../../scenarios/xml.rst:11
+#: ../../scenarios/xml.rst:17
 msgid "For example, an XML file like this:"
 msgstr "Por exemplo, um arquivo XML como este:"
 
-#: ../../scenarios/xml.rst:20
+#: ../../scenarios/xml.rst:26
 msgid "can be loaded like this:"
 msgstr "pode ser carregado assim:"
 
-#: ../../scenarios/xml.rst:27
-msgid "and then you can get the child elements name like this:"
-msgstr "e então podemos obter o nome dos elementos filho assim:"
-
 #: ../../scenarios/xml.rst:33
-msgid "untangle also supports loading XML from a string or an URL."
+msgid "and then you can get the child element's name attribute like this:"
 msgstr ""
-"O ``untangle`` também suporta o carregamento de XML desde uma String ou "
-"desde uma URL."
 
-#: ../../scenarios/xml.rst:36
+#: ../../scenarios/xml.rst:39
+msgid "untangle also supports loading XML from a string or a URL."
+msgstr ""
+
+#: ../../scenarios/xml.rst:44
 msgid "xmltodict"
 msgstr "xmltodict"
 
-#: ../../scenarios/xml.rst:38
+#: ../../scenarios/xml.rst:46
 msgid ""
 "`xmltodict <http://github.com/martinblech/xmltodict>`_ is another simple "
 "library that aims at making XML feel like working with JSON."
@@ -67,25 +68,21 @@ msgstr ""
 "simples que visa tornar o sentimento de trabalhar com XML como se fosse "
 "JSON."
 
-#: ../../scenarios/xml.rst:41
+#: ../../scenarios/xml.rst:49
 msgid "An XML file like this:"
 msgstr "Um arquivo XML como este:"
 
-#: ../../scenarios/xml.rst:55
+#: ../../scenarios/xml.rst:63
 msgid "can be loaded into a Python dict like this:"
 msgstr "pode ser carregado em um dicionário Python como este:"
 
-#: ../../scenarios/xml.rst:64
-msgid "and then you can access elements, attributes and values like this:"
-msgstr "e então podemos acessar os elementos, atributos e valores como estes:"
+#: ../../scenarios/xml.rst:72
+msgid "and then you can access elements, attributes, and values like this:"
+msgstr ""
 
-#: ../../scenarios/xml.rst:73
+#: ../../scenarios/xml.rst:81
 msgid ""
 "xmltodict also lets you roundtrip back to XML with the unparse function, has"
-" a streaming mode suitable for handling files that don't fit in memory and "
-"supports namespaces."
+" a streaming mode suitable for handling files that don't fit in memory, and "
+"supports XML namespaces."
 msgstr ""
-"``xmltodict`` também permite voltarmos para o formato XML com a função "
-"unparse, o mesmo também possui um modo de transmissão adequado para "
-"transmissão de arquivos que não se encaixam na memória e oferece suporta ao "
-"uso de namespaces."

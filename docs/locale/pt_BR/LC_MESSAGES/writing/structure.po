@@ -1,16 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
+# Copyright (C) 2011–2018 <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> &amp; <a href="https://realpython.com">Real Python</a>. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
 # This file is distributed under the same license as the pythonguide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Edson Mendes De Oliveira Filho <filho30face@gmail.com>, 2017
+# Claudio Rogerio, 2017
+# Ivan Noleto <ivannoleto@hotmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-17 19:37+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Claudio Rogerio <excriptbrasil@gmail.com>, 2017\n"
+"POT-Creation-Date: 2019-02-10 18:10+0100\n"
+"PO-Revision-Date: 2017-03-18 10:45+0000\n"
+"Last-Translator: Ivan Noleto <ivannoleto@hotmail.com>, 2019\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/own-16/teams/72945/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,11 +23,11 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../writing/structure.rst:2
+#: ../../writing/structure.rst:5
 msgid "Structuring Your Project"
 msgstr "Estruturando seu projeto"
 
-#: ../../writing/structure.rst:4
+#: ../../writing/structure.rst:9
 msgid ""
 "By \"structure\" we mean the decisions you make concerning how your project "
 "best meets its objective. We need to consider how to best leverage Python's "
@@ -37,31 +42,39 @@ msgstr ""
 "cuja lógica e dependências são claras, bem como a forma como os arquivos e "
 "as pastas estão organizados no sistema de arquivos."
 
-#: ../../writing/structure.rst:11
+#: ../../writing/structure.rst:16
 msgid ""
 "Which functions should go into which modules? How does data flow through the"
 " project? What features and functions can be grouped together and isolated? "
 "By answering questions like these you can begin to plan, in a broad sense, "
 "what your finished product will look like."
 msgstr ""
+"Quais funções devem entrar em quais módulos? Como os dados fluem pelo "
+"projeto? Quais recursos e funções podem ser agrupados e isolados? Ao "
+"responder perguntas como essas, você pode começar a planejar, em um sentido "
+"amplo, como será seu produto final."
 
-#: ../../writing/structure.rst:16
+#: ../../writing/structure.rst:21
 msgid ""
 "In this section we take a closer look at Python's module and import systems "
 "as they are the central elements to enforcing structure in your project. We "
 "then discuss various perspectives on how to build code which can be extended"
 " and tested reliably."
 msgstr ""
-
-#: ../../writing/structure.rst:24
-msgid "Structure of the Repository"
-msgstr ""
-
-#: ../../writing/structure.rst:27
-msgid "It's Important."
-msgstr ""
+"Nesta seção, analisamos mais de perto o módulo e os sistemas de importação "
+"do Python, pois eles são os elementos centrais para impor a estrutura em seu"
+" projeto. Em seguida, discutimos várias perspectivas sobre como construir "
+"código que pode ser estendido e testado de forma confiável."
 
 #: ../../writing/structure.rst:29
+msgid "Structure of the Repository"
+msgstr "Estrutura do Repositório"
+
+#: ../../writing/structure.rst:32
+msgid "It's Important."
+msgstr "É importante."
+
+#: ../../writing/structure.rst:34
 msgid ""
 "Just as Code Style, API Design, and Automation are essential for a healthy "
 "development cycle, Repository structure is a crucial part of your project's "
@@ -69,41 +82,43 @@ msgid ""
 "<http://www.amazon.com/gp/product/1257638017/ref=as_li_ss_tl?ie=UTF8&tag=bookforkind-20&linkCode=as2&camp=1789&creative=39095&creativeASIN=1257638017>`__."
 msgstr ""
 
-#: ../../writing/structure.rst:34
+#: ../../writing/structure.rst:39
 msgid ""
 "When a potential user or contributor lands on your repository's page, they "
 "see a few things:"
 msgstr ""
+"Quando um usuário ou colaborador potencial chega à página do seu "
+"repositório, ele vê algumas coisas:"
 
-#: ../../writing/structure.rst:37
+#: ../../writing/structure.rst:42
 msgid "Project Name"
-msgstr ""
+msgstr "Nome do Projeto"
 
-#: ../../writing/structure.rst:38
+#: ../../writing/structure.rst:43
 msgid "Project Description"
-msgstr ""
+msgstr "Descrição do Projeto"
 
-#: ../../writing/structure.rst:39
+#: ../../writing/structure.rst:44
 msgid "Bunch O' Files"
 msgstr ""
 
-#: ../../writing/structure.rst:41
+#: ../../writing/structure.rst:46
 msgid ""
 "Only when they scroll below the fold will the user see your project's "
 "README."
 msgstr ""
 
-#: ../../writing/structure.rst:44
+#: ../../writing/structure.rst:49
 msgid ""
 "If your repo is a massive dump of files or a nested mess of directories, "
 "they might look elsewhere before even reading your beautiful documentation."
 msgstr ""
 
-#: ../../writing/structure.rst:48
+#: ../../writing/structure.rst:53
 msgid "Dress for the job you want, not the job you have."
 msgstr ""
 
-#: ../../writing/structure.rst:50
+#: ../../writing/structure.rst:55
 msgid ""
 "Of course, first impressions aren't everything. You and your colleagues will"
 " spend countless hours working with this repository, eventually becoming "
@@ -111,27 +126,27 @@ msgid ""
 "important."
 msgstr ""
 
-#: ../../writing/structure.rst:56
+#: ../../writing/structure.rst:61
 msgid "Sample Repository"
-msgstr ""
+msgstr "Repositório de Amostra"
 
-#: ../../writing/structure.rst:58
+#: ../../writing/structure.rst:63
 msgid ""
 "**tl;dr**: This is what `Kenneth Reitz <http://kennethreitz.org>`_ "
 "recommends."
 msgstr ""
 
-#: ../../writing/structure.rst:60
+#: ../../writing/structure.rst:65
 msgid ""
 "This repository is `available on GitHub "
 "<https://github.com/kennethreitz/samplemod>`__."
 msgstr ""
 
-#: ../../writing/structure.rst:77
+#: ../../writing/structure.rst:82
 msgid "Let's get into some specifics."
-msgstr ""
+msgstr "Vamos entrar em alguns detalhes."
 
-#: ../../writing/structure.rst:80
+#: ../../writing/structure.rst:85
 msgid "The Actual Module"
 msgstr ""
 
@@ -140,7 +155,7 @@ msgstr ""
 #: ../../writing/structure.rst:1 ../../writing/structure.rst:1
 #: ../../writing/structure.rst:1
 msgid "Location"
-msgstr ""
+msgstr "Localização"
 
 #: ../../writing/structure.rst:1
 msgid "``./sample/`` or ``./sample.py``"
@@ -157,24 +172,24 @@ msgstr "Propósito"
 msgid "The code of interest"
 msgstr ""
 
-#: ../../writing/structure.rst:89
+#: ../../writing/structure.rst:94
 msgid ""
 "Your module package is the core focus of the repository. It should not be "
 "tucked away:"
 msgstr ""
 
-#: ../../writing/structure.rst:96
+#: ../../writing/structure.rst:101
 msgid ""
 "If your module consists of only a single file, you can place it directly in "
 "the root of your repository:"
 msgstr ""
 
-#: ../../writing/structure.rst:103
+#: ../../writing/structure.rst:108
 msgid ""
 "Your library does not belong in an ambiguous src or python subdirectory."
 msgstr ""
 
-#: ../../writing/structure.rst:106
+#: ../../writing/structure.rst:111
 msgid "License"
 msgstr "Licença"
 
@@ -186,26 +201,26 @@ msgstr ""
 msgid "Lawyering up."
 msgstr ""
 
-#: ../../writing/structure.rst:116
+#: ../../writing/structure.rst:121
 msgid ""
 "This is arguably the most important part of your repository, aside from the "
 "source code itself. The full license text and copyright claims should exist "
 "in this file."
 msgstr ""
 
-#: ../../writing/structure.rst:120
+#: ../../writing/structure.rst:125
 msgid ""
 "If you aren't sure which license you should use for your project, check out "
 "`choosealicense.com <http://choosealicense.com>`_."
 msgstr ""
 
-#: ../../writing/structure.rst:123
+#: ../../writing/structure.rst:128
 msgid ""
 "Of course, you are also free to publish code without a license, but this "
 "would prevent many people from potentially using your code."
 msgstr ""
 
-#: ../../writing/structure.rst:127
+#: ../../writing/structure.rst:132
 msgid "Setup.py"
 msgstr ""
 
@@ -217,25 +232,25 @@ msgstr ""
 msgid "Package and distribution management."
 msgstr ""
 
-#: ../../writing/structure.rst:136
+#: ../../writing/structure.rst:141
 msgid ""
 "If your module package is at the root of your repository, this should "
 "obviously be at the root as well."
 msgstr ""
 
-#: ../../writing/structure.rst:140
+#: ../../writing/structure.rst:145
 msgid "Requirements File"
-msgstr ""
+msgstr "Arquivo de Requisitos"
 
 #: ../../writing/structure.rst:1
 msgid "``./requirements.txt``"
-msgstr ""
+msgstr "``./requirements.txt``"
 
 #: ../../writing/structure.rst:1
 msgid "Development dependencies."
-msgstr ""
+msgstr "Dependências de desenvolvimento."
 
-#: ../../writing/structure.rst:149
+#: ../../writing/structure.rst:154
 msgid ""
 "A `pip requirements file <https://pip.pypa.io/en/stable/user_guide"
 "/#requirements-files>`__ should be placed at the root of the repository. It "
@@ -243,171 +258,176 @@ msgid ""
 "testing, building, and generating documentation."
 msgstr ""
 
-#: ../../writing/structure.rst:155
+#: ../../writing/structure.rst:160
 msgid ""
 "If your project has no development dependencies, or you prefer development "
 "environment setup via ``setup.py``, this file may be unnecessary."
 msgstr ""
 
-#: ../../writing/structure.rst:160
+#: ../../writing/structure.rst:165
 msgid "Documentation"
 msgstr "Documentação"
 
 #: ../../writing/structure.rst:1
 msgid "``./docs/``"
-msgstr ""
+msgstr "``./docs/``"
 
 #: ../../writing/structure.rst:1
 msgid "Package reference documentation."
 msgstr ""
 
-#: ../../writing/structure.rst:169
+#: ../../writing/structure.rst:174
 msgid "There is little reason for this to exist elsewhere."
 msgstr ""
 
-#: ../../writing/structure.rst:172
+#: ../../writing/structure.rst:177
 msgid "Test Suite"
+msgstr ""
+
+#: ../../writing/structure.rst:180
+msgid "*For advice on writing your tests, see* :doc:`/writing/tests`."
 msgstr ""
 
 #: ../../writing/structure.rst:1
 msgid "``./test_sample.py`` or ``./tests``"
-msgstr ""
+msgstr "``./test_sample.py`` ou ``./tests``"
 
 #: ../../writing/structure.rst:1
 msgid "Package integration and unit tests."
 msgstr ""
 
-#: ../../writing/structure.rst:181
+#: ../../writing/structure.rst:188
 msgid "Starting out, a small test suite will often exist in a single file:"
 msgstr ""
 
-#: ../../writing/structure.rst:187
+#: ../../writing/structure.rst:194
 msgid ""
 "Once a test suite grows, you can move your tests to a directory, like so:"
 msgstr ""
 
-#: ../../writing/structure.rst:195
+#: ../../writing/structure.rst:202
 msgid ""
 "Obviously, these test modules must import your packaged module to test it. "
 "You can do this a few ways:"
 msgstr ""
 
-#: ../../writing/structure.rst:198
+#: ../../writing/structure.rst:205
 msgid "Expect the package to be installed in site-packages."
 msgstr ""
 
-#: ../../writing/structure.rst:199
+#: ../../writing/structure.rst:206
 msgid ""
 "Use a simple (but *explicit*) path modification to resolve the package "
 "properly."
 msgstr ""
 
-#: ../../writing/structure.rst:202
+#: ../../writing/structure.rst:209
 msgid ""
 "I highly recommend the latter. Requiring a developer to run ``setup.py "
 "develop`` to test an actively changing codebase also requires them to have "
 "an isolated environment setup for each instance of the codebase."
 msgstr ""
 
-#: ../../writing/structure.rst:207
+#: ../../writing/structure.rst:214
 msgid ""
-"To give the individual tests import context, create a tests/context.py file:"
+"To give the individual tests import context, create a ``tests/context.py`` "
+"file:"
 msgstr ""
 
-#: ../../writing/structure.rst:218
+#: ../../writing/structure.rst:225
 msgid "Then, within the individual test modules, import the module like so:"
 msgstr ""
 
-#: ../../writing/structure.rst:224
+#: ../../writing/structure.rst:231
 msgid "This will always work as expected, regardless of installation method."
 msgstr ""
 
-#: ../../writing/structure.rst:226
+#: ../../writing/structure.rst:233
 msgid ""
 "Some people will assert that you should distribute your tests within your "
 "module itself -- I disagree. It often increases complexity for your users; "
 "many test suites often require additional dependencies and runtime contexts."
 msgstr ""
 
-#: ../../writing/structure.rst:232
+#: ../../writing/structure.rst:239
 msgid "Makefile"
 msgstr ""
 
 #: ../../writing/structure.rst:1
 msgid "``./Makefile``"
-msgstr ""
+msgstr "``./Makefile``"
 
 #: ../../writing/structure.rst:1
 msgid "Generic management tasks."
 msgstr ""
 
-#: ../../writing/structure.rst:242
+#: ../../writing/structure.rst:249
 msgid ""
 "If you look at most of my projects or any Pocoo project, you'll notice a "
-"Makefile laying around. Why? These projects aren't written in C... In short,"
-" make is a incredibly useful tool for defining generic tasks for your "
+"Makefile lying around. Why? These projects aren't written in C... In short, "
+"make is an incredibly useful tool for defining generic tasks for your "
 "project."
 msgstr ""
 
-#: ../../writing/structure.rst:247
+#: ../../writing/structure.rst:254
 msgid "**Sample Makefile:**"
 msgstr ""
 
-#: ../../writing/structure.rst:259
+#: ../../writing/structure.rst:266
 msgid ""
 "Other generic management scripts (e.g. ``manage.py`` or ``fabfile.py``) "
 "belong at the root of the repository as well."
 msgstr ""
 
-#: ../../writing/structure.rst:263
+#: ../../writing/structure.rst:270
 msgid "Regarding Django Applications"
 msgstr ""
 
-#: ../../writing/structure.rst:265
+#: ../../writing/structure.rst:272
 msgid ""
 "I've noticed a new trend in Django applications since the release of Django "
 "1.4. Many developers are structuring their repositories poorly due to the "
 "new bundled application templates."
 msgstr ""
 
-#: ../../writing/structure.rst:269
+#: ../../writing/structure.rst:276
 msgid ""
 "How? Well, they go to their bare and fresh repository and run the following,"
 " as they always have:"
 msgstr ""
 
-#: ../../writing/structure.rst:276
+#: ../../writing/structure.rst:283
 msgid "The resulting repository structure looks like this:"
 msgstr ""
 
-#: ../../writing/structure.rst:286
+#: ../../writing/structure.rst:293
 msgid "Don't do this."
 msgstr ""
 
-#: ../../writing/structure.rst:288
+#: ../../writing/structure.rst:295
 msgid ""
 "Repetitive paths are confusing for both your tools and your developers. "
 "Unnecessary nesting doesn't help anybody (unless they're nostalgic for "
 "monolithic SVN repos)."
 msgstr ""
 
-#: ../../writing/structure.rst:292
+#: ../../writing/structure.rst:299
 msgid "Let's do it properly:"
 msgstr ""
 
-#: ../../writing/structure.rst:298
+#: ../../writing/structure.rst:305
 msgid "Note the \"``.``\"."
 msgstr ""
 
-#: ../../writing/structure.rst:300
+#: ../../writing/structure.rst:307
 msgid "The resulting structure:"
 msgstr ""
 
-#: ../../writing/structure.rst:314
+#: ../../writing/structure.rst:321
 msgid "Structure of Code is Key"
 msgstr ""
 
-#: ../../writing/structure.rst:316
+#: ../../writing/structure.rst:323
 msgid ""
 "Thanks to the way imports and modules are handled in Python, it is "
 "relatively easy to structure a Python project. Easy, here, means that you do"
@@ -416,24 +436,24 @@ msgid ""
 "the different parts of your project and their interactions."
 msgstr ""
 
-#: ../../writing/structure.rst:323
+#: ../../writing/structure.rst:330
 msgid ""
 "Easy structuring of a project means it is also easy to do it poorly. Some "
 "signs of a poorly structured project include:"
 msgstr ""
 
-#: ../../writing/structure.rst:327
+#: ../../writing/structure.rst:334
 msgid ""
 "Multiple and messy circular dependencies: if your classes Table and Chair in"
 " :file:`furn.py` need to import Carpenter from :file:`workers.py` to answer "
 "a question such as ``table.isdoneby()``, and if conversely the class "
-"Carpenter needs to import Table and Chair, to answer the question "
+"Carpenter needs to import Table and Chair to answer the question "
 "``carpenter.whatdo()``, then you have a circular dependency. In this case "
 "you will have to resort to fragile hacks such as using import statements "
 "inside methods or functions."
 msgstr ""
 
-#: ../../writing/structure.rst:336
+#: ../../writing/structure.rst:343
 msgid ""
 "Hidden coupling: each and every change in Table's implementation breaks 20 "
 "tests in unrelated test cases because it breaks Carpenter's code, which "
@@ -441,7 +461,7 @@ msgid ""
 "many assumptions about Table in Carpenter's code or the reverse."
 msgstr ""
 
-#: ../../writing/structure.rst:342
+#: ../../writing/structure.rst:349
 msgid ""
 "Heavy usage of global state or context: instead of explicitly passing "
 "``(height, width, type, wood)`` to each other, Table and Carpenter rely on "
@@ -452,7 +472,7 @@ msgid ""
 "with table dimensions."
 msgstr ""
 
-#: ../../writing/structure.rst:351
+#: ../../writing/structure.rst:358
 msgid ""
 "Spaghetti code: multiple pages of nested if clauses and for loops with a lot"
 " of copy-pasted procedural code and no proper segmentation are known as "
@@ -461,7 +481,7 @@ msgid ""
 "the good news is that you might not see too much of it."
 msgstr ""
 
-#: ../../writing/structure.rst:358
+#: ../../writing/structure.rst:365
 msgid ""
 "Ravioli code is more likely in Python: it consists of hundreds of similar "
 "little pieces of logic, often classes or objects, without proper structure. "
@@ -470,18 +490,18 @@ msgid ""
 "ravioli code."
 msgstr ""
 
-#: ../../writing/structure.rst:366
+#: ../../writing/structure.rst:374
 msgid "Modules"
 msgstr ""
 
-#: ../../writing/structure.rst:368
+#: ../../writing/structure.rst:376
 msgid ""
 "Python modules are one of the main abstraction layers available and probably"
 " the most natural one. Abstraction layers allow separating code into parts "
 "holding related data and functionality."
 msgstr ""
 
-#: ../../writing/structure.rst:372
+#: ../../writing/structure.rst:380
 msgid ""
 "For example, a layer of a project can handle interfacing with user actions, "
 "while another would handle low-level manipulation of data. The most natural "
@@ -491,14 +511,14 @@ msgid ""
 " ``import`` and ``from ... import`` statements."
 msgstr ""
 
-#: ../../writing/structure.rst:379
+#: ../../writing/structure.rst:387
 msgid ""
 "As soon as you use `import` statements you use modules. These can be either "
 "built-in modules such as `os` and `sys`, third-party modules you have "
 "installed in your environment, or your project's internal modules."
 msgstr ""
 
-#: ../../writing/structure.rst:383
+#: ../../writing/structure.rst:391
 msgid ""
 "To keep in line with the style guide, keep module names short, lowercase, "
 "and be sure to avoid using special symbols like the dot (.) or question mark"
@@ -506,7 +526,7 @@ msgid ""
 " this way will interfere with the way Python looks for modules."
 msgstr ""
 
-#: ../../writing/structure.rst:388
+#: ../../writing/structure.rst:396
 msgid ""
 "In the case of `my.spam.py` Python expects to find a :file:`spam.py` file in"
 " a folder named :file:`my` which is not the case. There is an `example "
@@ -514,20 +534,24 @@ msgid ""
 "notation should be used in the Python docs."
 msgstr ""
 
-#: ../../writing/structure.rst:393
+#: ../../writing/structure.rst:401
 msgid ""
 "If you'd like you could name your module :file:`my_spam.py`, but even our "
-"friend the underscore should not be seen often in module names."
+"friend the underscore should not be seen often in module names. However, "
+"using other characters (spaces or hyphens) in module names will prevent "
+"importing (- is the subtract operator), so try to keep module names short so"
+" there is no need to separate words. And, most of all, don't namespace with "
+"underscores; use submodules instead."
 msgstr ""
 
-#: ../../writing/structure.rst:396
+#: ../../writing/structure.rst:414
 msgid ""
 "Aside from some naming restrictions, nothing special is required for a "
 "Python file to be a module, but you need to understand the import mechanism "
 "in order to use this concept properly and avoid some issues."
 msgstr ""
 
-#: ../../writing/structure.rst:400
+#: ../../writing/structure.rst:418
 msgid ""
 "Concretely, the ``import modu`` statement will look for the proper file, "
 "which is :file:`modu.py` in the same directory as the caller if it exists.  "
@@ -536,7 +560,7 @@ msgid ""
 "found."
 msgstr ""
 
-#: ../../writing/structure.rst:405
+#: ../../writing/structure.rst:423
 msgid ""
 "Once :file:`modu.py` is found, the Python interpreter will execute the "
 "module in an isolated scope. Any top-level statement in :file:`modu.py` will"
@@ -544,14 +568,14 @@ msgid ""
 " are stored in the module's dictionary."
 msgstr ""
 
-#: ../../writing/structure.rst:410
+#: ../../writing/structure.rst:428
 msgid ""
 "Then, the module's variables, functions, and classes will be available to "
 "the caller through the module's namespace, a central concept in programming "
 "that is particularly helpful and powerful in Python."
 msgstr ""
 
-#: ../../writing/structure.rst:414
+#: ../../writing/structure.rst:432
 msgid ""
 "In many languages, an ``include file`` directive is used by the preprocessor"
 " to take all code found in the file and 'copy' it into the caller's code. It"
@@ -561,7 +585,7 @@ msgid ""
 "function with the same name."
 msgstr ""
 
-#: ../../writing/structure.rst:420
+#: ../../writing/structure.rst:438
 msgid ""
 "It is possible to simulate the more standard behavior by using a special "
 "syntax of the import statement: ``from modu import *``. This is generally "
@@ -569,49 +593,49 @@ msgid ""
 "and makes dependencies less compartmentalized**."
 msgstr ""
 
-#: ../../writing/structure.rst:425
+#: ../../writing/structure.rst:443
 msgid ""
 "Using ``from modu import func`` is a way to pinpoint the function you want "
-"to import and put it in the global namespace. While much less harmful than "
-"``import *`` because it shows explicitly what is imported in the global "
+"to import and put it in the local namespace. While much less harmful than "
+"``import *`` because it shows explicitly what is imported in the local "
 "namespace, its only advantage over a simpler ``import modu`` is that it will"
 " save a little typing."
 msgstr ""
 
-#: ../../writing/structure.rst:431
+#: ../../writing/structure.rst:449
 msgid "**Very bad**"
 msgstr ""
 
-#: ../../writing/structure.rst:440 ../../writing/structure.rst:815
+#: ../../writing/structure.rst:458 ../../writing/structure.rst:829
 msgid "**Better**"
 msgstr ""
 
-#: ../../writing/structure.rst:448 ../../writing/structure.rst:823
+#: ../../writing/structure.rst:466 ../../writing/structure.rst:839
 msgid "**Best**"
 msgstr ""
 
-#: ../../writing/structure.rst:456
+#: ../../writing/structure.rst:474
 msgid ""
 "As mentioned in the :ref:`code_style` section, readability is one of the "
 "main features of Python. Readability means to avoid useless boilerplate text"
-" and clutter, therefore some efforts are spent trying to achieve a certain "
+" and clutter; therefore some efforts are spent trying to achieve a certain "
 "level of brevity. But terseness and obscurity are the limits where brevity "
 "should stop. Being able to tell immediately where a class or function comes "
 "from, as in the ``modu.func`` idiom, greatly improves code readability and "
 "understandability in all but the simplest single file projects."
 msgstr ""
 
-#: ../../writing/structure.rst:466
+#: ../../writing/structure.rst:485
 msgid "Packages"
 msgstr ""
 
-#: ../../writing/structure.rst:468
+#: ../../writing/structure.rst:487
 msgid ""
 "Python provides a very straightforward packaging system, which is simply an "
 "extension of the module mechanism to a directory."
 msgstr ""
 
-#: ../../writing/structure.rst:471
+#: ../../writing/structure.rst:490
 msgid ""
 "Any directory with an :file:`__init__.py` file is considered a Python "
 "package. The different modules in the package are imported in a similar "
@@ -620,18 +644,18 @@ msgid ""
 "definitions."
 msgstr ""
 
-#: ../../writing/structure.rst:476
+#: ../../writing/structure.rst:495
 msgid ""
 "A file :file:`modu.py` in the directory :file:`pack/` is imported with the "
 "statement ``import pack.modu``. This statement will look for an "
-":file:`__init__.py` file in :file:`pack`, execute all of its top-level "
+":file:`__init__.py` file in :file:`pack` and execute all of its top-level "
 "statements. Then it will look for a file named :file:`pack/modu.py` and "
 "execute all of its top-level statements. After these operations, any "
 "variable, function, or class defined in :file:`modu.py` is available in the "
 "pack.modu namespace."
 msgstr ""
 
-#: ../../writing/structure.rst:484
+#: ../../writing/structure.rst:503
 msgid ""
 "A commonly seen issue is to add too much code to :file:`__init__.py` files. "
 "When the project complexity grows, there may be sub-packages and sub-sub-"
@@ -640,31 +664,31 @@ msgid ""
 "files met while traversing the tree."
 msgstr ""
 
-#: ../../writing/structure.rst:490
+#: ../../writing/structure.rst:509
 msgid ""
 "Leaving an :file:`__init__.py` file empty is considered normal and even a "
 "good practice, if the package's modules and sub-packages do not need to "
 "share any code."
 msgstr ""
 
-#: ../../writing/structure.rst:494
+#: ../../writing/structure.rst:513
 msgid ""
 "Lastly, a convenient syntax is available for importing deeply nested "
 "packages: ``import very.deep.module as mod``. This allows you to use `mod` "
 "in place of the verbose repetition of ``very.deep.module``."
 msgstr ""
 
-#: ../../writing/structure.rst:499
+#: ../../writing/structure.rst:520
 msgid "Object-oriented programming"
 msgstr ""
 
-#: ../../writing/structure.rst:501
+#: ../../writing/structure.rst:522
 msgid ""
 "Python is sometimes described as an object-oriented programming language. "
 "This can be somewhat misleading and needs to be clarified."
 msgstr ""
 
-#: ../../writing/structure.rst:504
+#: ../../writing/structure.rst:525
 msgid ""
 "In Python, everything is an object, and can be handled as such. This is what"
 " is meant when we say, for example, that functions are first-class objects. "
@@ -674,7 +698,7 @@ msgid ""
 "object-oriented language."
 msgstr ""
 
-#: ../../writing/structure.rst:511
+#: ../../writing/structure.rst:532
 msgid ""
 "However, unlike Java, Python does not impose object-oriented programming as "
 "the main programming paradigm. It is perfectly viable for a Python project "
@@ -683,7 +707,7 @@ msgid ""
 "oriented programming."
 msgstr ""
 
-#: ../../writing/structure.rst:517
+#: ../../writing/structure.rst:538
 msgid ""
 "Moreover, as seen in the modules_ section, the way Python handles modules "
 "and namespaces gives the developer a natural way to ensure the encapsulation"
@@ -692,7 +716,7 @@ msgid ""
 " not use object-orientation, when it is not required by the business model."
 msgstr ""
 
-#: ../../writing/structure.rst:524
+#: ../../writing/structure.rst:545
 msgid ""
 "There are some reasons to avoid unnecessary object-orientation. Defining "
 "custom classes is useful when we want to glue together some state and some "
@@ -700,13 +724,13 @@ msgid ""
 "functional programming, comes from the \"state\" part of the equation."
 msgstr ""
 
-#: ../../writing/structure.rst:529
+#: ../../writing/structure.rst:550
 msgid ""
 "In some architectures, typically web applications, multiple instances of "
 "Python processes are spawned to respond to external requests that can happen"
-" at the same time. In this case, holding some state into instantiated "
-"objects, which means keeping some static information about the world, is "
-"prone to concurrency problems or race-conditions. Sometimes, between the "
+" at the same time. In this case, holding some state in instantiated objects,"
+" which means keeping some static information about the world, is prone to "
+"concurrency problems or race conditions. Sometimes, between the "
 "initialization of the state of an object (usually done with the "
 "``__init__()`` method) and the actual use of the object state through one of"
 " its methods, the world may have changed, and the retained state may be "
@@ -716,13 +740,13 @@ msgid ""
 "process loaded the item, and then we have to mark as read a deleted object."
 msgstr ""
 
-#: ../../writing/structure.rst:542
+#: ../../writing/structure.rst:563
 msgid ""
 "This and other issues led to the idea that using stateless functions is a "
 "better programming paradigm."
 msgstr ""
 
-#: ../../writing/structure.rst:545
+#: ../../writing/structure.rst:566
 msgid ""
 "Another way to say the same thing is to suggest using functions and "
 "procedures with as few implicit contexts and side-effects as possible. A "
@@ -733,42 +757,42 @@ msgid ""
 "persistence layer, it is said to have a side-effect."
 msgstr ""
 
-#: ../../writing/structure.rst:553
+#: ../../writing/structure.rst:574
 msgid ""
 "Carefully isolating functions with context and side-effects from functions "
 "with logic (called pure functions) allow the following benefits:"
 msgstr ""
 
-#: ../../writing/structure.rst:556
+#: ../../writing/structure.rst:577
 msgid ""
 "Pure functions are deterministic: given a fixed input, the output will "
 "always be the same."
 msgstr ""
 
-#: ../../writing/structure.rst:559
+#: ../../writing/structure.rst:580
 msgid ""
 "Pure functions are much easier to change or replace if they need to be "
 "refactored or optimized."
 msgstr ""
 
-#: ../../writing/structure.rst:562
+#: ../../writing/structure.rst:583
 msgid ""
-"Pure functions are easier to test with unit-tests: There is less need for "
+"Pure functions are easier to test with unit tests: There is less need for "
 "complex context setup and data cleaning afterwards."
 msgstr ""
 
-#: ../../writing/structure.rst:565
+#: ../../writing/structure.rst:586
 msgid "Pure functions are easier to manipulate, decorate, and pass around."
 msgstr ""
 
-#: ../../writing/structure.rst:567
+#: ../../writing/structure.rst:588
 msgid ""
 "In summary, pure functions are more efficient building blocks than classes "
 "and objects for some architectures because they have no context or side-"
 "effects."
 msgstr ""
 
-#: ../../writing/structure.rst:570
+#: ../../writing/structure.rst:591
 msgid ""
 "Obviously, object-orientation is useful and even necessary in many cases, "
 "for example when developing graphical desktop applications or games, where "
@@ -776,11 +800,11 @@ msgid ""
 " relatively long life of their own in the computer's memory."
 msgstr ""
 
-#: ../../writing/structure.rst:577
+#: ../../writing/structure.rst:599
 msgid "Decorators"
 msgstr ""
 
-#: ../../writing/structure.rst:579
+#: ../../writing/structure.rst:601
 msgid ""
 "The Python language provides a simple yet powerful syntax called "
 "'decorators'. A decorator is a function or a class that wraps (or decorates)"
@@ -790,22 +814,22 @@ msgid ""
 "@decorator syntax is clearer and thus preferred."
 msgstr ""
 
-#: ../../writing/structure.rst:602
+#: ../../writing/structure.rst:624
 msgid ""
-"This mechanism is useful for separating concerns and avoiding external un-"
-"related logic 'polluting' the core logic of the function or method. A good "
-"example of a piece of functionality that is better handled with decoration "
+"This mechanism is useful for separating concerns and avoiding external "
+"unrelated logic 'polluting' the core logic of the function or method. A good"
+" example of a piece of functionality that is better handled with decoration "
 "is `memoization <https://en.wikipedia.org/wiki/Memoization#Overview>`__ or "
 "caching: you want to store the results of an expensive function in a table "
 "and use them directly instead of recomputing them when they have already "
 "been computed. This is clearly not part of the function logic."
 msgstr ""
 
-#: ../../writing/structure.rst:611
+#: ../../writing/structure.rst:635
 msgid "Context Managers"
 msgstr ""
 
-#: ../../writing/structure.rst:613
+#: ../../writing/structure.rst:637
 msgid ""
 "A context manager is a Python object that provides extra contextual "
 "information to an action. This extra information takes the form of running a"
@@ -815,21 +839,21 @@ msgid ""
 " opening on a file:"
 msgstr ""
 
-#: ../../writing/structure.rst:624
+#: ../../writing/structure.rst:648
 msgid ""
 "Anyone familiar with this pattern knows that invoking ``open`` in this "
 "fashion ensures that ``f``'s ``close`` method will be called at some point. "
 "This reduces a developer's cognitive load and makes the code easier to read."
 msgstr ""
 
-#: ../../writing/structure.rst:628
+#: ../../writing/structure.rst:652
 msgid ""
 "There are two easy ways to implement this functionality yourself: using a "
 "class or using a generator. Let's implement the above functionality "
 "ourselves, starting with the class approach:"
 msgstr ""
 
-#: ../../writing/structure.rst:647
+#: ../../writing/structure.rst:671
 msgid ""
 "This is just a regular Python object with two extra methods that are used by"
 " the ``with`` statement. CustomOpen is first instantiated and then its "
@@ -839,13 +863,13 @@ msgid ""
 " called."
 msgstr ""
 
-#: ../../writing/structure.rst:653
+#: ../../writing/structure.rst:677
 msgid ""
 "And now the generator approach using Python's own `contextlib "
 "<https://docs.python.org/2/library/contextlib.html>`_:"
 msgstr ""
 
-#: ../../writing/structure.rst:671
+#: ../../writing/structure.rst:695
 msgid ""
 "This works in exactly the same way as the class example above, albeit it's "
 "more terse. The ``custom_open`` function executes until it reaches the "
@@ -855,7 +879,7 @@ msgid ""
 "was an exception inside the ``with``."
 msgstr ""
 
-#: ../../writing/structure.rst:678
+#: ../../writing/structure.rst:702
 msgid ""
 "Since the two approaches appear the same, we should follow the Zen of Python"
 " to decide when to use which. The class approach might be better if there's "
@@ -863,11 +887,11 @@ msgid ""
 "be better for situations where we're dealing with a simple action."
 msgstr ""
 
-#: ../../writing/structure.rst:684
+#: ../../writing/structure.rst:710
 msgid "Dynamic typing"
 msgstr ""
 
-#: ../../writing/structure.rst:686
+#: ../../writing/structure.rst:712
 msgid ""
 "Python is dynamically typed, which means that variables do not have a fixed "
 "type. In fact, in Python, variables are very different from what they are in"
@@ -878,7 +902,7 @@ msgid ""
 "to a function."
 msgstr ""
 
-#: ../../writing/structure.rst:693
+#: ../../writing/structure.rst:719
 msgid ""
 "The dynamic typing of Python is often considered to be a weakness, and "
 "indeed it can lead to complexities and hard-to-debug code. Something named "
@@ -887,36 +911,36 @@ msgid ""
 "completely unrelated object."
 msgstr ""
 
-#: ../../writing/structure.rst:699
+#: ../../writing/structure.rst:725
 msgid "Some guidelines help to avoid this issue:"
 msgstr ""
 
-#: ../../writing/structure.rst:701
+#: ../../writing/structure.rst:727
 msgid "Avoid using the same variable name for different things."
 msgstr ""
 
-#: ../../writing/structure.rst:703 ../../writing/structure.rst:727
-#: ../../writing/structure.rst:795
+#: ../../writing/structure.rst:729 ../../writing/structure.rst:753
+#: ../../writing/structure.rst:819
 msgid "**Bad**"
 msgstr "**Mau**"
 
-#: ../../writing/structure.rst:712 ../../writing/structure.rst:805
+#: ../../writing/structure.rst:738
 msgid "**Good**"
 msgstr "**Bom**"
 
-#: ../../writing/structure.rst:721
+#: ../../writing/structure.rst:747
 msgid ""
 "Using short functions or methods helps reduce the risk of using the same "
 "name for two unrelated things."
 msgstr ""
 
-#: ../../writing/structure.rst:724
+#: ../../writing/structure.rst:750
 msgid ""
 "It is better to use different names even for things that are related, when "
 "they have a different type:"
 msgstr ""
 
-#: ../../writing/structure.rst:735
+#: ../../writing/structure.rst:761
 msgid ""
 "There is no efficiency gain when reusing names: the assignments will have to"
 " create new objects anyway. However, when the complexity grows and each "
@@ -924,7 +948,7 @@ msgid ""
 "loops, it becomes harder to ascertain what a given variable's type is."
 msgstr ""
 
-#: ../../writing/structure.rst:741
+#: ../../writing/structure.rst:767
 msgid ""
 "Some coding practices, like functional programming, recommend never "
 "reassigning a variable. In Java this is done with the `final` keyword. "
@@ -934,15 +958,15 @@ msgid ""
 "mutable and immutable types."
 msgstr ""
 
-#: ../../writing/structure.rst:748
+#: ../../writing/structure.rst:776
 msgid "Mutable and immutable types"
 msgstr ""
 
-#: ../../writing/structure.rst:750
+#: ../../writing/structure.rst:778
 msgid "Python has two kinds of built-in or user-defined types."
 msgstr ""
 
-#: ../../writing/structure.rst:752
+#: ../../writing/structure.rst:780
 msgid ""
 "Mutable types are those that allow in-place modification of the content. "
 "Typical mutables are lists and dictionaries: All lists have mutating "
@@ -950,52 +974,45 @@ msgid ""
 "modified in place. The same goes for dictionaries."
 msgstr ""
 
-#: ../../writing/structure.rst:757
+#: ../../writing/structure.rst:785
 msgid ""
 "Immutable types provide no method for changing their content. For instance, "
 "the variable x set to the integer 6 has no \"increment\" method. If you want"
 " to compute x + 1, you have to create another integer and give it a name."
 msgstr ""
 
-#: ../../writing/structure.rst:770
+#: ../../writing/structure.rst:798
 msgid ""
 "One consequence of this difference in behavior is that mutable types are not"
 " \"stable\", and therefore cannot be used as dictionary keys."
 msgstr ""
 
-#: ../../writing/structure.rst:774
+#: ../../writing/structure.rst:802
 msgid ""
 "Using properly mutable types for things that are mutable in nature and "
 "immutable types for things that are fixed in nature helps to clarify the "
 "intent of the code."
 msgstr ""
 
-#: ../../writing/structure.rst:778
+#: ../../writing/structure.rst:806
 msgid ""
 "For example, the immutable equivalent of a list is the tuple, created with "
 "``(1, 2)``. This tuple is a pair that cannot be changed in-place, and can be"
 " used as a key for a dictionary."
 msgstr ""
 
-#: ../../writing/structure.rst:782
+#: ../../writing/structure.rst:810
 msgid ""
 "One peculiarity of Python that can surprise beginners is that strings are "
-"immutable. This means that when constructing a string from its parts, it is "
-"much more efficient to accumulate the parts in a list, which is mutable, and"
-" then glue ('join') the parts together when the full string is needed. One "
-"thing to notice, however, is that list comprehensions are better and faster "
-"than constructing a list in a loop with calls to ``append()``."
+"immutable. This means that when constructing a string from its parts, "
+"appending each part to the string is inefficient because the entirety of the"
+" string is copied on each append. Instead, it is much more efficient to "
+"accumulate the parts in a list, which is mutable, and then glue (``join``) "
+"the parts together when the full string is needed. List comprehensions are "
+"usually the fastest and most idiomatic way to do this."
 msgstr ""
 
-#: ../../writing/structure.rst:790
-msgid ""
-"One other option is using the map function, which can 'map' a function "
-"('str') to an iterable ('range(20)'). This results in a map object, which "
-"you can then ('join') together just like the other examples. The map "
-"function can be even faster than a list comprehension in some cases."
-msgstr ""
-
-#: ../../writing/structure.rst:831
+#: ../../writing/structure.rst:847
 msgid ""
 "One final thing to mention about strings is that using ``join()`` is not "
 "always best. In the instances where you are creating a new string from a "
@@ -1004,30 +1021,30 @@ msgid ""
 "existing string, using ``join()`` should be your preferred method."
 msgstr ""
 
-#: ../../writing/structure.rst:847
+#: ../../writing/structure.rst:863
 msgid ""
 "You can also use the :ref:`% <python:string-formatting>` formatting operator"
 " to concatenate a pre-determined number of strings besides "
-":py:meth:`str.join` and ``+``. However, :pep:`3101`, discourages the usage "
-"of the ``%`` operator in favor of the :py:meth:`str.format` method."
+":py:meth:`str.join` and ``+``. However, :pep:`3101` discourages the usage of"
+" the ``%`` operator in favor of the :py:meth:`str.format` method."
 msgstr ""
 
-#: ../../writing/structure.rst:863
+#: ../../writing/structure.rst:880
 msgid "Vendorizing Dependencies"
 msgstr ""
 
-#: ../../writing/structure.rst:867
+#: ../../writing/structure.rst:886
 msgid "Runners"
 msgstr ""
 
-#: ../../writing/structure.rst:871
+#: ../../writing/structure.rst:891
 msgid "Further Reading"
 msgstr ""
 
-#: ../../writing/structure.rst:873
+#: ../../writing/structure.rst:893
 msgid "http://docs.python.org/2/library/"
 msgstr ""
 
-#: ../../writing/structure.rst:874
+#: ../../writing/structure.rst:894
 msgid "http://www.diveintopython.net/toc/index.html"
 msgstr ""
