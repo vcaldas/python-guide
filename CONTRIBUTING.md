@@ -3,7 +3,7 @@ Como contribuir
 
 Este guia está em intenso desenvolvimento. Se você deseja contribuir, por favor veja: 
 
-http://docs.python-guide.org/en/latest/notes/contribute/
+https://docs.python-guide.org/notes/contribute/
 
 
 Contribuir com traduções
@@ -47,4 +47,4 @@ Guia de Estilo
 
 Para todas as contribuições, por favor siga o "Guia de Estilo" para Python.
 
-http://docs.python-guide.org/en/latest/notes/styleguide/
+https://docs.python-guide.org/notes/styleguide/

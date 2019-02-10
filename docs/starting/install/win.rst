@@ -1,14 +1,16 @@
 .. _install-windows:
 
-Installing Python 2 on Windows
-==============================
 
-.. image:: https://farm5.staticflickr.com/4268/34435688560_4cc2a7bcbb_k_d.jpg
+##############################
+Installing Python 2 on Windows
+##############################
+
+.. image:: /_static/photos/34435688560_4cc2a7bcbb_k_d.jpg
 
 .. note::
     Check out our :ref:`guide for installing Python 3 on Windows<install3-windows>`.
 
-First, download the `latest version <https://www.python.org/ftp/python/2.7.14/python-2.7.14.msi>`_
+First, download the `latest version <https://www.python.org/ftp/python/2.7.15/python-2.7.15.msi>`_
 of Python 2.7 from the official website. If you want to be sure you are installing a fully
 up-to-date version, click the Downloads > Windows link from the home page of the
 `Python.org web site <http://python.org>`_ .
@@ -50,8 +52,10 @@ described in the next section before you start building Python applications for
 real-world use. In particular, you should always install Setuptools, as it
 makes it much easier for you to use other third-party Python libraries.
 
+
+****************
 Setuptools + Pip
-----------------
+****************
 
 The two most crucial third-party Python packages are `setuptools <https://pypi.python.org/pypi/setuptools>`_ and `pip <https://pip.pypa.io/en/stable/>`_.
 
@@ -71,8 +75,9 @@ To see if pip is installed, open a command prompt and run
 To install pip, `follow the official pip installation guide <https://pip.pypa.io/en/latest/installing/>`_ - this will automatically install the latest version of setuptools.
 
 
+********************
 Virtual Environments
---------------------
+********************
 
 A Virtual Environment is a tool to keep the dependencies required by different projects
 in separate places, by creating virtual Python environments for them. It solves the

@@ -1,7 +1,10 @@
-Structuring Your Project
-========================
 
-.. image:: https://farm5.staticflickr.com/4203/33907151224_0574e7dfc2_k_d.jpg
+
+########################
+Structuring Your Project
+########################
+
+.. image:: /_static/photos/33907151224_0574e7dfc2_k_d.jpg
 
 By "structure" we mean the decisions you make concerning
 how your project best meets its objective. We need to consider how to
@@ -21,9 +24,9 @@ project. We then discuss various perspectives on how to build code which
 can be extended and tested reliably.
 
 
-
+***************************
 Structure of the Repository
----------------------------
+***************************
 
 It's Important.
 :::::::::::::::
@@ -208,7 +211,7 @@ I highly recommend the latter. Requiring a developer to run
 codebase also requires them to have an isolated environment setup for
 each instance of the codebase.
 
-To give the individual tests import context, create a tests/context.py
+To give the individual tests import context, create a ``tests/context.py``
 file:
 
 ::
@@ -244,8 +247,8 @@ Makefile
 
 
 If you look at most of my projects or any Pocoo project, you'll notice a
-Makefile laying around. Why? These projects aren't written in C... In
-short, make is a incredibly useful tool for defining generic tasks for
+Makefile lying around. Why? These projects aren't written in C... In
+short, make is an incredibly useful tool for defining generic tasks for
 your project.
 
 **Sample Makefile:**
@@ -313,9 +316,9 @@ The resulting structure:
 
 
 
-
+************************
 Structure of Code is Key
-------------------------
+************************
 
 Thanks to the way imports and modules are handled in Python, it is
 relatively easy to structure a Python project. Easy, here, means
@@ -331,7 +334,7 @@ include:
 - Multiple and messy circular dependencies: if your classes
   Table and Chair in :file:`furn.py` need to import Carpenter from
   :file:`workers.py` to answer a question such as ``table.isdoneby()``,
-  and if conversely the class Carpenter needs to import Table and Chair,
+  and if conversely the class Carpenter needs to import Table and Chair
   to answer the question ``carpenter.whatdo()``, then you
   have a circular dependency. In this case you will have to resort to
   fragile hacks such as using import statements inside
@@ -366,8 +369,9 @@ include:
   task at hand, you might be swimming in ravioli code.
 
 
+*******
 Modules
--------
+*******
 
 Python modules are one of the main abstraction layers available and probably the
 most natural one. Abstraction layers allow separating code into parts holding
@@ -395,10 +399,10 @@ folder named :file:`my` which is not the case. There is an
 dot notation should be used in the Python docs.
 
 If you'd like you could name your module :file:`my_spam.py`, but even our
-friend the underscore should not be seen often in module names. However, using other 
-characters (spaces or hyphens) in module names will prevent importing 
-(- is the subtract operator), so try to keep module names short so there is 
-no need to separate words. And, most of all, don't namespace with underscores, use submodules instead.
+friend the underscore should not be seen often in module names. However, using other
+characters (spaces or hyphens) in module names will prevent importing
+(- is the subtract operator), so try to keep module names short so there is
+no need to separate words. And, most of all, don't namespace with underscores; use submodules instead.
 
 .. code-block:: python
 
@@ -437,8 +441,8 @@ bad practice. **Using** ``import *`` **makes code harder to read and makes
 dependencies less compartmentalized**.
 
 Using ``from modu import func`` is a way to pinpoint the function you want to
-import and put it in the global namespace. While much less harmful than ``import
-*`` because it shows explicitly what is imported in the global namespace, its
+import and put it in the local namespace. While much less harmful than ``import
+*`` because it shows explicitly what is imported in the local namespace, its
 only advantage over a simpler ``import modu`` is that it will save a little
 typing.
 
@@ -469,15 +473,16 @@ typing.
 
 As mentioned in the :ref:`code_style` section, readability is one of the main
 features of Python. Readability means to avoid useless boilerplate text and
-clutter, therefore some efforts are spent trying to achieve a certain level of
+clutter; therefore some efforts are spent trying to achieve a certain level of
 brevity. But terseness and obscurity are the limits where brevity should stop.
 Being able to tell immediately where a class or function comes from, as in the
 ``modu.func`` idiom, greatly improves code readability and understandability in
 all but the simplest single file projects.
 
 
+********
 Packages
---------
+********
 
 Python provides a very straightforward packaging system, which is simply an
 extension of the module mechanism to a directory.
@@ -489,7 +494,7 @@ used to gather all package-wide definitions.
 
 A file :file:`modu.py` in the directory :file:`pack/` is imported with the
 statement ``import pack.modu``. This statement will look for an
-:file:`__init__.py` file in :file:`pack`, execute all of its top-level
+:file:`__init__.py` file in :file:`pack` and execute all of its top-level
 statements. Then it will look for a file named :file:`pack/modu.py` and
 execute all of its top-level statements. After these operations, any variable,
 function, or class defined in :file:`modu.py` is available in the pack.modu
@@ -509,8 +514,10 @@ Lastly, a convenient syntax is available for importing deeply nested packages:
 ``import very.deep.module as mod``. This allows you to use `mod` in place of the
 verbose repetition of ``very.deep.module``.
 
+
+***************************
 Object-oriented programming
----------------------------
+***************************
 
 Python is sometimes described as an object-oriented programming language. This
 can be somewhat misleading and needs to be clarified.
@@ -542,9 +549,9 @@ programming, comes from the "state" part of the equation.
 
 In some architectures, typically web applications, multiple instances of Python
 processes are spawned to respond to external requests that can happen at the
-same time. In this case, holding some state into instantiated objects, which
+same time. In this case, holding some state in instantiated objects, which
 means keeping some static information about the world, is prone to concurrency
-problems or race-conditions. Sometimes, between the initialization of the state
+problems or race conditions. Sometimes, between the initialization of the state
 of an object (usually done with the ``__init__()`` method) and the actual use
 of the object state through one of its methods, the world may have changed, and
 the retained state may be outdated. For example, a request may load an item in
@@ -573,7 +580,7 @@ logic (called pure functions) allow the following benefits:
 - Pure functions are much easier to change or replace if they need to
   be refactored or optimized.
 
-- Pure functions are easier to test with unit-tests: There is less
+- Pure functions are easier to test with unit tests: There is less
   need for complex context setup and data cleaning afterwards.
 
 - Pure functions are easier to manipulate, decorate, and pass around.
@@ -587,8 +594,9 @@ things that are manipulated (windows, buttons, avatars, vehicles) have a
 relatively long life of their own in the computer's memory.
 
 
+**********
 Decorators
-----------
+**********
 
 The Python language provides a simple yet powerful syntax called 'decorators'.
 A decorator is a function or a class that wraps (or decorates) a function
@@ -614,15 +622,17 @@ clearer and thus preferred.
     # bar() is decorated
 
 This mechanism is useful for separating concerns and avoiding
-external un-related logic 'polluting' the core logic of the function
+external unrelated logic 'polluting' the core logic of the function
 or method. A good example of a piece of functionality that is better handled
 with decoration is `memoization <https://en.wikipedia.org/wiki/Memoization#Overview>`__ or caching: you want to store the results of an
 expensive function in a table and use them directly instead of recomputing
 them when they have already been computed. This is clearly not part
 of the function logic.
 
+
+****************
 Context Managers
-----------------
+****************
 
 A context manager is a Python object that provides extra contextual information
 to an action. This extra information takes the form of running a callable upon
@@ -694,8 +704,10 @@ to decide when to use which. The class approach might be better if there's
 a considerable amount of logic to encapsulate. The function approach
 might be better for situations where we're dealing with a simple action.
 
+
+**************
 Dynamic typing
---------------
+**************
 
 Python is dynamically typed, which means that variables do not have a fixed
 type. In fact, in Python, variables are very different from what they are in
@@ -758,8 +770,10 @@ a `final` keyword and it would be against its philosophy anyway. However, it may
 be a good discipline to avoid assigning to a variable more than once, and it
 helps in grasping the concept of mutable and immutable types.
 
+
+***************************
 Mutable and immutable types
----------------------------
+***************************
 
 Python has two kinds of built-in or user-defined types.
 
@@ -795,16 +809,12 @@ and can be used as a key for a dictionary.
 
 One peculiarity of Python that can surprise beginners is that
 strings are immutable. This means that when constructing a string from
-its parts, it is much more efficient to accumulate the parts in a list,
-which is mutable, and then glue ('join') the parts together when the
-full string is needed. One thing to notice, however, is that list
-comprehensions are better and faster than constructing a list in a loop
-with calls to ``append()``. 
-
-One other option is using the map function, which can 'map' a function
-('str') to an iterable ('range(20)'). This results in a map object,
-which you can then ('join') together just like the other examples.
-The map function can be even faster than a list comprehension in some cases.
+its parts, appending each part to the string is inefficient because
+the entirety of the string is copied on each append.
+Instead, it is much more efficient to accumulate the parts in a list,
+which is mutable, and then glue (``join``) the parts together when the
+full string is needed. List comprehensions are usually the fastest and
+most idiomatic way to do this.
 
 **Bad**
 
@@ -816,7 +826,7 @@ The map function can be even faster than a list comprehension in some cases.
         nums += str(n)   # slow and inefficient
     print nums
 
-**Good**
+**Better**
 
 .. code-block:: python
 
@@ -826,21 +836,13 @@ The map function can be even faster than a list comprehension in some cases.
         nums.append(str(n))
     print "".join(nums)  # much more efficient
 
-**Better**
+**Best**
 
 .. code-block:: python
 
     # create a concatenated string from 0 to 19 (e.g. "012..1819")
     nums = [str(n) for n in range(20)]
     print "".join(nums)
-    
-**Best**
-
-.. code-block:: python
-
-    # create a concatenated string from 0 to 19 (e.g. "012..1819")
-    nums = map(str, range(20))
-    print "".join(nums) 
 
 One final thing to mention about strings is that using ``join()`` is not always
 best. In the instances where you are creating a new string from a pre-determined
@@ -860,7 +862,7 @@ like above or in cases where you are adding to an existing string, using
 .. note::
     You can also use the :ref:`% <python:string-formatting>` formatting operator
     to concatenate a pre-determined number of strings besides :py:meth:`str.join`
-    and ``+``. However, :pep:`3101`, discourages the usage of the ``%`` operator
+    and ``+``. However, :pep:`3101` discourages the usage of the ``%`` operator
     in favor of the :py:meth:`str.format` method.
 
 .. code-block:: python
@@ -873,16 +875,20 @@ like above or in cases where you are adding to an existing string, using
     foobar = '{foo}{bar}'.format(foo=foo, bar=bar) # It is best
 
 
+************************
 Vendorizing Dependencies
-------------------------
+************************
 
 
+
+*******
 Runners
--------
+*******
 
 
+***************
 Further Reading
----------------
+***************
 
 - http://docs.python.org/2/library/
 - http://www.diveintopython.net/toc/index.html

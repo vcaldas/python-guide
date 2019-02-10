@@ -1,10 +1,14 @@
+
+####################
 Network Applications
-====================
+####################
 
-.. image:: https://farm5.staticflickr.com/4251/34364815780_bea6614025_k_d.jpg
+.. image:: /_static/photos/34364815780_bea6614025_k_d.jpg
 
+
+****
 HTTP
-::::
+****
 
 The Hypertext Transfer Protocol (HTTP) is an application protocol for
 distributed, collaborative, hypermedia information systems. HTTP is the
@@ -29,8 +33,9 @@ Requests.
 - `GitHub <https://github.com/kennethreitz/requests>`_
 
 
+*******************
 Distributed Systems
-::::::::::::::::::::
+*******************
 
 
 ZeroMQ

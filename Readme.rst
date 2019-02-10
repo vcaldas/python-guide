@@ -25,6 +25,7 @@ Tópicos incluem:
 - Numpy, scipy, statpy, pyplot, matplotlib
 - Virtualenv
 - Fabric
+<<<<<<< HEAD
 - Recomendação exaustiva de módulos, agrupados por tópico/propósito
 - Quais bibliotecas usar e para quê
 - Configuração de servidores e ferramentas para várias "web frameworks"
@@ -46,3 +47,15 @@ A tradução pode ser feita de várias formas. Uma das mais simples é utilizand
 	- Edson Mendes de Oliveira Filho
 	- Juan Funez
 	- você!
+=======
+- Exhaustive module recommendations, grouped by topic/purpose
+- Which libraries to use for what
+- Server configurations & tools for various web frameworks
+- Documentation: writing it
+- Testing: Jenkins & tox guides
+- How to easily interface ``hg`` from ``git``
+
+If you aren't fond of reading reStructuredText, there is an
+almost up-to-date `HTML version at docs.python-guide.org
+<https://docs.python-guide.org>`_.
+>>>>>>> upstream/master

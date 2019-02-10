@@ -1,7 +1,10 @@
-Introduction
-============
 
-.. image:: https://farm5.staticflickr.com/4180/34725946825_0f85497e60_k_d.jpg
+
+############
+Introduction
+############
+
+.. image:: /_static/photos/34725946825_0f85497e60_k_d.jpg
 
 From the `official Python website <http://python.org/about/>`_:
 
@@ -56,8 +59,10 @@ include:
 
 .. _about-ref:
 
+
+****************
 About This Guide
-----------------
+****************
 
 Purpose
 ~~~~~~~

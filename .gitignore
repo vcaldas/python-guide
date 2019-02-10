@@ -14,6 +14,10 @@ teste.py
 # Ignore files generated during build
 build/
 
+<<<<<<< HEAD
 # Ignore gettext intermediate mo files
 *.mo
 notes.rst
+=======
+venv/
+>>>>>>> upstream/master

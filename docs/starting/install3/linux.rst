@@ -1,9 +1,11 @@
 .. _install3-linux:
 
-Installing Python 3 on Linux
-============================
 
-.. image:: https://farm5.staticflickr.com/4276/34435689480_2e6f358510_k_d.jpg
+############################
+Installing Python 3 on Linux
+############################
+
+.. image:: /_static/photos/34435689480_2e6f358510_k_d.jpg
 
 This document describes how to install Python 3.6 on Ubuntu Linux machines.
 
@@ -42,8 +44,9 @@ to read about `multiple Python versions available in Fedora`_.
 .. _multiple Python versions available in Fedora: https://developer.fedoraproject.org/tech/languages/python/multiple-pythons.html
 
 
+*********************
 Working with Python 3
----------------------
+*********************
 
 At this point, you may have system Python 2.7 available as well.
 
@@ -59,8 +62,10 @@ This will launch the Python 2 interpreter.
 
 This will launch the Python 3 interpreter.
 
+
+****************
 Setuptools & Pip
-----------------
+****************
 
 The two most crucial third-party Python packages are `setuptools <https://pypi.python.org/pypi/setuptools>`_ and `pip <https://pip.pypa.io/en/stable/>`_.
 
@@ -90,10 +95,11 @@ However, when using virtual environments (described below), you don't need to
 care about that.
 
 
+*****************************
 Pipenv & Virtual Environments
------------------------------
+*****************************
 
-The next step is to install Pipenv, so you can install dependencies and manage virtual environments. 
+The next step is to install Pipenv, so you can install dependencies and manage virtual environments.
 
 A Virtual Environment is a tool to keep the dependencies required by different projects
 in separate places, by creating virtual Python environments for them. It solves the

@@ -1,10 +1,14 @@
+
+################################
 Interfacing with C/C++ Libraries
-================================
+################################
 
-.. image:: https://farm5.staticflickr.com/4173/34725951345_c8f5959a2e_k_d.jpg
+.. image:: /_static/photos/34725951345_c8f5959a2e_k_d.jpg
 
+
+****************************
 C Foreign Function Interface
-----------------------------
+****************************
 
 `CFFI <https://cffi.readthedocs.io/en/latest/>`_ provides a simple to use
 mechanism for interfacing with C from both CPython and PyPy. It supports two
@@ -27,14 +31,16 @@ ABI Interaction
     # prints: 23
     print("{}".format(length))
 
-ctypes
-------
 
-`ctypes <https://docs.python.org/3/library/ctypes.html>`_ is the de facto
+******
+ctypes
+******
+
+`ctypes <https://docs.python.org/3/library/ctypes.html>`_ is the de facto standard
 library for interfacing with C/C++ from CPython, and it provides not only
 full access to the native C interface of most major operating systems (e.g.,
 kernel32 on Windows, or libc on \*nix), but also provides support for loading
-and interfacing with dynamic libraries, such as DLLs or shared objects at
+and interfacing with dynamic libraries, such as DLLs or shared objects, at
 runtime. It does bring along with it a whole host of types for interacting
 with system APIs, and allows you to rather easily define your own complex
 types, such as structs and unions, and allows you to modify things such as
@@ -66,15 +72,17 @@ Struct Equivalents
         _fields_ = [("a", c_int),
                     ("b", c_int)]
 
+
+****
 SWIG
-----
+****
 
 `SWIG <http://www.swig.org>`_, though not strictly Python focused (it supports a
 large number of scripting languages), is a tool for generating bindings for
 interpreted languages from C/C++ header files. It is extremely simple to use:
 the consumer simply needs to define an interface file (detailed in the
 tutorial and documentations), include the requisite C/C++ headers, and run
-the build tool against them. While it does have some limits, (it currently
+the build tool against them. While it does have some limits (it currently
 seems to have issues with a small subset of newer C++ features, and getting
 template-heavy code to work can be a bit verbose), it provides a great deal
 of power and exposes lots of features to Python with little effort.
@@ -105,28 +113,29 @@ Example: Overloading __repr__
     :linenos:
 
     %include "string.i"
-    
+
     %module myclass
     %{
     #include <string>
     #include "MyClass.h"
     %}
-    
+
     %extend MyClass {
         std::string __repr__()
         {
             return $self->getName();
         }
     }
-    
+
     %include "MyClass.h"
 
 
+************
 Boost.Python
-------------
+************
 
 `Boost.Python <http://www.boost.org/doc/libs/1_59_0/libs/python/doc/>`_
 requires a bit more manual work to expose C++ object functionality, but
 it is capable of providing all the same features SWIG does and then some,
-to include providing wrappers to access PyObjects in C++, extracting SWIG-
+to include providing wrappers to access PyObjects in C++, extracting SWIG
 wrapper objects, and even embedding bits of Python into your C++ code.
