@@ -1,5 +1,8 @@
 docs/_build
 .idea
+.vscode
+
+teste.py
 
 # Ignore irrelevant files from the Sublime Text editor
 *.sublime-workspace
